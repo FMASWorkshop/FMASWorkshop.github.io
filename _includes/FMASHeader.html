@@ -1,6 +1,4 @@
 <style media="screen">
-  //Dropdown
-
   .dropdown {
     position: relative;
     display: inline-block;
@@ -44,7 +42,7 @@
 
         <div class="trigger">
           <div class="dropdown">
-            <a href="{{ site.github.url }}{{ nav.url }}">Previous Editions <i class="fas fa-caret-down"></i></a>
+            <a href="{{ site.github.url }}{{ nav.url }}">Workshops <i class="fas fa-caret-down"></i></a>
             <div class="dropdown-content">
               {% assign workshops = site.workshops | sort: date %}
               {% assign reverseWorkshops = workshops | reverse %}
