@@ -13,19 +13,10 @@ This workshop is concerned with the use of formal methods to specify, model, or 
 
 ## Organisers
 
-<div class="center">
+
 FMAS is organised by:
-</div>
 
-<article class="row" style="display:grid">
-  <section class="columns large-4" markdown="1" style="grid-column:1" >
- [Dr Marie Farrell](http://cgi.csc.liv.ac.uk/~marie/)
-</section>
-<section class="columns large-4" markdown="1" style = "grid-column:2">
-  [Dr Matt Luckcuck](https://cgi.csc.liv.ac.uk/~mattlck/)
-</section>
-</article>
-
+  {% include chairs.html %}
 
 ## Editions of FMAS
 <ul>
