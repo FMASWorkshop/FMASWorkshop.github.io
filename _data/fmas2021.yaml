@@ -1,13 +1,16 @@
+show_schedule : false
 schedule:
-- exclude: true
 - time:  12:50 - 13:00
-  name:  "*Introduction*"
+  intro: true
+  name:  "Introduction"
 
 - time: 13:00 - 14:00
-  name: " <b>Invited Talk: </b> "
+  invited: true
+  name: " Invited Talk: "
 
 - time: 14:00 - 14:15
-  name:    "*BREAK*"
+  break: true
+  name:    "BREAK"
 
 - time:  14:15 - 14:45
   name:   ""
@@ -19,13 +22,16 @@ schedule:
   name:   ""
 
 - time: 15:45 - 16:00
-  name:  "*BREAK*"
+  break : true
+  name:  "BREAK"
 
 - time: 16:00 - 17:00
-  name: " <b>Invited Talk: </b> "
+  invited: true
+  name: "Invited Talk: "
 
 - time: 17:00 - 17:15
-  name:  "*BREAK*"
+  break: true
+  name:  "BREAK"
 
 - time:  17:15 - 17:45
   name:  ""
@@ -34,15 +40,17 @@ schedule:
   name:  ""
 
 - time: 18:15 - 18:30
-  name: "*Closing*"
+  close: true
+  name: "Closing"
 
-
+show_talks: false
 invited_talks:
   - name: tba
     link:
     title: To Be Announced
     abstract:
 
+show_papers: false
 papers :
   - title: tba
     titleLink:
