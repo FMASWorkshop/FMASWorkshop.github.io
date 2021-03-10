@@ -1,0 +1,61 @@
+schedule:
+- exclude: true
+- time:  12:50 - 13:00
+  name:  "*Introduction*"
+
+- time: 13:00 - 14:00
+  name: " <b>Invited Talk: </b> "
+
+- time: 14:00 - 14:15
+  name:    "*BREAK*"
+
+- time:  14:15 - 14:45
+  name:   ""
+
+- time: 14:45 - 15:15
+  name:  ""
+
+- time:  15:15 - 15:45
+  name:   ""
+
+- time: 15:45 - 16:00
+  name:  "*BREAK*"
+
+- time: 16:00 - 17:00
+  name: " <b>Invited Talk: </b> "
+
+- time: 17:00 - 17:15
+  name:  "*BREAK*"
+
+- time:  17:15 - 17:45
+  name:  ""
+
+- time: 17:45 - 18:15
+  name:  ""
+
+- time: 18:15 - 18:30
+  name: "*Closing*"
+
+
+invited_talks:
+  - name: tba
+    link:
+    title: To Be Announced
+    abstract:
+
+papers :
+  - title: tba
+    titleLink:
+    authors:
+    abstract: To Be Announced
+
+dates:
+  submission: tba
+  notification: tba
+  final_version: tba
+  workshop: 22 of November 2021
+
+
+register :
+  
+easychair :
