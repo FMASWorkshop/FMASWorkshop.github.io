@@ -1,0 +1,69 @@
+show_schedule : false
+schedule:
+- time:  12:50 - 13:00
+  intro: true
+  name:  "Introduction"
+
+- time: 13:00 - 14:00
+  invited: true
+  name: " Invited Talk: "
+
+- time: 14:00 - 14:15
+  break: true
+  name:    "BREAK"
+
+- time:  14:15 - 14:45
+  name:   ""
+
+- time: 14:45 - 15:15
+  name:  ""
+
+- time:  15:15 - 15:45
+  name:   ""
+
+- time: 15:45 - 16:00
+  break : true
+  name:  "BREAK"
+
+- time: 16:00 - 17:00
+  invited: true
+  name: "Invited Talk: "
+
+- time: 17:00 - 17:15
+  break: true
+  name:  "BREAK"
+
+- time:  17:15 - 17:45
+  name:  ""
+
+- time: 17:45 - 18:15
+  name:  ""
+
+- time: 18:15 - 18:30
+  close: true
+  name: "Closing"
+
+show_talks: false
+invited_talks:
+  - name: tba
+    link:
+    title: To Be Announced
+    abstract:
+
+show_papers: false
+papers :
+  - title: tba
+    titleLink:
+    authors:
+    abstract: To Be Announced
+
+dates:
+  submission: 30th of July 2021
+  notification: 3rd of September 2021
+  final_version: 24th of September 2021
+  workshop: 21st of October 2021
+
+
+register :
+
+easychair :
