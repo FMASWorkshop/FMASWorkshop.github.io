@@ -32,8 +32,8 @@ github_username:  FMASWorkshop
 # Used as meta tags in _layouts/default.html
 author : FMAS
 publisher : FMAS
-card_picture : /files/images/fmas-logo.png
-icon : /files/images/favicon.ico
+card_picture : /images/fmas-logo.png
+icon : /images/favicon.ico
 
 #Collections
 collections:
