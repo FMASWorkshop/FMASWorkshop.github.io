@@ -1,3 +1,5 @@
+### SCHEDULE ###
+
 show_schedule : false
 schedule:
 - time:  12:50 - 13:00
@@ -43,6 +45,8 @@ schedule:
   close: true
   name: "Closing"
 
+
+### TALKS ###
 show_talks: false
 invited_talks:
   - name: tba
@@ -50,6 +54,7 @@ invited_talks:
     title: To Be Announced
     abstract:
 
+### PAPERS ###
 show_papers: false
 papers :
   - title: tba
@@ -57,11 +62,125 @@ papers :
     authors:
     abstract: To Be Announced
 
+### DATES ###
 dates:
   submission: 30th of July 2021
   notification: 3rd of September 2021
   final_version: 24th of September 2021
   workshop: 21st of October 2021
+
+### PROGRAMME COMMITTEE ###
+show_pc : true
+pc :
+  - first_name: Alvaro
+    last_name: Miyazawa
+    affiliation: University of York (UK)
+    link: https://www-users.cs.york.ac.uk/~alvarohm/
+
+  - first_name: Anastasia
+    last_name: Mavridou
+    affiliation: NASA Ames Research Center (USA)
+    link: http://amavridou.com/
+
+  - first_name: Angelo
+    last_name: Ferrando
+    affiliation: 	University of Genova (Italy)
+    link: https://angeloferrando.github.io/website/
+
+  - first_name: Claudio
+    last_name: Menghi
+    affiliation: University of Luxembourg (Luxembourg)
+    link: https://claudiomenghi.github.io/index.html
+
+  - first_name: Dominique
+    last_name: Méry
+    affiliation: Université de Lorraine (France)
+    link: https://members.loria.fr/Mery/
+
+  - first_name: Hao
+    last_name: Wu
+    affiliation: 	Maynooth University (Ireland
+    link: http://www.cs.nuim.ie/~haowu/
+
+  - first_name: Jérémie
+    last_name: Guiochet
+    affiliation: University of Toulouse (France)
+    link: http://homepages.laas.fr/guiochet/
+
+  - first_name: Maike
+    last_name: Schwammberger
+    affiliation: University of Oldenberg (Germany)
+    link: https://uol.de/en/csd/persons-contacts/maike-schwammberger-msc/
+
+  - first_name: Marija
+    last_name: Slavkovik
+    affiliation: University of Bergen (Norway)
+    link: http://slavkovik.com/index.html
+
+  - first_name: Rafael C.
+    last_name: Cardoso
+    affiliation: University of Manchester (UK)
+    link: https://rafaelcaue.github.io/
+
+  - first_name: Raluca
+    last_name: Lefticaru
+    affiliation: University of Bradford (UK)
+    link: https://ralucalefticaru.github.io/
+
+  - first_name: Rob
+    last_name: Hierons
+    affiliation: University of Sheffield (UK)
+    link: https://www.sheffield.ac.uk/dcs/people/academic/rob-hierons
+
+  - first_name: Silvia Lizeth
+    last_name: 	Tapia Tarifa
+    affiliation: University of Oslo (Norway)
+    link: https://www.mn.uio.no/ifi/english/people/aca/sltarifa/index.html
+
+  - first_name: Sven
+    last_name: Linker
+    affiliation: University of Lancaster Leipzig
+    link: https://orcid.org/0000-0003-2913-7943
+
+  - first_name: Taylor T.
+    last_name: Johnson
+    affiliation: Vanderbilt University (USA) (USA)
+    link: http://www.taylortjohnson.com/
+
+  - first_name: Christopher
+    last_name: Bishopink
+    affiliation: University of Oldenburg (Germany)
+    link: https://uol.de/en/csd/persons-contacts/christopher-bischopink-msc/
+
+  - first_name: Laura
+    last_name: Titolo
+    affiliation: National Institute of Aerospace (USA)
+    link: https://lauratitolo.github.io/
+
+  - first_name: Mallory S.
+    last_name: Graydon
+    affiliation: NASA Langley Research Center (USA)
+    link: https://shemesh.larc.nasa.gov/people/msg/
+
+  - first_name: Stylianos Stelios
+    last_name: Basagiannis
+    affiliation: Collins Advanced Technology Centre (Ireland)
+    link: https://www.linkedin.com/in/stylianos-basagiannis-35080550/
+
+  - first_name: Divya
+    last_name: Gopinath
+    affiliation: NASA Ames Research Center (USA)
+    link: https://ti.arc.nasa.gov/profile/dgopinat/
+
+  - first_name: Michael
+    last_name: Fisher
+    affiliation: University of Manchester (UK)
+    link: https://personalpages.manchester.ac.uk/staff/michael.fisher/
+
+#  - first_name:
+#    last_name:
+#    affiliation:
+#    link:
 
 
 register :
