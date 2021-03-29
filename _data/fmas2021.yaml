@@ -99,7 +99,7 @@ pc :
 
   - first_name: Hao
     last_name: Wu
-    affiliation: 	Maynooth University (Ireland
+    affiliation: 	Maynooth University (Ireland)
     link: http://www.cs.nuim.ie/~haowu/
 
   - first_name: Jérémie
@@ -191,6 +191,21 @@ pc :
     last_name: Gleirscher
     affiliation: University of York (UK)
     link: http://www.gleirscher.at/mg/
+   
+  - first_name: Colin 
+    last_name: Paterson
+    affiliation: University of York (UK)
+    link: https://www.linkedin.com/in/colin-paterson-158374a0/?originalSubdomain=uk 
+    
+  - first_name: Alice  
+    last_name: Miller
+    affiliation: University of Glasgow (UK)
+    link: http://www.dcs.gla.ac.uk/~alice/
+    
+  - first_name: Georgios  
+    last_name: Giantamidis
+    affiliation: Collins Advanced Technology Centre (Ireland)
+    link: 
     
 #  - first_name:
 #    last_name:
