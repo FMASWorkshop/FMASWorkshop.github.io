@@ -181,7 +181,17 @@ pc :
     last_name: Perez
     affiliation: NASA Langley/National Institute of Aerospace (USA)
     link: https://www.linkedin.com/in/ivanperezdominguez/
+    
+  - first_name: Louise A.
+    last_name: Dennis
+    affiliation: University of Manchester (UK)
+    link: http://www.cs.man.ac.uk/~dennisl/
 
+  - first_name: Mario
+    last_name: Gleirscher
+    affiliation: University of York (UK)
+    link: http://www.gleirscher.at/mg/
+    
 #  - first_name:
 #    last_name:
 #    affiliation:
