@@ -176,6 +176,11 @@ pc :
     last_name: Fisher
     affiliation: University of Manchester (UK)
     link: https://personalpages.manchester.ac.uk/staff/michael.fisher/
+    
+  - first_name: Ivan
+    last_name: Perez
+    affiliation: NASA Langley/National Institute of Aerospace (USA)
+    link: https://www.linkedin.com/in/ivanperezdominguez/
 
 #  - first_name:
 #    last_name:
