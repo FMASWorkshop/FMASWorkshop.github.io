@@ -49,10 +49,15 @@ schedule:
 ### TALKS ###
 show_talks: false
 invited_talks:
-  - name: tba
-    link:
+  - name: Clare Dixon
+    link: https://www.research.manchester.ac.uk/portal/clare.dixon.html
     title: To Be Announced
-    abstract:
+    abstract: To Be Announced
+  - name: Divya Gopinath
+    link: https://ti.arc.nasa.gov/profile/dgopinat/
+    title: To Be Announced
+    abstract: To Be Announced
+
 
 ### PAPERS ###
 show_papers: false
@@ -176,12 +181,12 @@ pc :
     last_name: Fisher
     affiliation: University of Manchester (UK)
     link: https://personalpages.manchester.ac.uk/staff/michael.fisher/
-    
+
   - first_name: Ivan
     last_name: Perez
     affiliation: NASA Langley/National Institute of Aerospace (USA)
     link: https://www.linkedin.com/in/ivanperezdominguez/
-    
+
   - first_name: Louise A.
     last_name: Dennis
     affiliation: University of Manchester (UK)
@@ -191,28 +196,28 @@ pc :
     last_name: Gleirscher
     affiliation: University of York (UK)
     link: http://www.gleirscher.at/mg/
-   
-  - first_name: Colin 
+
+  - first_name: Colin
     last_name: Paterson
     affiliation: University of York (UK)
-    link: https://www.linkedin.com/in/colin-paterson-158374a0/?originalSubdomain=uk 
-    
-  - first_name: Alice  
+    link: https://www.linkedin.com/in/colin-paterson-158374a0/?originalSubdomain=uk
+
+  - first_name: Alice
     last_name: Miller
     affiliation: University of Glasgow (UK)
     link: http://www.dcs.gla.ac.uk/~alice/
-    
-  - first_name: Georgios  
+
+  - first_name: Georgios
     last_name: Giantamidis
     affiliation: Collins Advanced Technology Centre (Ireland)
-    link: 
-    
-  - first_name: Chiara  
+    link:
+
+  - first_name: Chiara
     last_name: Picardi
     affiliation: University of York (UK)
-    link: 
-    
-  - first_name: Rosemary   
+    link:
+
+  - first_name: Rosemary
     last_name: Monahan
     affiliation: Maynooth University (Ireland)
     link: http://rosemarymonahan.com/
