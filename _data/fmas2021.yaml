@@ -47,7 +47,7 @@ schedule:
 
 
 ### TALKS ###
-show_talks: false
+show_talks: true
 invited_talks:
   - name: Clare Dixon
     link: https://www.research.manchester.ac.uk/portal/clare.dixon.html
