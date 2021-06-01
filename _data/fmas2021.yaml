@@ -50,13 +50,24 @@ schedule:
 show_talks: true
 invited_talks:
   - name: Clare Dixon
+    bio: "Professor of Computer Science at the University of Manchester (UK) and leader of the Autonomy and Verification research group. Clare's research interests include verification of robot and autonomous systems."
     link: https://www.research.manchester.ac.uk/portal/clare.dixon.html
-    title: To Be Announced
-    abstract: To Be Announced
-  - name: Divya Gopinath
+    title: "Help or Hazard: Towards Verifying Autonomous Robot Systems"
+    abstract: "Autonomous robotic systems are being developed to operate in a range of
+environments: industrial, transport, healthcare and domestic and have the
+potential to be of great benefit to society. Further, they may be assisting,
+collaborating with or working near humans. We must make sure they are
+safe, robust, reliable and trustworthy and they themselves don't become
+become the hazard. In this talk I will discuss ways  to verify
+such systems, relating to research carried out over a number of projects with
+different types of robot, operating in a range of scenarios."
+  - name: "Divya Gopinath"
+    bio: "Researcher in Formal Verification in the Robust Software Engineering (RSE) group at the NASA Ames Research Center, her research focuses on applying formal methods to analyze and verify neural networks and debug software programs.  Divya is also a member of the FMAS2021 Programme Committee."
     link: https://ti.arc.nasa.gov/profile/dgopinat/
-    title: To Be Announced
-    abstract: To Be Announced
+    title: "To Be Announced"
+    abstract: "Deep Neural Networks (DNNs) have gained immense popularity in recent times and have widespread use in applications such as image classification,
+sentiment analysis, speech recognition and also in safety-critical applications such as autonomous driving. However, they suffer limitations such as lack of explainability and robustness which raise safety and security concerns in their usage. Further, the complex structure and large input spaces of DNNs act as an impediment to thorough verification and testing. The SafeDNN project at the Robust Software Engineering (RSE) group at NASA aims at exploring techniques to ensure that systems that use deep neural networks are safe, robust and interpretable.
+In this talk, I will be presenting our technique <a rel='external' href='https://doi.org/10.1109/ASE.2019.00079' >Prophecy<span class='fas fa-external-link-alt'></span></a> that automatically infers formal properties of deep neural network models. The tool extracts patterns based on neuron activations as preconditions that imply certain desirable output properties of the model. I would be highlighting case studies that use Prophecy in obtaining explanations for network decisions, understanding correct and incorrect behavior, providing formal guarantees wrt safety and robustness, and debugging neural network models. We have applied the tool on image classification networks, neural network controllers providing turn advisories in unmanned aircrafts, regression models used for autonomous center-line tracking in aircrafts and neural network object detectors."
 
 
 ### PAPERS ###
