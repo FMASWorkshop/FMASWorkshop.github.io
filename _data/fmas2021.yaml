@@ -232,6 +232,10 @@ pc :
     last_name: Monahan
     affiliation: Maynooth University (Ireland)
     link: http://rosemarymonahan.com/
+  - first_name: Lina
+    last_name: Marsso
+    affiliation: University of Toronto (Canda)
+    link: http://convecs.inria.fr/people/Lina.Marsso/
 #  - first_name:
 #    last_name:
 #    affiliation:
