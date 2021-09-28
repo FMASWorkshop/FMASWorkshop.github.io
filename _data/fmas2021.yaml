@@ -1,10 +1,10 @@
 ### SCHEDULE ###
 
 show_schedule : false
-schedule:
-- time:  12:50 - 13:00
+schedule-day_one:
+- time:  13:00 - 13:30
   intro: true
-  name:  "Introduction"
+  name:  "Welcome and Introduction"
 
 - time: 13:00 - 14:00
   invited: true
@@ -41,9 +41,53 @@ schedule:
 - time: 17:45 - 18:15
   name:  ""
 
-- time: 18:15 - 18:30
+- time: "18:00"
   close: true
-  name: "Closing"
+  name: "Day One Close"
+
+schedule-day_two:
+- time:  13:00 - 13:30
+  intro: true
+  name:  "Welcome and Introduction"
+
+- time: 13:00 - 14:00
+  invited: true
+  name: " Invited Talk: "
+
+- time: 14:00 - 14:15
+  break: true
+  name:    "BREAK"
+
+- time:  14:15 - 14:45
+  name:   ""
+
+- time: 14:45 - 15:15
+  name:  ""
+
+- time:  15:15 - 15:45
+  name:   ""
+
+- time: 15:45 - 16:00
+  break : true
+  name:  "BREAK"
+
+- time: 16:00 - 17:00
+  invited: true
+  name: "Invited Talk: "
+
+- time: 17:00 - 17:15
+  break: true
+  name:  "BREAK"
+
+- time:  17:15 - 17:45
+  name:  ""
+
+- time: 17:45 - 18:15
+  name:  ""
+
+- time: "18:00"
+  close: true
+  name: "Day Two Close"
 
 
 ### TALKS ###
