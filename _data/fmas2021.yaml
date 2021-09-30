@@ -344,7 +344,7 @@ pc :
 
   - first_name: Mario
     last_name: Gleirscher
-    affiliation: University of York (UK)
+    affiliation: University of Bremen (Germany)
     link: http://www.gleirscher.at/mg/
 
   - first_name: Colin
@@ -381,6 +381,6 @@ pc :
 #    link:
 
 
-register :
+register : https://www.eventbrite.co.uk/e/third-workshop-on-formal-methods-for-autonomous-systems-fmas-2021-tickets-177959861737
 
 easychair : https://easychair.org/conferences/?conf=fmas2021
