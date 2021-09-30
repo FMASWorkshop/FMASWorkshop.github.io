@@ -105,6 +105,7 @@ safe, robust, reliable and trustworthy and they themselves don't become
 become the hazard. In this talk I will discuss ways  to verify
 such systems, relating to research carried out over a number of projects with
 different types of robot, operating in a range of scenarios."
+
   - name: "Divya Gopinath"
     bio: "Researcher in Formal Verification in the Robust Software Engineering (RSE) group at the NASA Ames Research Center, her research focuses on applying formal methods to analyze and verify neural networks and debug software programs.  Divya is also a member of the FMAS2021 Programme Committee."
     link: https://ti.arc.nasa.gov/profile/dgopinat/
@@ -119,7 +120,7 @@ show_papers: true
 papers:
   - title: "Towards Partial Monitoring: It is Always too Soon to Give Up"
     titleLink:
-    authors: "<a href="https://angeloferrando.github.io/website/" rel="external">Angelo Ferrando<a/> and <a href="https://rafaelcaue.github.io/" rel="external">Rafael C. Cardoso</a>"
+    authors: "<a href='https://angeloferrando.github.io/website/' rel='external'>Angelo Ferrando</a> and <a href='https://rafaelcaue.github.io/' rel='external'>Rafael C. Cardoso</a>"
     abstract: "Runtime Verification is a lightweight formal verification technique. It is used to verify at runtime whether the system under analysis behaves as expected. The expected behaviour is usually formally specified by means of properties, which are used to automatically synthesise monitors. A monitor is a device that, given a sequence of events representing a system execution, returns a verdict symbolising the satisfaction or violation of the formal property. Properties that can (resp. cannot) be verified at runtime by a monitor are called monitorable and non-monitorable, respectively. In this paper, we revise the notion of monitorability from a practical perspective, where we show how non-monitorable properties can still be used to generate partial monitors, which can partially check the properties. Finally, we present the implications both from a theoretical and practical perspectives. "
 
   - title: "Formal Guarantees of Timely Progress for Distributed Knowledge Propagation"
