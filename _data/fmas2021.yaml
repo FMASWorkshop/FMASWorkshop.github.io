@@ -9,7 +9,7 @@ schedule-day_one:
 
 - time: 13:30 - 14:30
   invited: true
-  name: " Invited Talk: Clare Dixon - Help or Hazard':' Towards Verifying Autonomous Robot Systems"
+  name: " Invited Talk: Clare Dixon - Help or Hazard: Towards Verifying Autonomous Robot Systems"
 
 - time: 14:30 - 15:00
   break: true
@@ -35,7 +35,7 @@ schedule-day_one:
   name:  " Formal Guarantees of Timely Progress for Distributed Knowledge Propagation - Saswata Paul, Stacy Patterson and Carlos A. Varela"
 
 - time:  18:00 - 18:30
-  name:  "QuantifyML':' How good is my machine learning model? - Muhammad Usman, Divya Gopinath and Corina S. Pasareanu"
+  name:  "QuantifyML: How good is my machine learning model? - Muhammad Usman, Divya Gopinath and Corina S. Pasareanu"
 
 - time: 18:30
   close: true
@@ -46,42 +46,38 @@ schedule-day_two:
   intro: true
   name:  "Welcome and Introduction"
 
-- time: 13:00 - 14:00
-  invited: true
-  name: " Invited Talk: "
+- time: 13:30 - 14:00
+  name: " Towards Partial Monitoring: It is Always too Soon to Give Up - Angelo Ferrando and Rafael C. Cardoso"
 
-- time: 14:00 - 14:15
-  break: true
-  name:    "BREAK"
+- time: 14:00 - 14:30
+  name:    "Improving Online Railway Deadlock Detection using a Partial Order Reduction - Bjørnar Luteberget"
 
-- time:  14:15 - 14:45
-  name:   ""
+- time:  14:30 - 15:00
+  name:   "Strategy Synthesis for Safe and Optimized Online Control of Steerable Needles - Sascha Lehmann, Antje Rogalla, Maximilian Neidhardt, Alexander Schlaefer and Sibylle Schupp"
 
-- time: 14:45 - 15:15
-  name:  ""
-
-- time:  15:15 - 15:45
-  name:   ""
-
-- time: 15:45 - 16:00
+- time: 15:00 - 15:30
   break : true
   name:  "BREAK"
 
-- time: 16:00 - 17:00
-  invited: true
-  name: "Invited Talk: "
+- time: 15:30 - 16:00
+  name:  "Towards a formalization of justification and justifiability - Willem Hagemann"
 
-- time: 17:00 - 17:15
+- time:  16:00 - 16:30
+  name:   "Assuring Increasingly Autonomous Systems in Human-Machine Teams: An Urban Air Mobility Case Study - Siddhartha Bhattacharyya, Jennifer Davis, Anubhav Gupta, Nandith Narayan and Michael Matessa"
+
+- time:  16:30 - 17:00
+  name:  "Observable and Attention-Directing BDI Agents for Human-Autonomy Teaming - Blair Archibald, Muffy Calder, Michele Sevegnani and Mengwei Xu"
+
+
+- time: 17:00 - 17:30
   break: true
   name:  "BREAK"
 
-- time:  17:15 - 17:45
-  name:  ""
+- time: 17:30 - 18:30
+  invited: true
+  name: "Invited Talk: Divya Gopinath - Understanding and Verifying Deep Neural Networks  "
 
-- time: 17:45 - 18:15
-  name:  ""
-
-- time: "18:00"
+- time: "18:30"
   close: true
   name: "Day Two Close"
 
