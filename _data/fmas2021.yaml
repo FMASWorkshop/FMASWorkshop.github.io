@@ -1,47 +1,42 @@
 ### SCHEDULE ###
 
-show_schedule : false
+show_schedule : true
 schedule:
-- time:  12:50 - 13:00
+- time:  13:00 - 13:30
   intro: true
-  name:  "Introduction"
+  name:  "Welcome and Introduction"
 
-- time: 13:00 - 14:00
+- time: 13:30 - 14:30
   invited: true
-  name: " Invited Talk: "
+  name: " Invited Talk: Clare Dixon - Help or Hazard':' Towards Verifying Autonomous Robot Systems"
 
-- time: 14:00 - 14:15
+- time: 14:30 - 15:00
   break: true
   name:    "BREAK"
 
-- time:  14:15 - 14:45
-  name:   ""
+- time:  15:00 - 15:30
+  name:   "Extending Urban Multi-Lane Spatial Logic to Formalise Road Junction Rules - Maike Schwammberger and Gleifer Alves"
 
-- time: 14:45 - 15:15
-  name:  ""
+- time: 15:30 - 16:00
+  name:  "Simulation and Model checking for real-time overtaking planning - Daumantas Pagojus, Alice Miller, Bernd Porr and Ivaylo Valkov "
 
-- time:  15:15 - 15:45
-  name:   ""
+- time:  16:00 - 16:30
+  name:   "Complete Test of Synthesised Safety Supervisors for Robots and Autonomous Systems - Mario Gleirscher and Jan Peleska"
 
-- time: 15:45 - 16:00
+- time: 16:30 - 17:00
   break : true
   name:  "BREAK"
 
-- time: 16:00 - 17:00
-  invited: true
-  name: "Invited Talk: "
+- time: 17:00 - 17:30
+  name: "Complete Agent-driven Model-based System Testing for Autonomous Systems - Jan Peleska, Kerstin Eder and Wen-Ling Huang "
 
-- time: 17:00 - 17:15
-  break: true
-  name:  "BREAK"
+- time: 17:30 - 18:00
+  name:  " Formal Guarantees of Timely Progress for Distributed Knowledge Propagation - Saswata Paul, Stacy Patterson and Carlos A. Varela"
 
-- time:  17:15 - 17:45
-  name:  ""
+- time:  18:00 - 18:30
+  name:  "QuantifyML: How good is my machine learning model? - Muhammad Usman, Divya Gopinath and Corina S. Pasareanu"
 
-- time: 17:45 - 18:15
-  name:  ""
-
-- time: 18:15 - 18:30
+- time: 18:30
   close: true
   name: "Closing"
 
