@@ -348,7 +348,7 @@ pc :
   - first_name: Alice
     last_name: Miller
     affiliation: University of Glasgow (UK)
-    link: http://www.dcs.gla.ac.uk/~alice/
+    link: https://www.gla.ac.uk/schools/computing/staff/alicemiller/
 
   - first_name: Georgios
     last_name: Giantamidis
