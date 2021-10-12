@@ -29,7 +29,7 @@ schedule-day_one:
   name:  "BREAK"
 
 - time: 17:00 - 17:30
-  name: "Complete Agent-driven Model-based System Testing for Autonomous Systems - Jan Peleska, Kerstin Eder and Wen-Ling Huang "
+  name: "Complete Agent-driven Model-based System Testing for Autonomous Systems - Kerstin Eder, Wen-Ling Huang and Jan Peleska "
 
 - time: 17:30 - 18:00
   name:  " Formal Guarantees of Timely Progress for Distributed Knowledge Propagation - Saswata Paul, Stacy Patterson and Carlos A. Varela"
@@ -188,7 +188,7 @@ satisfiability solver of this logic and shows some examples."
 
   - title: "Complete Agent-driven Model-based System Testing for Autonomous Systems"
     titleLink:
-    authors: "Jan Peleska, Kerstin Eder, and Wen-Ling Huang"
+    authors: "Kerstin Eder, Wen-Ling Huang, and Jan Peleska"
     abstract: "In this position paper, a novel approach to testing complex autonomous transportation systems (ATS) in the
 automotive, avionic, and railway domains is described. It is well-suited to overcome the problems of verification and validation (V&V) effort which is known to become infeasible for complex ATS, when trying to perform V&V with conventional methods. The approach advocated here uses complete testing methods on module level, because these establish formal proofs
 for the logical correctness of the software. Having established
