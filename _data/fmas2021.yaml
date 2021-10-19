@@ -37,7 +37,7 @@ schedule-day_one:
 - time:  18:00 - 18:30
   name:  "QuantifyML: How good is my machine learning model? - Muhammad Usman, Divya Gopinath and Corina S. Pasareanu"
 
-- time: 18:30
+- time: "18:30"
   close: true
   name: "Day One Close"
 
