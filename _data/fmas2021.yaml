@@ -113,7 +113,7 @@ papers:
   - title: "Towards Partial Monitoring: It is Always too Soon to Give Up"
     paper_number: 3
     titleLink: http://eptcs.web.cse.unsw.edu.au/paper.cgi?FMAS2021.3
-    authors: "<a href='https://angeloferrando.github.io/website/' rel='external'>Angelo Ferrando</a> and <a href='https://rafaelcaue.github.io/' rel='external'>Rafael C. Cardoso</a>"
+    authors: "Angelo Ferrando and Rafael C. Cardoso"
     abstract: "Runtime Verification is a lightweight formal verification technique. It is used to verify at runtime whether the system under analysis behaves as expected. The expected behaviour is usually formally specified by means of properties, which are used to automatically synthesise monitors. A monitor is a device that, given a sequence of events representing a system execution, returns a verdict symbolising the satisfaction or violation of the formal property. Properties that can (resp. cannot) be verified at runtime by a monitor are called monitorable and non-monitorable, respectively. In this paper, we revise the notion of monitorability from a practical perspective, where we show how non-monitorable properties can still be used to generate partial monitors, which can partially check the properties. Finally, we present the implications both from a theoretical and practical perspectives. "
 
   - title: "Formal Guarantees of Timely Progress for Distributed Knowledge Propagation"
@@ -195,8 +195,8 @@ significant performance gains."
 satisfiability solver of this logic and shows some examples."
 
   - title: "Complete Agent-driven Model-based System Testing for Autonomous Systems"
-    paper_number: 7
-    titleLink: http://eptcs.web.cse.unsw.edu.au/paper.cgi?FMAS2021.7
+    paper_number: 4
+    titleLink: http://eptcs.web.cse.unsw.edu.au/paper.cgi?FMAS2021.4
     authors: "Kerstin Eder, Wen-Ling Huang, and Jan Peleska"
     abstract: "In this position paper, a novel approach to testing complex autonomous transportation systems (ATS) in the
 automotive, avionic, and railway domains is described. It is well-suited to overcome the problems of verification and validation (V&V) effort which is known to become infeasible for complex ATS, when trying to perform V&V with conventional methods. The approach advocated here uses complete testing methods on module level, because these establish formal proofs
