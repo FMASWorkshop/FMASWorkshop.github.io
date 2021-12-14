@@ -115,7 +115,7 @@ papers:
     titleLink: http://eptcs.web.cse.unsw.edu.au/paper.cgi?FMAS2021.3
     authors: "Angelo Ferrando and Rafael C. Cardoso"
     abstract: "Runtime Verification is a lightweight formal verification technique. It is used to verify at runtime whether the system under analysis behaves as expected. The expected behaviour is usually formally specified by means of properties, which are used to automatically synthesise monitors. A monitor is a device that, given a sequence of events representing a system execution, returns a verdict symbolising the satisfaction or violation of the formal property. Properties that can (resp. cannot) be verified at runtime by a monitor are called monitorable and non-monitorable, respectively. In this paper, we revise the notion of monitorability from a practical perspective, where we show how non-monitorable properties can still be used to generate partial monitors, which can partially check the properties. Finally, we present the implications both from a theoretical and practical perspectives. "
-    
+    slides: "2021slides/Ferrando_slides.pdf"
 
 
   - title: "Formal Guarantees of Timely Progress for Distributed Knowledge Propagation"
@@ -135,25 +135,29 @@ bound to the time for progress as a function of the probabilities of the total t
 and processing delays being less than two given values. We also showcase the development
 of a library of formal theory in the Athena proof assistant, that is tailored towards reasoning
 about timely progress in distributed protocols deployed in airborne networks."
-
+    slides: "2021slides/Paul_slides.pdf"
+    
   - title: "Online Strategy Synthesis for Safe and Optimized Control of Steerable Needles"
     paper_number: 9
     titleLink: http://eptcs.web.cse.unsw.edu.au/paper.cgi?FMAS2021.9
     authors: "Sascha Lehmann, Antje Rogalla, Maximilian Neidhardt, Alexander Schlaefer, and Sibylle Schupp"
     abstract: "Autonomous systems are often applied in uncertain environments, which require prospective action planning and retrospective data evaluation for future planning to ensure safe operation. Formal approaches may support these systems with safety guarantees, but are usually expensive and do not scale well with growing system complexity. In this paper, we introduce online strategy synthesis based on classical strategy synthesis to derive formal safety guarantees while reacting and adapting to environment changes. To guarantee safety online, we split the environment into region types which determine the acceptance of action plans and trigger local correcting actions. Using model checking on a frequently updated model, we can then derive locally safe action plans (prospectively), and match the current model against new observations via reachability checks (retrospectively). As use case, we successfully apply online strategy synthesis to medical needle steering, i.e., navigating a (flexible and beveled) needle through tissue towards a target without damaging its surroundings."
-
+    slides: ""
+    
   - title: "Extending Urban Multi-Lane Spatial Logic to Formalise Road Junction Rules"
     paper_number: 1
     titleLink: http://eptcs.web.cse.unsw.edu.au/paper.cgi?FMAS2021.1
     authors: "Maike Schwammberger and Gleifer Alves"
     abstract: "During the design of autonomous vehicles (AVs), several stages should include a verification process to guarantee that the AV is driving safely on the roads. One of these stages is to assure the AVs abide by the road traffic rules. To include road traffic rules in the design of an AV, a precise and unambiguous formalisation of these rules is needed. However, only recently this has been pointed out as an issue for the design of AVs and the few works on this only capture the temporal aspects of the rules, leaving behind the spatial aspects. Here, we extend the spatial traffic logic, Urban Multi-lane Spatial Logic, to formalise a subset of the UK road junction rules, where both temporal and spatial aspects of the rules are captured. Our approach has an abstraction level for urban road junctions that could easily promote the formalisation of the whole set of road junction rules and we exemplarily formalise three of the UK road junction rules. Once we have the whole set formalised, we will model, implement, and formally verify the behaviour of an AV against road traffic rules so that guidelines for the creation of a Digital Highway Code for AVs can be established."
-
+    slides: "2021slides/Schwammberger_slides.pdf"
+    
   - title: "Simulation and Model Checking for Close to Realtime Overtaking Planning"
     paper_number: 2
     titleLink: http://eptcs.web.cse.unsw.edu.au/paper.cgi?FMAS2021.2
     authors: "Daumantas Pagojus, Alice Miller, Bernd Porr, and Ivaylo Valkov"
     abstract: "Fast and reliable trajectory planning is a key requirement of autonomous vehicles. In this paper we introduce a novel technique for planning the route of an autonomous vehicle on a straight rural road using the Spin model checker. We show how we can combine Spin’s ability to identify paths violating temporal properties with sensor information from a 3D Unity simulation of an autonomous vehicle, to plan and perform consecutive overtaking manoeuvres on a traffic-heavy road. This involves discretising the sensory information and combining multiple sequential Spin models with a Linear Time Temporal Logic specification to generate an error path. This path provides the autonomous vehicle with an action plan. The entire process takes place in close-to real time (using no pre-computed data) and the action plan is specifically tailored for individual scenarios. Our experiments demonstrate that the simulated autonomous vehicle implementing our approach can drive on average at least 40km and overtake 214 vehicles before experiencing a collision – which is usually caused by inaccuracies in the sensory system. While the proposed system has some drawbacks, we believe that our novel approach demonstrates a potentially powerful future tool for efficient trajectory planning for autonomous vehicles."
-
+    slides: "2021slides/Schwammberger_slides.pdf"
+    
   - title: "Improving Online Railway Deadlock Detection using a Partial Order Reduction"
     paper_number: 8
     titleLink: http://eptcs.web.cse.unsw.edu.au/paper.cgi?FMAS2021.8
@@ -182,20 +186,23 @@ the SAT instances needed to prove whether a deadlock situation is bound to
 happen in the future. Implementation source code and benchmark instances are
 supplied, and a direct comparison against another recent study demonstrates
 significant performance gains."
-
+    slides: "2021slides/Luteberget_slides.pdf"
+    
   - title: "Observable and Attention-Directing BDI Agents for Human-Autonomy Teaming"
     paper_number: 12
     titleLink: http://eptcs.web.cse.unsw.edu.au/paper.cgi?FMAS2021.12
     authors: "Blair Archibald, Muffy Calder, Michele Sevegnani, and Mengwei Xu"
     abstract: "Human-autonomy teaming (HAT) scenarios feature humans and autonomous agents collaborating to meet a shared goal. For effective collaboration, the agents must be transparent and able to share important information about their operation with human teammates. We address the challenge of transparency for Belief-Desire-Intention agents defined in the Conceptual Agent Notation (CAN) language. We extend the semantics to model agents that are observable (i.e. the internal state of tasks is available), and attention-directing (i.e. specific states can be flagged to users), and provide an executable semantics via an encoding in Milner's bigraphs. Using an example of unmanned aerial vehicles, the BigraphER tool, and PRISM, we show and verify how the extensions work in practice."
-
+    slides: "2021slides/Mengwei_slides.pdf"
+    
   - title: "Towards a formalization of justification and justifiability"
     paper_number: 10
     titleLink: http://eptcs.web.cse.unsw.edu.au/paper.cgi?FMAS2021.10
     authors: "Willem Hagemann"
     abstract: "We introduce the logic QKSD which is a normal multi-modal logic over finitely many modalities that additionally supports bounded quantification of modalities. An important feature of this logic is that it allows to quantify over the information components of systems. It can be used to derive justifcations and has a notion of justifiability. We also report on a prototypical implementation of a
 satisfiability solver of this logic and shows some examples."
-
+    slides: "2021slides/Hagemann_slides.pdf"
+    
   - title: "Complete Agent-driven Model-based System Testing for Autonomous Systems"
     paper_number: 4
     titleLink: http://eptcs.web.cse.unsw.edu.au/paper.cgi?FMAS2021.4
@@ -205,24 +212,28 @@ automotive, avionic, and railway domains is described. It is well-suited to over
 for the logical correctness of the software. Having established
 logical correctness, system-level tests are performed in simulated cloud environments and on the target system. To give evidence that ``sufficiently many'' system tests have been performed with the target system, a formally justified coverage criterion is introduced. To optimise the execution of very large system test suites, we advocate an online testing approach where multiple tests are executed in parallel, and test steps are identified on-the-fly. The coordination and optimisation of these executions is achieved by an agent-based approach. Each aspect of the testing approach advocated here is shown to be consistent with existing standards for development and V&V of safety-critical transportation systems, or it is justified why
 they should become acceptable in future revisions of the applicable standards."
-
+    slides: "2021slides/Peleska_slides.pdf"
+    
   - title: "Assuring Increasingly Autonomous Systems in Human-Machine Teams: An Urban Air Mobility Case Study"
     paper_number: 11
     titleLink: http://eptcs.web.cse.unsw.edu.au/paper.cgi?FMAS2021.11
     authors: "Siddhartha Bhattacharyya, Jennifer Davis, Anubhav Gupta, Nandith Narayan, and Michael Matessa"
     abstract: "As aircraft systems become increasingly autonomous, the human-machine role allocation changes and opportunities for new failure modes arise. This necessitates an approach to identify the safety requirements for the increasingly autonomous system (IAS) as well as a framework and techniques to verify and validate that the IAS meets its safety requirements. We use Crew Resource Management techniques to identify requirements and behaviors for safe human-machine teaming behaviors. We provide a methodology to verify that an IAS meets its requirements. We apply the methodology to a case study in Urban Air Mobility, which includes two contingency scenarios: unreliable sensor and aborted landing. For this case study, we implement an IAS agent in the Soar language that acts as a copilot for the selected contingency scenarios and performs takeoff and landing preparation, while the pilot maintains final decision authority. We develop a formal human-machine team architecture model in the Architectural Analysis and Design Language (AADL), with operator and IAS requirements formalized in the Assume Guarantee REasoning Environment (AGREE) Annex to AADL. We formally verify safety requirements for the human-machine team given the requirements on the IAS and operator. We develop an automated translator from Soar to the nuXmv model checking language and formally verify the IAS requirements for the IAS agent using nuXmv. We share the design and requirements errors found in the process as well as our lessons learned."
-
+    slides: "2021slides/Siddhartha_slides.pdf"
+    
   - title: "QuantifyML: How good is my machine learning model?"
     paper_number: 6
     titleLink: http://eptcs.web.cse.unsw.edu.au/paper.cgi?FMAS2021.6
     authors: "Muhammad Usman, Divya Gopinath, and Corina S. Pasareanu"
     abstract: "The efficacy of machine learning models is typically determined by computing their accuracy on test data sets. However, this may often be misleading, since the test data may not be representative of the problem that is being studied. With QuantifyML we aim to precisely quantify the extent to which machine learning models have learned and generalized from the given data. Given a trained model, QuantifyML translates it into a C program and feeds it to the CBMC model checker to produce a formula in Conjunctive Normal Form (CNF). The formula is analyzed with off-the-shelf model counters to obtain precise counts with respect to different model behavior. QuantifyML enables i) evaluating learnability by comparing the counts for the outputs to ground truth, expressed as logical predicates, ii) comparing the performance of models built with different machine learning algorithms (decision-trees vs. neural networks), and iii) quantifying the safety and robustness of models."
-
+    slides: ""
+    
   - title: "Complete Test of Synthesised Safety Supervisors for Robots and Autonomous Systems"
     paper_number: 7
     titleLink: http://eptcs.web.cse.unsw.edu.au/paper.cgi?FMAS2021.7
     authors: "Mario Gleirscher and Jan Peleska"
     abstract: "Verified controller synthesis uses world models that comprise all potential behaviours of humans, robots, further equipment, and the controller to be synthesised. A world model enables quantitative risk assessment, for example, by stochastic model checking. Such a model describes a range of controller behaviours some of which---when implemented correctly---guarantee that the overall risk in the actual world is acceptable, provided that the stochastic assumptions have been made to the safe side. Synthesis then selects an acceptable-risk controller behaviour. However, because of crossing abstraction, formalism, and tool boundaries, verified synthesis for robots and autonomous systems has to be accompanied by rigorous testing. In general, standards and regulations for safety-critical systems require testing as a key element to obtain certification credit before entry into service. This work-in-progress paper presents an approach to the complete testing of synthesised supervisory controllers that enforce safety properties in domains such as human-robot collaboration and autonomous driving. Controller code is generated from the selected controller behaviour. The code generator, however, is hard, if not infeasible, to verify in a formal and comprehensive way. Instead, utilising testing, an abstract test reference is generated, a symbolic finite state machine with simpler semantics than code semantics. From this reference, a complete test suite is derived and applied to demonstrate the observational equivalence between the test reference and the controller code."
+    slides: "2021slides/Gleirscher_slides.pdf"
 
 ### DATES ###
 dates:
