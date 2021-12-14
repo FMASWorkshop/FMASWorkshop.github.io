@@ -17,15 +17,12 @@ schedule-day_one:
   
 - time:  15:00 - 15:30
   name:   "Extending Urban Multi-Lane Spatial Logic to Formalise Road Junction Rules - Maike Schwammberger and Gleifer Alves"
-  slides: [Slides]()
   
 - time: 15:30 - 16:00
   name:  "Simulation and Model checking for real-time overtaking planning - Daumantas Pagojus, Alice Miller, Bernd Porr and Ivaylo Valkov "
-  slides: [Slides]()
   
 - time:  16:00 - 16:30
   name:   "Towards Partial Monitoring: It is Always too Soon to Give Up - Angelo Ferrando and Rafael C. Cardoso"
-  slides: [Slides]()
 
 - time: 16:30 - 17:00
   break : true
@@ -33,15 +30,12 @@ schedule-day_one:
 
 - time: 17:00 - 17:30
   name: "Complete Agent-driven Model-based System Testing for Autonomous Systems - Kerstin Eder, Wen-Ling Huang and Jan Peleska "
-  slides: [Slides]()
   
 - time: 17:30 - 18:00
   name:  " Formal Guarantees of Timely Progress for Distributed Knowledge Propagation - Saswata Paul, Stacy Patterson and Carlos A. Varela"
-  slides: [Slides]()
   
 - time:  18:00 - 18:30
   name:  "QuantifyML: How good is my machine learning model? - Muhammad Usman, Divya Gopinath and Corina S. Pasareanu"
-  slides: [Slides]()
   
 - time: 18:30
   close: true
@@ -54,15 +48,12 @@ schedule-day_two:
 
 - time: 13:30 - 14:00
   name: " Complete Test of Synthesised Safety Supervisors for Robots and Autonomous Systems - Mario Gleirscher and Jan Peleska"
-  slides: [Slides]()
   
 - time: 14:00 - 14:30
   name:    "Improving Online Railway Deadlock Detection using a Partial Order Reduction - Bjørnar Luteberget"
-  slides: [Slides]()
   
 - time:  14:30 - 15:00
   name:   "Strategy Synthesis for Safe and Optimized Online Control of Steerable Needles - Sascha Lehmann, Antje Rogalla, Maximilian Neidhardt, Alexander Schlaefer and Sibylle Schupp"
-  slides: [Slides]()
 
 - time: 15:00 - 15:30
   break : true
@@ -70,15 +61,12 @@ schedule-day_two:
 
 - time: 15:30 - 16:00
   name:  "Towards a formalization of justification and justifiability - Willem Hagemann"
-  slides: [Slides]()
   
 - time:  16:00 - 16:30
   name:   "Assuring Increasingly Autonomous Systems in Human-Machine Teams: An Urban Air Mobility Case Study - Siddhartha Bhattacharyya, Jennifer Davis, Anubhav Gupta, Nandith Narayan and Michael Matessa"
-  slides: [Slides]()
 
 - time:  16:30 - 17:00
   name:  "Observable and Attention-Directing BDI Agents for Human-Autonomy Teaming - Blair Archibald, Muffy Calder, Michele Sevegnani and Mengwei Xu"
-  slides: [Slides]()
 
 - time: 17:00 - 17:30
   break: true
