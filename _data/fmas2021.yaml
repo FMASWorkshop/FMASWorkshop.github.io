@@ -15,7 +15,7 @@ schedule-day_one:
 - time: 14:30 - 15:00
   break: true
   name:    "BREAK"
-
+  
 - time:  15:00 - 15:30
   name:   "Extending Urban Multi-Lane Spatial Logic to Formalise Road Junction Rules - Maike Schwammberger and Gleifer Alves"
   slides: [Slides]()
