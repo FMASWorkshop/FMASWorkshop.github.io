@@ -10,7 +10,7 @@ schedule-day_one:
 - time: 13:30 - 14:30
   invited: true
   name: " Invited Talk: Clare Dixon - Help or Hazard: Towards Verifying Autonomous Robot Systems"
-  video: https://www.youtube.com/watch?v=qRzROixTcEY&t=10s
+  video: "https://www.youtube.com/watch?v=qRzROixTcEY&t=10s"
 
 - time: 14:30 - 15:00
   break: true
@@ -88,7 +88,8 @@ schedule-day_two:
 - time: 17:30 - 18:30
   invited: true
   name: "Invited Talk: Divya Gopinath - Understanding and Verifying Deep Neural Networks  "
-  video: https://www.youtube.com/watch?v=mIJ3yVVy_BM&t=3s
+  video: "https://www.youtube.com/watch?v=mIJ3yVVy_BM&t=3s"
+  
 - time: "18:30"
   close: true
   name: "Day Two Close"
