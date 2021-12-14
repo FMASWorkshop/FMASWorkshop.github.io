@@ -115,7 +115,7 @@ papers:
     titleLink: http://eptcs.web.cse.unsw.edu.au/paper.cgi?FMAS2021.3
     authors: "Angelo Ferrando and Rafael C. Cardoso"
     abstract: "Runtime Verification is a lightweight formal verification technique. It is used to verify at runtime whether the system under analysis behaves as expected. The expected behaviour is usually formally specified by means of properties, which are used to automatically synthesise monitors. A monitor is a device that, given a sequence of events representing a system execution, returns a verdict symbolising the satisfaction or violation of the formal property. Properties that can (resp. cannot) be verified at runtime by a monitor are called monitorable and non-monitorable, respectively. In this paper, we revise the notion of monitorability from a practical perspective, where we show how non-monitorable properties can still be used to generate partial monitors, which can partially check the properties. Finally, we present the implications both from a theoretical and practical perspectives. "
-    slides: "2021slides/Ferrando_slides.pdf"
+    slides: "https://github.com/FMASWorkshop/FMASWorkshop.github.io/blob/main/_workshops/2021slides/Ferrando_slides.pdf"
 
 
   - title: "Formal Guarantees of Timely Progress for Distributed Knowledge Propagation"
