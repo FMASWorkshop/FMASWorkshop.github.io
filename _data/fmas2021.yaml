@@ -149,7 +149,7 @@ about timely progress in distributed protocols deployed in airborne networks."
     titleLink: http://eptcs.web.cse.unsw.edu.au/paper.cgi?FMAS2021.1
     authors: "Maike Schwammberger and Gleifer Alves"
     abstract: "During the design of autonomous vehicles (AVs), several stages should include a verification process to guarantee that the AV is driving safely on the roads. One of these stages is to assure the AVs abide by the road traffic rules. To include road traffic rules in the design of an AV, a precise and unambiguous formalisation of these rules is needed. However, only recently this has been pointed out as an issue for the design of AVs and the few works on this only capture the temporal aspects of the rules, leaving behind the spatial aspects. Here, we extend the spatial traffic logic, Urban Multi-lane Spatial Logic, to formalise a subset of the UK road junction rules, where both temporal and spatial aspects of the rules are captured. Our approach has an abstraction level for urban road junctions that could easily promote the formalisation of the whole set of road junction rules and we exemplarily formalise three of the UK road junction rules. Once we have the whole set formalised, we will model, implement, and formally verify the behaviour of an AV against road traffic rules so that guidelines for the creation of a Digital Highway Code for AVs can be established."
-    slides: "2021slides/Schwammberger_slides.pdf"
+    slides: "_workshops/2021slides/Schwammberger_slides.pdf"
     
   - title: "Simulation and Model Checking for Close to Realtime Overtaking Planning"
     paper_number: 2
