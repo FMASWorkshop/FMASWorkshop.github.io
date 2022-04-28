@@ -1,0 +1,263 @@
+### SCHEDULE ###
+
+
+show_schedule : false
+schedule-day_one:
+- time:
+  intro: true
+  name:  "Welcome and Introduction"
+
+- time:
+  invited: true
+  name: " "
+
+- time:
+  break: true
+  name:    "BREAK"
+
+- time:
+  name:   ""
+
+- time:
+  name:  " "
+
+- time:
+  name:   ""
+
+- time:
+  break : true
+  name:  "BREAK"
+
+- time:
+  name: ""
+
+- time:
+  name:  ""
+
+- time:
+  name:  ""
+
+- time: ""
+  close: true
+  name: "Day One Close"
+
+schedule-day_two:
+- time:
+  intro: true
+  name:  "Welcome and Introduction"
+
+- time:
+  name: " "
+
+- time:
+  name:    ""
+
+- time:
+  name:   ""
+
+- time: 15:00 - 15:30
+  break : true
+  name:  "BREAK"
+
+- time:
+  name:  ""
+
+- time:
+  name:   ""
+
+- time:
+  name:  ""
+
+
+- time:
+  break: true
+  name:  "BREAK"
+
+- time:
+  invited: true
+  name: "  "
+
+- time: ""
+  close: true
+  name: "Day Two Close"
+
+
+### TALKS ###
+show_talks: false
+invited_talks:
+  - name:
+    bio: ""
+    link:
+    title: ""
+    abstract: ""
+
+  - name: ""
+    bio: ""
+    link:
+    title: ""
+    abstract: ""
+
+
+### PAPERS ###
+show_papers: false
+papers:
+  - title: ""
+    titleLink:
+    authors: ""
+    abstract: ""
+
+
+### DATES ###
+dates:
+  submission: "29th of July 2022"
+  notification: "2nd of September 2022"
+  final_version: "14th of September 2022"
+  workshop: "26th and 27th of September 2022"
+
+### PROGRAMME COMMITTEE ###
+show_pc : false
+pc :
+  - first_name: Alvaro
+    last_name: Miyazawa
+    affiliation: University of York (UK)
+    link: https://www-users.cs.york.ac.uk/~alvarohm/
+
+  - first_name: Anastasia
+    last_name: Mavridou
+    affiliation: NASA Ames Research Center (USA)
+    link: http://amavridou.com/
+
+  - first_name: Angelo
+    last_name: Ferrando
+    affiliation: 	University of Genova (Italy)
+    link: https://angeloferrando.github.io/website/
+
+  - first_name: Claudio
+    last_name: Menghi
+    affiliation: University of Luxembourg (Luxembourg)
+    link: https://claudiomenghi.github.io/index.html
+
+  - first_name: Dominique
+    last_name: Méry
+    affiliation: Université de Lorraine (France)
+    link: https://members.loria.fr/Mery/
+
+  - first_name: Hao
+    last_name: Wu
+    affiliation: 	Maynooth University (Ireland)
+    link: http://www.cs.nuim.ie/~haowu/
+
+  - first_name: Jérémie
+    last_name: Guiochet
+    affiliation: University of Toulouse (France)
+    link: http://homepages.laas.fr/guiochet/
+
+  - first_name: Maike
+    last_name: Schwammberger
+    affiliation: University of Oldenberg (Germany)
+    link: https://uol.de/en/csd/persons-contacts/maike-schwammberger-msc/
+
+  - first_name: Marija
+    last_name: Slavkovik
+    affiliation: University of Bergen (Norway)
+    link: http://slavkovik.com/index.html
+
+  - first_name: Rafael C.
+    last_name: Cardoso
+    affiliation: University of Manchester (UK)
+    link: https://rafaelcaue.github.io/
+
+  - first_name: Raluca
+    last_name: Lefticaru
+    affiliation: University of Bradford (UK)
+    link: https://ralucalefticaru.github.io/
+
+  - first_name: Rob
+    last_name: Hierons
+    affiliation: University of Sheffield (UK)
+    link: https://www.sheffield.ac.uk/dcs/people/academic/rob-hierons
+
+  - first_name: Silvia Lizeth
+    last_name: 	Tapia Tarifa
+    affiliation: University of Oslo (Norway)
+    link: https://www.mn.uio.no/ifi/english/people/aca/sltarifa/index.html
+
+  - first_name: Sven
+    last_name: Linker
+    affiliation: University of Lancaster Leipzig (Germany)
+    link: https://orcid.org/0000-0003-2913-7943
+
+  - first_name: Taylor T.
+    last_name: Johnson
+    affiliation: Vanderbilt University (USA) (USA)
+    link: http://www.taylortjohnson.com/
+
+  - first_name: Christopher
+    last_name: Bishopink
+    affiliation: University of Oldenburg (Germany)
+    link: https://uol.de/en/csd/persons-contacts/christopher-bischopink-msc/
+
+  - first_name: Laura
+    last_name: Titolo
+    affiliation: National Institute of Aerospace (USA)
+    link: https://lauratitolo.github.io/
+
+  - first_name: Mallory S.
+    last_name: Graydon
+    affiliation: NASA Langley Research Center (USA)
+    link: https://shemesh.larc.nasa.gov/people/msg/
+
+  - first_name: Divya
+    last_name: Gopinath
+    affiliation: NASA Ames Research Center (USA)
+    link: https://ti.arc.nasa.gov/profile/dgopinat/
+
+  - first_name: Michael
+    last_name: Fisher
+    affiliation: University of Manchester (UK)
+    link: https://personalpages.manchester.ac.uk/staff/michael.fisher/
+
+  - first_name: Ivan
+    last_name: Perez
+    affiliation: NASA Langley/National Institute of Aerospace (USA)
+    link: https://www.linkedin.com/in/ivanperezdominguez/
+
+  - first_name: Louise A.
+    last_name: Dennis
+    affiliation: University of Manchester (UK)
+    link: http://www.cs.man.ac.uk/~dennisl/
+
+  - first_name: Mario
+    last_name: Gleirscher
+    affiliation: University of Bremen (Germany)
+    link: http://www.gleirscher.at/mg/
+
+  - first_name: Colin
+    last_name: Paterson
+    affiliation: University of York (UK)
+    link: https://www.linkedin.com/in/colin-paterson-158374a0/?originalSubdomain=uk
+
+  - first_name: Alice
+    last_name: Miller
+    affiliation: University of Glasgow (UK)
+    link: https://www.gla.ac.uk/schools/computing/staff/alicemiller/
+
+
+  - first_name: Rosemary
+    last_name: Monahan
+    affiliation: Maynooth University (Ireland)
+    link: http://rosemarymonahan.com/
+
+  - first_name: Lina
+    last_name: Marsso
+    affiliation: University of Toronto (Canda)
+    link: http://convecs.inria.fr/people/Lina.Marsso/
+#  - first_name:
+#    last_name:
+#    affiliation:
+#    link:
+
+
+register :
+
+easychair :
