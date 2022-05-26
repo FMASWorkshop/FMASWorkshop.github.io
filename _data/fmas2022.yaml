@@ -122,20 +122,20 @@ pc :
     affiliation: University of York (UK)
     link: https://www-users.cs.york.ac.uk/~alvarohm/
 
-#  - first_name: Anastasia
-#    last_name: Mavridou
-#    affiliation: NASA Ames Research Center (USA)
-#    link: http://amavridou.com/
+  - first_name: Anastasia
+    last_name: Mavridou
+    affiliation: NASA Ames Research Center (USA)
+    link: http://amavridou.com/
 
   - first_name: Angelo
     last_name: Ferrando
     affiliation: 	University of Genova (Italy)
     link: https://angeloferrando.github.io/website/
 
-#  - first_name: Claudio
-#    last_name: Menghi
-#    affiliation: University of Luxembourg (Luxembourg)
-#    link: https://claudiomenghi.github.io/index.html
+  - first_name: Claudio
+    last_name: Menghi
+    affiliation: 	McMaster University (Canada)
+    link: https://claudiomenghi.github.io/index.html
 
   - first_name: Dominique
     last_name: Méry
@@ -147,10 +147,10 @@ pc :
     affiliation: 	Maynooth University (Ireland)
     link: http://www.cs.nuim.ie/~haowu/
 
-#  - first_name: Jérémie
-#    last_name: Guiochet
-#    affiliation: University of Toulouse (France)
-#    link: http://homepages.laas.fr/guiochet/
+  - first_name: Jérémie
+    last_name: Guiochet
+    affiliation: University of Toulouse (France)
+    link: http://homepages.laas.fr/guiochet/
 
   - first_name: Maike
     last_name: Schwammberger
@@ -164,19 +164,19 @@ pc :
 
   - first_name: Rafael C.
     last_name: Cardoso
-    affiliation: University of Manchester (UK)
+    affiliation: University of Aberdeen (UK)
     link: https://rafaelcaue.github.io/
 
-#  - first_name: Raluca
-#    last_name: Lefticaru
-#    affiliation: University of Bradford (UK)
-#    link: https://ralucalefticaru.github.io/
+  - first_name: Raluca
+    last_name: Lefticaru
+    affiliation: University of Bradford (UK)
+    link: https://ralucalefticaru.github.io/
 
 
-#  - first_name: Silvia Lizeth
-#    last_name: 	Tapia Tarifa
-#    affiliation: University of Oslo (Norway)
-#    link: https://www.mn.uio.no/ifi/english/people/aca/sltarifa/index.html
+  - first_name: Silvia Lizeth
+    last_name: 	Tapia Tarifa
+    affiliation: University of Oslo (Norway)
+    link: https://www.mn.uio.no/ifi/english/people/aca/sltarifa/index.html
 
   - first_name: Sven
     last_name: Linker
@@ -223,15 +223,15 @@ pc :
     affiliation: University of Bremen (Germany)
     link: http://www.gleirscher.at/mg/
 
-#  - first_name: Colin
-#    last_name: Paterson
-#    affiliation: University of York (UK)
-#    link: https://www.linkedin.com/in/colin-paterson-158374a0/?originalSubdomain=uk
+  - first_name: Colin
+    last_name: Paterson
+    affiliation: University of York (UK)
+    link: https://www.linkedin.com/in/colin-paterson-158374a0/?originalSubdomain=uk
 
-#  - first_name: Alice
-#    last_name: Miller
-#    affiliation: University of Glasgow (UK)
-#    link: https://www.gla.ac.uk/schools/computing/staff/alicemiller/
+  - first_name: Alice
+    last_name: Miller
+    affiliation: University of Glasgow (UK)
+    link: https://www.gla.ac.uk/schools/computing/staff/alicemiller/
 
 
   - first_name: Rosemary
