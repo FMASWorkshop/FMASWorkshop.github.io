@@ -253,6 +253,11 @@ pc :
     last_name: Faruq
     affiliation:  University of Manchester (UK)
     link: https://fatmaf.github.io/
+    
+  - first_name: Natasha
+    last_name: Neogi
+    affiliation: NASA Langley Research Center (USA)
+    link: 
 
 
 #  - first_name:
