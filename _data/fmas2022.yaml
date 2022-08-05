@@ -83,13 +83,13 @@ schedule-day_two:
 
 
 ### TALKS ###
-show_talks: false
+show_talks: true
 invited_talks:
-  - name:
-    bio: ""
-    link:
-    title: ""
-    abstract: ""
+  - name: Marija Slavkovik
+    bio: "Full professor at the Department of Information Science and Media Studies at the University of Bergen. Her research interests include machine ethics, logic reasoning in social networks, collective reasoning and decision making."
+    link: http://slavkovik.com/
+    title: "TBC"
+    abstract: "TBC"
 
   - name: ""
     bio: ""
