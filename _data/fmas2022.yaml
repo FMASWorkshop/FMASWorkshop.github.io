@@ -91,11 +91,11 @@ invited_talks:
     title: "TBC"
     abstract: "TBC"
 
-  - name: ""
-    bio: ""
-    link:
-    title: ""
-    abstract: ""
+ ## - name: ""
+  ##  bio: ""
+  ##  link:
+  ##  title: ""
+  ##  abstract: ""
 
 
 ### PAPERS ###
