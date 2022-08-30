@@ -91,11 +91,11 @@ invited_talks:
     title: "TBC"
     abstract: "TBC"
 
- ## - name: ""
-  ##  bio: ""
-  ##  link:
-  ##  title: ""
-  ##  abstract: ""
+  - name: "Taylor T. Johnson"
+    bio: "Associate Professor of Computer Science, Computer Engineering, and Electrical Engineering in the Departments of Computer Science and Electrical & Computer Engineering at Vanderbilt University. His research focus is developing formal verification techniques and software tools for cyber-physical systems (CPS), with a focus most recently on autonomous CPS that incorporate artificial intelligence (AI) and machine learning (ML) components, such as neural networks, for tasks ranging from sensing/perception through planning/control."
+    link: http://www.taylortjohnson.com/
+      title: "TBC"
+      abstract: "TBC"
 
 
 ### PAPERS ###
@@ -253,11 +253,11 @@ pc :
     last_name: Faruq
     affiliation:  University of Manchester (UK)
     link: https://fatmaf.github.io/
-    
+
   - first_name: Natasha
     last_name: Neogi
     affiliation: NASA Langley Research Center (USA)
-    link: 
+    link:
 
 
 #  - first_name:
