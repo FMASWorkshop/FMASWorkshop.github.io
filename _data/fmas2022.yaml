@@ -193,7 +193,11 @@ papers:
     authors: "Maike Schwammberger and Verena Klös"
     abstract: "Autonomous systems control many tasks in our daily lives. To increase trust in those systems and safety of the interaction between humans and autonomous systems, the system behaviour and reasons for autonomous decision should be explained to users, experts and public authorities. One way to provide such explanations is to use behavioural models to generate context- and user-specific explanations at run-time. However, this comes at the cost of higher modelling effort as additional models need to be constructed. In this paper, we propose an approach to extract such explanation models from system models, and to subsequently refine these for users, explanation purposes and situations. By this, we enable the reuse of specification models for integrating explanation capabilities into systems. We showcase our approach using a running example from the autonomous driving domain."
 
-
+  -
+ title: "	Towards Adaptive Planning of Assistive-care Robot Tasks"
+    titleLink:
+    authors: "Jordan Hamilton, Ioannis Stefanakos, Radu Calinescu and Javier Cámara"
+    abstract: "This 'research preview' paper introduces an adaptive path planning framework for robotic mission execution in assistive-care applications. The framework provides a graph-based environment modelling approach, with dynamic path finding performed using Dijkstra's algorithm. A secondary graph-based representation of the mission profile is established and solved using a travelling salesman approach, to ensure Pareto-optimal paths are found based on minimising risk to the human and maximising progress with the mission. A predictive module that uses probabilistic model checking is applied to estimate the human's movement through the environment, allowing run-time re-planning of the robot's path. We illustrate the use of the framework for a simulated assistive-care case study in which a mobile robot monitors an end user with mild physical or cognitive impairments."
 
 
 
