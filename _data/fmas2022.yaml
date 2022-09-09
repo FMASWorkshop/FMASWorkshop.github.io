@@ -1,102 +1,12 @@
 ### SCHEDULE ###
 
 
-show_schedule : true
+show_schedule : false
 schedule-day_one:
-- time: 10:00 - 10:10
-  intro: true
-  name:  "Welcome and Introduction"
 
-- time: 10:10 - 11:10
-  invited: true
-  name: "Invited Talk: Taylor T. Johnson"
-  
-- time: 11:10 - 12:00
-  name: "Discussion Session"
-
-- time: 12:00 - 13:00
-  break: true
-  name:    "BREAK"
-
-- time: 13:00 - 13:40
-  name:   "Active vs. Passive: A Comparison of Automata Learning Paradigms for Network Protocols - Bernhard K. Aichernig, Edi Muskardin, and Andrea Pferscher"
-
-- time: 13:40 - 14:20
-  name:  "From Specification Models to Explanation Models: An Extraction and Refinement Process for Timed Automata - Maike Schwammberger and Verena Klös"
-
-- time: 14:20 - 15:00
-  name:   "[ASYDE Workshop] Bounded Invariant Checking for Stateflow - Predrag Filipovikj, Gustav Ung, Dilian Gurov, and Mattias Nyberg"
-
-- time: 15:00 - 15:30
-  break : true
-  name:  "BREAK"
-
-- time: 15:30 - 15:50
-  name: "Towards Runtime Monitoring of Complex System Requirements for Autonomous Driving Functions - Dominik Grundt, Anna Köhne, Ishan Saxena, Ralf Stemmer, Bernd Westphal, and Eike Möhlmann "
-
-- time: 15:50 - 16:30
-  name:  "Advising Autonomous Cars about the Rules of the Road - Joe Collenette, Louise Dennis, and Michael Fisher "
-
-- time: 16:30 - 16:50
-  name:  "Towards a Digital Highway Code using Formal Modelling and Verification of Timed Automata - Gleifer Alves and Maike Schwammberger"
-  
-- time: 16:50 - 17:30
-  name:  "Scheduling for Urban Air Mobility using Safe Learning - Natasha Neogi, Surya Murthy, and Suda Bharadwaj"
-
-- time: ""
-  close: true
-  name: "Day One Close"
 
 schedule-day_two:
-- time: 10:00 - 10:10
-  intro: true
-  name:  "Welcome and Introduction"
 
-- time: 10:10 - 11:10
-  invited: true
-  name: "Invited Talk: Marija Slavkovik "
-  
-- time: 11:10 - 12:00
-  name: "Discussion Session"
-
-
-- time: 12:00 - 13:00
-  break : true
-  name:  "BREAK"
-
-- time: 13:00 - 13:40
-  name:  "A Doxastic Framework for Autonomous Systems - Astrid Rakow"
-
-- time: 13:40 - 14:20
-  name:   "SkiNet: A Petri Net Generation Tool for the Verification of Skillset-based Autonomous Systems - Baptiste Pelletier, Charles Lesire, David Doose, Karen Godary-Dejean, and Charles Dramé-Maigné "
-
-- time: 14:20 - 15:00
-  name:  "Verify Safety of Behaviour Trees in Event-B - Matteo Tadiello and Elena Troubitsyna "
-
-
-- time: 15:00 - 15:30
-  break: true
-  name:  "BREAK"
-
-- time: 15:30 - 16:10
-  name: " Scheduling of Missions with Constrained Tasks for Heterogeneous Robot Systems - Gricel Vazquez, Radu Calinescu, and Javier Camara  "
-  
-- time: 16:10 - 16:30
-  name: " Towards Adaptive Planning of Assistive-care Robot Tasks - Jordan Hamilton, Ioannis Stefanakos, Radu Calinescu and Javier Cámara "
-
-- time: 16:30 - 16:50
-  name: " Generating Safe and Intelligent Autonomous Decision-Making in ROS -Yi Yang and Tom Holvoet "
-  
-- time: 16:50 - 17:30
-  name: " Extending Attack-Fault Trees with Runtime Verification - Rafael C. Cardoso, Angelo Ferrando, and Michael Fisher  "
-  
-- time: 17:30 - 17:50
-  name: " Monitoring ROS2: from Requirements to Autonomous Robots - Ivan Perez, Anastasia Mavridou, Thomas Pressburger, Alexander Will, and Patrick Martin "
-
-
-- time: ""
-  close: true
-  name: "Day Two Close"
 
 
 ### TALKS ###
