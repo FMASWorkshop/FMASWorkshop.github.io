@@ -1,46 +1,52 @@
 ### SCHEDULE ###
 
 
-show_schedule: false
+show_schedule: true
 schedule-day_one:
-- time:
+- time: 10:00 - 10:10
   intro: true
   name:  "Welcome and Introduction"
 
-- time:
+- time: 10:10 - 11:10
   invited: true
-  name: " "
+  name: "Invited Talk: Taylor T. Johnson"
+  
+- time: 11:10 - 12:00
+  name: "Discussion Session"
 
-- time:
+- time: 12:00 - 13:00
   break: true
   name:    "BREAK"
 
-- time:
-  name:   ""
+- time: 13:00 - 13:40
+  name:   "Active vs. Passive: A Comparison of Automata Learning Paradigms for Network Protocols - Bernhard K. Aichernig, Edi Muskardin, and Andrea Pferscher"
 
-- time:
-  name:  " "
+- time: 13:40 - 14:20
+  name:  "From Specification Models to Explanation Models: An Extraction and Refinement Process for Timed Automata - Maike Schwammberger and Verena Klös"
 
-- time:
-  name:   ""
+- time: 14:20 - 15:00
+  name:   "[ASYDE Workshop] Bounded Invariant Checking for Stateflow - Predrag Filipovikj, Gustav Ung, Dilian Gurov, and Mattias Nyberg"
 
-- time:
+- time: 15:00 - 15:30
   break : true
   name:  "BREAK"
 
-- time:
-  name: ""
+- time: 15:30 - 15:50
+  name: "Towards Runtime Monitoring of Complex System Requirements for Autonomous Driving Functions - Dominik Grundt, Anna Köhne, Ishan Saxena, Ralf Stemmer, Bernd Westphal, and Eike Möhlmann "
 
-- time:
-  name:  ""
+- time: 15:50 - 16:30
+  name:  "Advising Autonomous Cars about the Rules of the Road - Joe Collenette, Louise Dennis, and Michael Fisher "
 
-- time:
-  name:  ""
+- time: 16:30 - 16:50
+  name:  "Towards a Digital Highway Code using Formal Modelling and Verification of Timed Automata - Gleifer Alves and Maike Schwammberger"
+  
+- time: 16:50 - 17:30
+  name:  "Scheduling for Urban Air Mobility using Safe Learning - Natasha Neogi, Surya Murthy, and Suda Bharadwaj"
 
 - time: ""
   close: true
   name: "Day One Close"
-
+  
 schedule-day_two:
 - time:
   intro: true
