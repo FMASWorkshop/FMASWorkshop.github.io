@@ -43,50 +43,60 @@ schedule-day_one:
 - time: 16:50 - 17:30
   name:  "Scheduling for Urban Air Mobility using Safe Learning - Natasha Neogi, Surya Murthy, and Suda Bharadwaj"
 
-- time: ""
+- time: 17:30
   close: true
   name: "Day One Close"
   
 schedule-day_two:
-- time:
+  - time: 10:00 - 10:10
   intro: true
   name:  "Welcome and Introduction"
 
-- time:
-  name: " "
+- time: 10:10 - 11:10
+  invited: true
+  name: "Invited Talk: Marija Slavkovik "
+  
+- time: 11:10 - 12:00
+  name: "Discussion Session"
 
-- time:
-  name:    ""
 
-- time:
-  name:   ""
-
-- time: 15:00 - 15:30
+- time: 12:00 - 13:00
   break : true
   name:  "BREAK"
 
-- time:
-  name:  ""
+- time: 13:00 - 13:40
+  name:  "A Doxastic Framework for Autonomous Systems - Astrid Rakow"
 
-- time:
-  name:   ""
+- time: 13:40 - 14:20
+  name:   "SkiNet: A Petri Net Generation Tool for the Verification of Skillset-based Autonomous Systems - Baptiste Pelletier, Charles Lesire, David Doose, Karen Godary-Dejean, and Charles Dramé-Maigné "
 
-- time:
-  name:  ""
+- time: 14:20 - 15:00
+  name:  "Verify Safety of Behaviour Trees in Event-B - Matteo Tadiello and Elena Troubitsyna "
 
 
-- time:
+- time: 15:00 - 15:30
   break: true
   name:  "BREAK"
 
-- time:
-  invited: true
-  name: "  "
+- time: 15:30 - 16:10
+  name: " Scheduling of Missions with Constrained Tasks for Heterogeneous Robot Systems - Gricel Vazquez, Radu Calinescu, and Javier Camara  "
+  
+- time: 16:10 - 16:30
+  name: " Towards Adaptive Planning of Assistive-care Robot Tasks - Jordan Hamilton, Ioannis Stefanakos, Radu Calinescu and Javier Cámara "
 
-- time: ""
+- time: 16:30 - 16:50
+  name: " Generating Safe and Intelligent Autonomous Decision-Making in ROS -Yi Yang and Tom Holvoet "
+  
+- time: 16:50 - 17:30
+  name: " Extending Attack-Fault Trees with Runtime Verification - Rafael C. Cardoso, Angelo Ferrando, and Michael Fisher  "
+  
+- time: 17:30 - 17:50
+  name: " Monitoring ROS2: from Requirements to Autonomous Robots - Ivan Perez, Anastasia Mavridou, Thomas Pressburger, Alexander Will, and Patrick Martin "
+
+
+- time: "17:50"
   close: true
   name: "Day Two Close"
-
 
 ### TALKS ###
 show_talks: true
