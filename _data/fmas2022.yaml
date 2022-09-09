@@ -43,7 +43,7 @@ schedule-day_one:
 - time: 16:50 - 17:30
   name:  "Scheduling for Urban Air Mobility using Safe Learning - Natasha Neogi, Surya Murthy, and Suda Bharadwaj"
 
-- time: 17:30
+- time: ""
   close: true
   name: "Day One Close"
   
@@ -60,6 +60,19 @@ schedule-day_two:
   name: "Discussion Session"
 
 
+- time: 12:00 - 13:00
+  break : true
+  name:  "BREAK"
+
+- time: 13:00 - 13:40
+  name:  "A Doxastic Framework for Autonomous Systems - Astrid Rakow"
+
+- time: 13:40 - 14:20
+  name:   "SkiNet: A Petri Net Generation Tool for the Verification of Skillset-based Autonomous Systems - Baptiste Pelletier, Charles Lesire, David Doose, Karen Godary-Dejean, and Charles Dramé-Maigné "
+
+- time: 14:20 - 15:00
+  name:  "Verify Safety of Behaviour Trees in Event-B - Matteo Tadiello and Elena Troubitsyna "
+  
 ### TALKS ###
 show_talks: true
 invited_talks:
