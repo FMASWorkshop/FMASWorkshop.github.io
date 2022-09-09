@@ -1,7 +1,7 @@
 ### SCHEDULE ###
 
 
-show_schedule: true
+show_schedule: false
 schedule-day_one:
 - time: 10:00 - 10:10
   intro: true
