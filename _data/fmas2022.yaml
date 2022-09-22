@@ -34,6 +34,9 @@ schedule-day_one:
   break : true
   name:  "BREAK"
 
+- theme : true
+  name : Autonomous Vehicles
+
 - time: 15:30 - 15:50
   name: "Towards Runtime Monitoring of Complex System Requirements for Autonomous Driving Functions - Dominik Grundt, Anna Köhne, Ishan Saxena, Ralf Stemmer, Bernd Westphal, and Eike Möhlmann "
 
@@ -67,6 +70,9 @@ schedule-day_two:
   break : true
   name:  "BREAK"
 
+- theme : true
+  name : Autonomous Robots
+
 - time: 13:00 - 13:40
   name:  "A Doxastic Framework for Autonomous Systems - Astrid Rakow"
 
@@ -79,6 +85,9 @@ schedule-day_two:
 - time: 15:00 - 15:30
   break: true
   name:  "BREAK"
+
+- theme : true
+  name : Runtime Verification
 
 - time: 15:30 - 16:10
   name: " Scheduling of Missions with Constrained Tasks for Heterogeneous Robot Systems - Gricel Vazquez, Radu Calinescu, and Javier Camara  "
