@@ -10,13 +10,16 @@ schedule-day_one:
 - time: 10:10 - 11:10
   invited: true
   name: "Invited Talk: Taylor T. Johnson"
-  
+
 - time: 11:10 - 12:00
   name: "Discussion Session"
 
 - time: 12:00 - 13:00
   break: true
   name:    "BREAK"
+
+- theme : true
+  name : Automata
 
 - time: 13:00 - 13:40
   name:   "Active vs. Passive: A Comparison of Automata Learning Paradigms for Network Protocols - Bernhard K. Aichernig, Edi Muskardin, and Andrea Pferscher"
@@ -39,14 +42,14 @@ schedule-day_one:
 
 - time: 16:30 - 16:50
   name:  "Towards a Digital Highway Code using Formal Modelling and Verification of Timed Automata - Gleifer Alves and Maike Schwammberger"
-  
+
 - time: 16:50 - 17:30
   name:  "Scheduling for Urban Air Mobility using Safe Learning - Natasha Neogi, Surya Murthy, and Suda Bharadwaj"
 
 - time: ""
   close: true
   name: "Day One Close"
-  
+
 schedule-day_two:
 - time: 10:00 - 10:10
   intro: true
@@ -55,7 +58,7 @@ schedule-day_two:
 - time: 10:10 - 11:10
   invited: true
   name: "Invited Talk: Marija Slavkovik "
-  
+
 - time: 11:10 - 12:00
   name: "Discussion Session"
 
@@ -79,16 +82,16 @@ schedule-day_two:
 
 - time: 15:30 - 16:10
   name: " Scheduling of Missions with Constrained Tasks for Heterogeneous Robot Systems - Gricel Vazquez, Radu Calinescu, and Javier Camara  "
-  
+
 - time: 16:10 - 16:30
   name: " Towards Adaptive Planning of Assistive-care Robot Tasks - Jordan Hamilton, Ioannis Stefanakos, Radu Calinescu and Javier Cámara "
 
 - time: 16:30 - 16:50
   name: " Generating Safe and Intelligent Autonomous Decision-Making in ROS -Yi Yang and Tom Holvoet "
-  
+
 - time: 16:50 - 17:30
   name: " Extending Attack-Fault Trees with Runtime Verification - Rafael C. Cardoso, Angelo Ferrando, and Michael Fisher  "
-  
+
 - time: 17:30 - 17:50
   name: " Monitoring ROS2: from Requirements to Autonomous Robots - Ivan Perez, Anastasia Mavridou, Thomas Pressburger, Alexander Will, and Patrick Martin "
 
@@ -368,4 +371,3 @@ pc :
 register :
 
 easychair : https://easychair.org/conferences/?conf=fmas2022
-
