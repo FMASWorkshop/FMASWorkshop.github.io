@@ -19,7 +19,7 @@ schedule-day_one:
   name:    "BREAK"
 
 - theme : true
-  name : Automata
+  name : "Session 1: Automata"
 
 - time: 13:00 - 13:40
   name:   "Active vs. Passive: A Comparison of Automata Learning Paradigms for Network Protocols - Bernhard K. Aichernig, Edi Muskardin, and Andrea Pferscher"
@@ -35,7 +35,7 @@ schedule-day_one:
   name:  "BREAK"
 
 - theme : true
-  name : Autonomous Vehicles
+  name : "Session 2: Autonomous Vehicles"
 
 - time: 15:30 - 15:50
   name: "Towards Runtime Monitoring of Complex System Requirements for Autonomous Driving Functions - Dominik Grundt, Anna Köhne, Ishan Saxena, Ralf Stemmer, Bernd Westphal, and Eike Möhlmann "
@@ -71,7 +71,7 @@ schedule-day_two:
   name:  "BREAK"
 
 - theme : true
-  name : Autonomous Robots
+  name : "Session 3: Autonomous Robots"
 
 - time: 13:00 - 13:40
   name:  "A Doxastic Framework for Autonomous Systems - Astrid Rakow"
@@ -87,7 +87,7 @@ schedule-day_two:
   name:  "BREAK"
 
 - theme : true
-  name : Runtime Verification
+  name : "Session 4: Runtime Verification"
 
 - time: 15:30 - 16:10
   name: " Scheduling of Missions with Constrained Tasks for Heterogeneous Robot Systems - Gricel Vazquez, Radu Calinescu, and Javier Camara  "
