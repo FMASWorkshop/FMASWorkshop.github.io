@@ -109,7 +109,7 @@ schedule-day_two:
   close: true
   name: "Day Two Close"
 ### TALKS ###
-show_talks: true
+show_talks: false
 invited_talks:
   - name: Marija Slavkovik
     bio: "Full professor at the Department of Information Science and Media Studies at the University of Bergen. Her research interests include machine ethics, logic reasoning in social networks, collective reasoning and decision making."
@@ -127,7 +127,7 @@ Her talk is based on a recent paper, available at <a href='https://arxiv.org/abs
 
 
 ### PAPERS ###
-show_papers: true
+show_papers: false
 papers:
   -
     title: "Monitoring ROS2: from Requirements to Autonomous Robots"
