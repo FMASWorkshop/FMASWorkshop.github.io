@@ -1,0 +1,384 @@
+### SCHEDULE ###
+
+
+show_schedule: false
+schedule-day_one:
+- time: 10:00 - 10:10
+  intro: true
+  name:  "Welcome and Introduction"
+
+- time: 10:10 - 11:10
+  invited: true
+  name: "Invited Talk: Taylor T. Johnson"
+
+- time: 11:10 - 12:00
+  name: "Discussion Session"
+
+- time: 12:00 - 13:00
+  break: true
+  name:    "BREAK"
+
+- theme : true
+  name : "Session 1: Automata"
+
+- time: 13:00 - 13:40
+  name:   "Active vs. Passive: A Comparison of Automata Learning Paradigms for Network Protocols - Bernhard K. Aichernig, Edi Muskardin, and Andrea Pferscher"
+
+- time: 13:40 - 14:20
+  name:  "From Specification Models to Explanation Models: An Extraction and Refinement Process for Timed Automata - Maike Schwammberger and Verena Klös"
+
+- time: 14:20 - 15:00
+  name:   "[ASYDE Workshop] Bounded Invariant Checking for Stateflow - Predrag Filipovikj, Gustav Ung, Dilian Gurov, and Mattias Nyberg"
+
+- time: 15:00 - 15:30
+  break : true
+  name:  "BREAK"
+
+- theme : true
+  name : "Session 2: Autonomous Vehicles"
+
+- time: 15:30 - 15:50
+  name: "Towards Runtime Monitoring of Complex System Requirements for Autonomous Driving Functions - Dominik Grundt, Anna Köhne, Ishan Saxena, Ralf Stemmer, Bernd Westphal, and Eike Möhlmann "
+
+- time: 15:50 - 16:30
+  name:  "Advising Autonomous Cars about the Rules of the Road - Joe Collenette, Louise Dennis, and Michael Fisher "
+
+- time: 16:30 - 16:50
+  name:  "Towards a Digital Highway Code using Formal Modelling and Verification of Timed Automata - Gleifer Alves and Maike Schwammberger"
+
+- time: 16:50 - 17:30
+  name:  "Scheduling for Urban Air Mobility using Safe Learning - Natasha Neogi, Surya Murthy, and Suda Bharadwaj"
+
+- time: ""
+  close: true
+  name: "Day One Close"
+
+schedule-day_two:
+- time: 10:00 - 10:10
+  intro: true
+  name:  "Welcome and Introduction"
+
+- time: 10:10 - 11:10
+  invited: true
+  name: "Invited Talk: Marija Slavkovik "
+
+- time: 11:10 - 12:00
+  name: "Discussion Session"
+
+
+- time: 12:00 - 13:00
+  break : true
+  name:  "BREAK"
+
+- theme : true
+  name : "Session 3: Autonomous Robots"
+
+- time: 13:00 - 13:40
+  name:  "A Doxastic Framework for Autonomous Systems - Astrid Rakow"
+
+- time: 13:40 - 14:20
+  name:   "SkiNet: A Petri Net Generation Tool for the Verification of Skillset-based Autonomous Systems - Baptiste Pelletier, Charles Lesire, David Doose, Karen Godary-Dejean, and Charles Dramé-Maigné "
+
+- time: 14:20 - 15:00
+  name:  "Verify Safety of Behaviour Trees in Event-B - Matteo Tadiello and Elena Troubitsyna "
+
+- time: 15:00 - 15:30
+  break: true
+  name:  "BREAK"
+
+- theme : true
+  name : "Session 4: Runtime Verification"
+
+- time: 15:30 - 16:10
+  name: " Scheduling of Missions with Constrained Tasks for Heterogeneous Robot Systems - Gricel Vazquez, Radu Calinescu, and Javier Camara  "
+
+- time: 16:10 - 16:30
+  name: " Towards Adaptive Planning of Assistive-care Robot Tasks - Jordan Hamilton, Ioannis Stefanakos, Radu Calinescu and Javier Cámara "
+
+- time: 16:30 - 16:50
+  name: " Generating Safe and Intelligent Autonomous Decision-Making in ROS -Yi Yang and Tom Holvoet "
+
+- time: 16:50 - 17:30
+  name: " Extending Attack-Fault Trees with Runtime Verification - Rafael C. Cardoso, Angelo Ferrando, and Michael Fisher  "
+
+- time: 17:30 - 17:50
+  name: " Monitoring ROS2: from Requirements to Autonomous Robots - Ivan Perez, Anastasia Mavridou, Thomas Pressburger, Alexander Will, and Patrick Martin "
+
+
+- time: ""
+  close: true
+  name: "Day Two Close"
+### TALKS ###
+show_talks: true
+invited_talks:
+  - name: Marija Slavkovik
+    bio: "Full professor at the Department of Information Science and Media Studies at the University of Bergen. Her research interests include machine ethics, logic reasoning in social networks, collective reasoning and decision making."
+    link: http://slavkovik.com/
+    title: "Common Ground in Moral Norms"
+    abstract: "Any ethically behaving autonomous system needs a specification of what the right and wrong thing to do is. Who decides what right and wrong is for a machine? In the absence of a moral theory that can be neatly translated into an algorithm (and machines that have high level of situational awareness), the specification of what is right and wrong is likely to come as a rule-of-thumb: dynamic, context specific and sourced from various stakeholders. These moral norms are likely to be conflicting. We explore: What is a common ground in a set of conflicting norms? How do we approach moral norm conflicts and build algorithms that resolve them? 
+    <br>
+Her talk is based on a recent paper, available at <a href='https://arxiv.org/abs/2209.06455'  rel='external'>https://arxiv.org/abs/2209.06455<span class='fas fa-external-link-alt'></span></a>"
+
+  - name: Taylor T. Johnson
+    bio: "Associate Professor of Computer Science (CS) in the School of Engineering (VUSE) at Vanderbilt University, where he directs the Verification and Validation for Intelligent and Trustworthy Autonomy Laboratory (VeriVITAL) and is a Senior Research Scientist in the Institute for Software Integrated Systems (ISIS). Dr. Johnson earned a PhD in Electrical and Computer Engineering (ECE) from the University of Illinois at Urbana-Champaign in 2013, where he worked in the Coordinated Science Laboratory with Prof. Sayan Mitra, and earlier earned an MSc in ECE at Illinois in 2010 and a BSEE from Rice University in 2008. Dr. Johnson is a 2018 and 2016 recipient of the Air Force Office of Scientific Research (AFOSR) Young Investigator Program (YIP) award, a 2016 recipient of the ACM Best Software Repeatability Award at HSCC, a 2015 recipient of the National Science Foundation (NSF) Computer and Information Science and Engineering (CISE) Research Initiation Initiative (CRII), and his group's research is / has been supported by AFOSR, ARO, AFRL, DARPA, Mathworks, NSA, NSF, NVIDIA, ONR, Toyota, and USDOT."
+    link: http://www.taylortjohnson.com/
+    title: "Formal Verification for Neural Networks in Autonomous Cyber-Physical Systems"
+    abstract: "The ongoing renaissance in artificial intelligence (AI) has led to the advent of data-driven machine learning (ML) methods deployed within components for sensing, actuation, and control in safety-critical cyber-physical systems (CPS). While such learning-enabled components (LECs) are enabling autonomy in systems like autonomous vehicles, robots, and other autonomous CPS, as demonstrated in part through recent accidents in semi-autonomous/autonomous CPS and by adversarial ML attacks, ensuring such components operate reliably in all scenarios is extraordinarily challenging. We will discuss formal methods for assuring specifications---mostly robustness and safety---in autonomous CPS using our software tools NNV (Neural Network Verification: <a href='https://github.com/verivital/nnv'  rel='external'>https://github.com/verivital/nnv<span class='fas fa-external-link-alt'></span></a>) and Veritex (<a  rel='external' href='https://github.com/verivital/veritex'>https://github.com/verivital/veritex<span class='fas fa-external-link-alt'></span></a> ), developed as part of an ongoing DARPA Assured Autonomy project. These tools have been evaluated in CPS development with multiple industry partners in automotive, aerospace, and robotics domains, and allow for analyzing neural networks and their usage in closed-loop systems. We will briefly discuss relevant ongoing community activities we help organize, such as the Verification of Neural Networks Competition (VNN-COMP) held with CAV the past few years, as well as the AI and Neural Network Control Systems (AINNCS) category of the hybrid systems verification competition (ARCH-COMP). We will conclude with a discussion of future directions in the broader safe and trustworthy AI domain, such as in new projects verifying neural networks used in medical imaging analysis."
+
+
+### PAPERS ###
+show_papers: true
+papers:
+  -
+    title: "Monitoring ROS2: from Requirements to Autonomous Robots"
+    titleLink:
+    authors: "Ivan Perez, Anastasia Mavridou, Thomas Pressburger, Alexander Will, and Patrick Martin"
+    abstract: "Runtime verification (RV) has the potential to enable the safe operation of safety-critical systems that are too complex to formally verify, such as Robot Operating System 2 (ROS2) applications. Writing correct monitors can itself be complex, and errors in the monitoring subsystem threaten the mission as a whole. This paper provides an overview of a formal approach to generating runtime monitors for autonomous robots from requirements written in a structured natural language. Our approach integrates the Formal Requirement Elicitation Tool (FRET) with Copilot, a runtime verification framework, through the Ogma integration tool. FRET is used to specify requirements with unambiguous semantics, which are then automatically translated into temporal logic formulæ. Ogma generates monitor specifications from the FRET output, which are compiled into hard-real time C99. To facilitate integration of the monitors in ROS2, we have extended Ogma to generate ROS2 packages defining monitoring nodes, which run the monitors when new data becomes available, and publish the results of any violations. The goal of our approach is to treat the generated ROS2 packages as black boxes and integrate them into larger ROS2 systems with minimal effort."
+
+  -
+    title: "Generating Safe and Intelligent Autonomous Decision-Making in ROS"
+    titleLink:
+    authors: "Yi Yang and Tom Holvoet"
+    abstract: "The Robot Operating System (ROS) is a widely used framework for building robotic systems. It offers a wide variety of reusable packages and a pattern for new developments. It is up to developers how to combine these elements and integrate them with decision-making for autonomous behaviour. The features of such decision-making that are in general valued the most are safety assurance and long-term autonomy. In this research preview, we present a formal approach for generating safe and intelligent autonomous decision-making in the Robot Operating System. To achieve runtime verification, we rely on our previous work on static verification for autonomous decision-making, and integrate a way of dealing with online learning. The implementation of the research proposal is currently under development, yet an initial implementation yields promising results."
+
+  -
+    title: "Active vs. Passive: A Comparison of Automata Learning Paradigms for Network Protocols"
+    titleLink:
+    authors: "Bernhard K. Aichernig, Edi Muskardin, and Andrea Pferscher"
+    abstract: "Active automata learning became a popular tool for the behavioral analysis of communication protocols. The main advantage is that no manual modeling effort is required since a behavioral model is automatically inferred from a black-box system. However, several real-world applications of this technique show that the overhead for the establishment of an active interface might hamper the practical applicability. Our recent work on the active learning of Bluetooth Low Energy (BLE) protocol found that the active interaction creates a bottleneck during learning. Considering the automata learning toolset, passive learning techniques appear as a promising solution since they do not require an active interface to the system under learning. Instead, models are learned based on a given data set. In this paper, we evaluate passive learning for two network protocols: BLE and Message Queuing Telemetry Transport (MQTT). Our results confirm that a passive technique can correctly learn if the data set provides behavioral coverage. However, random data generation for passive learning is more expensive compared to the costs of active learning."
+
+  -
+    title: "SkiNet: A Petri Net Generation Tool for the Verification of Skillset-based Autonomous Systems"
+    titleLink:
+    authors: "Baptiste Pelletier, Charles Lesire, David Doose, Karen Godary-Dejean, and Charles Dramé-Maigné"
+    abstract: "The need for high-level autonomy and robustness of autonomous systems for missions in dynamic and remote environment has pushed developpers to come up with new software architectures. A common architecture style is to summarize the capabilities of the robotic system into elementary actions, called skills, on top of which a skill management layer is implemented to structure, test and control the functional layer. However, current available verification tools only provide either mission-specific verification or verification on a model that does not replicate the actual execution of the system, which makes it difficult to ensure its robustness to unexpected events. To that end, a tool, SkiNet, has been developped to transform the skill-based architecture of a system into a Petri Net modeling the state-machine behaviors of the skills and the resources they handle. The Petri Net allows the use of model-checking, such as Linear Temporal Logic (LTL) or Computational Tree Logic (CTL), for the user to analyze and verify the model of the system."
+
+  -
+    title: "Towards Runtime Monitoring of Complex System Requirements for Autonomous Driving Functions"
+    titleLink:
+    authors: "Dominik Grundt, Anna Köhne, Ishan Saxena, Ralf Stemmer, Bernd Westphal, and Eike Möhlmann"
+    abstract: "Autonomous driving functions (ADFs) in public traffic have to comply with complex system requirements that are based on knowledge of experts from different disciplines, e.g., lawyers, safety experts, psychologists. In this paper, we present a research preview regarding the validation of ADFs w.r.t. such requirements. We investigate the suitability of Traffic Sequence Charts (TSCs) for the formalization of such requirements and present a concept for monitoring system compliance during validation runs. We find TSCs, with their intuitive visual syntax over symbols from the traffic domain, to be a promising choice for the collaborative formalization of such requirements. For an example TSC, we build a runtime monitor according to our novel structural concept that exploits the separation of spatial and temporal aspects in TSCs, and successfully apply the monitor on exemplary runs. The monitor continuously provides verdicts at runtime, which is particularly beneficial in ADF validation, where validation runs are expensive. The next open research questions concern the generalization of our monitor construction, the identification of the limits of TSC monitorability, and the investigation of the monitor performance in practical applications. Perspectively, TSC runtime monitoring could provide a useful technique in other emerging application areas such as AI training, safeguarding ADFs during operation, and gathering meaningful traffic data in the field."
+
+  -
+    title: "Scheduling for Urban Air Mobility using Safe Learning"
+    titleLink:
+    authors: "Natasha Neogi, Surya Murthy, and Suda Bharadwaj"
+    abstract: "This work considers the scheduling problem for Urban Air Mobility (UAM) vehicles travelling between origin-destination pairs with both hard and soft trip deadlines. Each route is described by a discrete probability distribution over trip completion times (or delay) and over inter-arrival times of requests (or demand) for the route along with a fixed hard or soft deadline. Soft deadlines carry a cost that is incurred when the deadline is missed. An online, safe scheduler is developed that ensures that hard deadlines are never missed and that average cost of missing soft deadlines is minimized. The system is modelled as a Markov Decision Process (MDP) and safe model based learning is used to find the probabilistic distributions over route delays and demand. Monte Carlo Tree Search (MCTS) is used to safely explore the learned models in an online fashion and develop the near-optimal non-preemptive scheduling policy. These results are compared with Value Iteration (VI) and Earliest Deadline First (EDF) scheduling solutions"
+
+  -
+    title: "Scheduling of Missions with Constrained Tasks for Heterogeneous Robot Systems"
+    titleLink:
+    authors: "Gricel Vazquez, Radu Calinescu, and Javier Camara"
+    abstract: "We present a formal task allocation and scheduling approach for multi-robot missions (KANOA). KANOA supports two important types of task constraints: task ordering, which requires the execution of several tasks in a specified order; and joint tasks, which indicates tasks that must be performed by more than one robot. To mitigate the complexity of robotic mission planning, KANOA handles the allocation of the mission tasks to robots, and the scheduling of the allocated tasks separately. To that end, the task allocation problem is formalised in first-order logic and resolved using the Alloy model analyzer, and the task scheduling problem is encoded as a Markov decision process and resolved using the PRISM probabilistic model checker. We illustrate the application of KANOA through a case study in which a heterogeneous robotic team is assigned a hospital maintenance mission."
+
+  -
+    title: "Verify Safety of Behaviour Trees in Event-B"
+    titleLink:
+    authors: "Matteo Tadiello and Elena Troubitsyna"
+    abstract: "Behavior Trees (BT) are becoming increasingly popular in the robotics community. The BT tool is well suited for decision-making applications allowing a robot to perform complex behavior while being explainable to humans as well. Verifying that BTs used are well constructed with respect to safety and reliability requirements is essential, especially for robots operating in critical environments. In this work, we propose a formal specification of Behavior Trees and a methodology to prove invariants of already used trees, while keeping the complexity of the formalization of the tree simple for the final user. Allowing the possibility to test the particular instance of the behavior tree without the necessity to know the more abstract levels of the formalization."
+
+  -
+    title: "Towards a Digital Highway Code using Formal Modelling and Verification of Timed Automata"
+    titleLink:
+    authors: "Gleifer Alves and Maike Schwammberger"
+    abstract: "One of the challenges in designing safe, reliable and trustworthy Autonomous Vehicles (AVs) is to ensure that the AVs abide by traffic rules. For this, the AVs need to be able to understand and reason about traffic rules. In previous work, we introduce the spatial traffic logic USL-TR to allow for the unambiguous, machine-readable, formalisation of traffic rules. This is only the first step towards autonomous traffic agents that verifiably follow traffic rules. In this research preview, we focus on two further steps: a) retrieving behaviour diagrams directly from traffic rules and b) converting the behaviour diagrams into timed automata that are using formulae of USL-TR in guards and invariants. With this, we have a formal representation for traffic rules and can move towards the establishment of a Digital Highway Code. We briefly envision further steps which include adding environment and agent models to the timed automata to finally implement these traffic rules models using a selection of formal verification tools. So that we can check the rules endowed in the AV are formally verified."
+
+  -
+    title: "Extending Attack-Fault Trees with Runtime Verification"
+    titleLink:
+    authors: "Rafael C. Cardoso, Angelo Ferrando, and Michael Fisher"
+    abstract: "Autonomous systems are often complex and prone to software failures and cyber-attacks. We introduce RVAFTs, an extension of Attack-Fault Trees (AFTs) with runtime events that can be used to construct runtime monitors. These monitors are able to detect when failures, that can be caused either by an attack or by a fault, occur. The safety and security properties monitored are, in turn, derived from the hierarchical decomposition of RVAFTs. Our approach not only provides further use of AFTs, but also improves the process of instrumentation often required in runtime verification. We explain the principles and provide a simple case study demonstrating how RVAFTs can be used in practice. Through this we are also able to evaluate the detection of faults and attacks as well as assessing the computational overhead of the monitors."
+
+  -
+    title: "A Doxastic Framework for Autonomous Systems"
+    titleLink:
+    authors: "Astrid Rakow"
+    abstract: "A highly autonomous system (HAS) has to assess the situation it is in and derives beliefs, based on which, it decides what to do next. The beliefs are not solely based on the observations the HAS has made so far, but also on general insights about the world, in which the HAS operates. Although the beliefs may be imprecise and sometimes bear substantial flaws, the HAS will have to extrapolate the possible futures in order to evaluate the consequences of its actions and then take its decisions autonomously. In this paper, we formalize an autonomous decisive system as a system that always chooses actions that it currently believes belong to a winning strategy. We show that it can be checked whether an autonomous decisive system can be built for a given list of linear time temporal goals and a given design context. We moreover can synthesize a belief formation for such an autonomous decisive system. In order formally to characterize autonomous decisive systems, we use a doxastic framework for safety-critical HASs where the belief formation depends on the extrapolation."
+
+  -
+    title: "Advising Autonomous Cars about the Rules of the Road"
+    titleLink:
+    authors: "Joe Collenette, Louise Dennis, and Michael Fisher"
+    abstract: "This paper describes (R)ules (o)f (T)he (R)oad (A)dvisor, an agent that provides recommended and possible actions to be generated from a set of human-level rules. We describe the architecture and design of RoTRA, both formally and with an example. Specifically, we use RoTRA to formalise and implement the UK Rules of the Road, and describe how this can be incorporated into autonomous cars such that they can reason internally about obeying the rules of the road. In addition, the possible actions generated are annotated to indicate whether the rules state that the action must be taken or that they only recommend that the action should be taken, as per the UK Highway Code (Rules of The Road). The benefits of utilising this system include being able to adapt to different regulations in different jurisdictions; allowing clear traceability from rules to behaviour, and providing an external automated accountability mechanism that can check whether the rules were obeyed in some given situation. A simulation of an autonomous car shows, via a concrete example, how trust can be built by putting the autonomous vehicle through a number of scenarios which test the car's ability to obey the rules of the road. Autonomous cars that incorporate this system are able to ensure that they are obeying the rules of the road and external (legal or regulatory) bodies can verify that this is the case, without the vehicle or its manufacturer having to expose their source code or make their working transparent, thus allowing greater trust between car companies, jurisdictions, and the general public."
+
+  -
+    title: "From Specification Models to Explanation Models: An Extraction and Refinement Process for Timed Automata"
+    titleLink:
+    authors: "Maike Schwammberger and Verena Klös"
+    abstract: "Autonomous systems control many tasks in our daily lives. To increase trust in those systems and safety of the interaction between humans and autonomous systems, the system behaviour and reasons for autonomous decision should be explained to users, experts and public authorities. One way to provide such explanations is to use behavioural models to generate context- and user-specific explanations at run-time. However, this comes at the cost of higher modelling effort as additional models need to be constructed. In this paper, we propose an approach to extract such explanation models from system models, and to subsequently refine these for users, explanation purposes and situations. By this, we enable the reuse of specification models for integrating explanation capabilities into systems. We showcase our approach using a running example from the autonomous driving domain."
+
+  -
+    title: "	Towards Adaptive Planning of Assistive-care Robot Tasks"
+    titleLink:
+    authors: "Jordan Hamilton, Ioannis Stefanakos, Radu Calinescu and Javier Cámara"
+    abstract: "This 'research preview' paper introduces an adaptive path planning framework for robotic mission execution in assistive-care applications. The framework provides a graph-based environment modelling approach, with dynamic path finding performed using Dijkstra's algorithm. A secondary graph-based representation of the mission profile is established and solved using a travelling salesman approach, to ensure Pareto-optimal paths are found based on minimising risk to the human and maximising progress with the mission. A predictive module that uses probabilistic model checking is applied to estimate the human's movement through the environment, allowing run-time re-planning of the robot's path. We illustrate the use of the framework for a simulated assistive-care case study in which a mobile robot monitors an end user with mild physical or cognitive impairments."
+
+  -
+    title: "Bounded Invariant Checking for Stateflow"
+    titleLink:
+    authors: "Predrag Filipovikj, Gustav Ung, Dilian Gurov, and Mattias Nyberg"
+    abstract: ""
+
+
+### DATES ###
+dates:
+  submission: "TBD"
+  notification: "TBD"
+  final_version: "TBD"
+  workshop: "15th and 16th of November 2023 (provisionally)"
+
+### PROGRAMME COMMITTEE ###
+show_pc : false
+pc :
+  - first_name: Alvaro
+    last_name: Miyazawa
+    affiliation: University of York (UK)
+    link: https://www-users.cs.york.ac.uk/~alvarohm/
+
+  - first_name: Anastasia
+    last_name: Mavridou
+    affiliation: KBR Wyle/NASA Ames Research Center (USA)
+    link: http://amavridou.com/
+
+  - first_name: Angelo
+    last_name: Ferrando
+    affiliation: 	University of Genova (Italy)
+    link: https://angeloferrando.github.io/website/
+
+  - first_name: Claudio
+    last_name: Menghi
+    affiliation: 	McMaster University (Canada)
+    link: https://claudiomenghi.github.io/index.html
+
+  - first_name: Dominique
+    last_name: Méry
+    affiliation: Université de Lorraine (France)
+    link: https://members.loria.fr/Mery/
+
+  - first_name: Hao
+    last_name: Wu
+    affiliation: 	Maynooth University (Ireland)
+    link: http://www.cs.nuim.ie/~haowu/
+
+  - first_name: Jérémie
+    last_name: Guiochet
+    affiliation: University of Toulouse (France)
+    link: http://homepages.laas.fr/guiochet/
+
+  - first_name: Maike
+    last_name: Schwammberger
+    affiliation: University of Oldenberg (Germany)
+    link: https://uol.de/en/csd/persons-contacts/maike-schwammberger-msc/
+
+#  - first_name: Marija
+#    last_name: Slavkovik
+#    affiliation: University of Bergen (Norway)
+#    link: http://slavkovik.com/index.html
+
+  - first_name: Rafael C.
+    last_name: Cardoso
+    affiliation: University of Aberdeen (UK)
+    link: https://rafaelcaue.github.io/
+
+  - first_name: Raluca
+    last_name: Lefticaru
+    affiliation: University of Bradford (UK)
+    link: https://ralucalefticaru.github.io/
+
+
+  - first_name: Silvia Lizeth
+    last_name: 	Tapia Tarifa
+    affiliation: University of Oslo (Norway)
+    link: https://www.mn.uio.no/ifi/english/people/aca/sltarifa/index.html
+
+  - first_name: Sven
+    last_name: Linker
+    affiliation: University of Lancaster Leipzig (Germany)
+    link: https://orcid.org/0000-0003-2913-7943
+
+  - first_name: Taylor T.
+    last_name: Johnson
+    affiliation: Vanderbilt University (USA)
+    link: http://www.taylortjohnson.com/
+
+  - first_name: Christopher
+    last_name: Bishopink
+    affiliation: University of Oldenburg (Germany)
+    link: https://uol.de/en/csd/persons-contacts/christopher-bischopink-msc/
+
+  - first_name: Mallory S.
+    last_name: Graydon
+    affiliation: NASA Langley Research Center (USA)
+    link: https://shemesh.larc.nasa.gov/people/msg/
+
+#  - first_name: Divya
+#    last_name: Gopinath
+#    affiliation: NASA Ames Research Center (USA)
+#    link: https://ti.arc.nasa.gov/profile/dgopinat/
+
+  - first_name: Michael
+    last_name: Fisher
+    affiliation: University of Manchester (UK)
+    link: https://personalpages.manchester.ac.uk/staff/michael.fisher/
+
+  - first_name: Ivan
+    last_name: Perez
+    affiliation: KBR Wyle/NASA Ames Research Center (USA)
+    link: https://www.linkedin.com/in/ivanperezdominguez/
+
+  - first_name: Louise A.
+    last_name: Dennis
+    affiliation: University of Manchester (UK)
+    link: http://www.cs.man.ac.uk/~dennisl/
+
+  - first_name: Mario
+    last_name: Gleirscher
+    affiliation: University of Bremen (Germany)
+    link: http://www.gleirscher.at/mg/
+
+  - first_name: Colin
+    last_name: Paterson
+    affiliation: University of York (UK)
+    link: https://www.linkedin.com/in/colin-paterson-158374a0/?originalSubdomain=uk
+
+  - first_name: Alice
+    last_name: Miller
+    affiliation: University of Glasgow (UK)
+    link: https://www.gla.ac.uk/schools/computing/staff/alicemiller/
+
+
+  - first_name: Rosemary
+    last_name: Monahan
+    affiliation: Maynooth University (Ireland)
+    link: http://rosemarymonahan.com/
+
+  - first_name: Lina
+    last_name: Marsso
+    affiliation: University of Toronto (Canda)
+    link: http://convecs.inria.fr/people/Lina.Marsso/
+
+  - first_name: Mengwei
+    last_name: Xu
+    affiliation:  University of Glasgow (UK)
+    link: https://mengweixu.netlify.app/
+
+  - first_name: Fatma
+    last_name: Faruq
+    affiliation:  University of Manchester (UK)
+    link: https://fatmaf.github.io/
+
+  - first_name: Natasha
+    last_name: Neogi
+    affiliation: NASA Langley Research Center (USA)
+    link:
+
+
+#  - first_name:
+#    last_name:
+#    affiliation:
+#    link:
+
+
+register :
+
+easychair : 
