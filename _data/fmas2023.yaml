@@ -228,7 +228,7 @@ pc :
  - first_name: Alvaro
    last_name: Miyazawa
    affiliation: University of York (UK)
-   link: https://www-users.cs.york.ac.uk/~alvarohm/
+   link: https://www.cs.york.ac.uk/people/?username=alvarohm
 
  - first_name: Anastasia
    last_name: Mavridou
@@ -255,10 +255,10 @@ pc :
    affiliation:   Maynooth University (Ireland)
    link: http://www.cs.nuim.ie/~haowu/
 
- - first_name: Jérémie
-   last_name: Guiochet
-   affiliation: University of Toulouse (France)
-   link: http://homepages.laas.fr/guiochet/
+# - first_name: Jérémie
+#   last_name: Guiochet
+#   affiliation: University of Toulouse (France)
+#   link: http://homepages.laas.fr/guiochet/
 
  - first_name: Maike
    last_name: Schwammberger
@@ -328,7 +328,7 @@ pc :
  - first_name: Colin
    last_name: Paterson
    affiliation: University of York (UK)
-   link: https://www.linkedin.com/in/colin-paterson-158374a0/?originalSubdomain=uk
+   link: https://www.cs.york.ac.uk/people/?search=Colin&username=cap
 
  - first_name: Alice
    last_name: Miller
@@ -350,8 +350,8 @@ pc :
    affiliation:  University of Glasgow (UK)
    link: https://mengweixu.netlify.app/
 
- - first_name: Hasuo
-   last_name: Ichiro
+ - first_name: Ichiro 
+   last_name: Hasuo
    affiliation:  National Institute of Informatics (Japan)
    link: https://group-mmm.org/%7Eichiro/
 
