@@ -88,7 +88,17 @@ invited_talks:
     bio: "is a Professor of Computing Science who has worked in Glasgow's School of Computing Science since 1997, as a Post doc, Daphne Jackson Fellow, Lecturer and Senior Lecturer. Before that she worked in the Universities of East Anglia, Western Australia and Stirling. Her PhD is in Number Theory, but she has worked in Formal Verification for most of her research career. Essentially, Formal Verification uses mathematical techniques to try to prove things about systems - in particular to try to reduce hard problems to tractable ones. She is a member of the London Mathematical Society and the IET, and is a Chartered Engineer. She lead the School's 'Understandable Autonomous Systems' theme and is the School's Transnational Education Lead."
     link: "https://www.gla.ac.uk/schools/computing/staff/alicemiller/"
     title: "Formal methods within the TAS Regulation node"
-    abstract: ""
+    abstract: "The TAS Governance Node part of the £33M Trustworthy Autonomous Systems Programme funded by the UKRI Strategic Priorities Fund.
+
+The aim of the node is to explore how to make autonomous systems aware of &mdash; and responsive to &mdash; changing regulations. Led by the University of Edinburgh, it brings together researchers from the universities of Edinburgh, Glasgow, Nottingham, Heriot-Watt, Sussex, and Kings College London; as well as multiple industrial partners.
+
+In this talk I will highlight some of the activities within the node, focussing on those that use Formal Methods. These include:
+<ul>
+<li> an automatic theory repair system for a legal responsibility framework for autonomous vehicles, </li>
+<li> accident anticipation through reasoned simulation, </li>
+<li> robot planning using in-situ model checking; and, </li>
+<li> (formal aspects of) a node-wide automotive case study investigation. </li>
+</ul>"
 
   - name: "Erika Ábrahám"
     bio: "was born in Hungary and moved to Germany to study Computer Science at the University of Kiel. After her diploma studies, she started to work on deductive proof systems and received her Ph.D. from the University of Leiden in 2005. As a postdoctoral researcher, she was active in different areas of formal methods at the University of Freiburg and at Forschungszentrum Jülich before she was appointed a junior professorship at RWTH Aachen University in 2008, and became a full professor in 2013. Ábrahám's main research interests are formal methods for the synthesis and analysis of discrete, hybrid, and probabilistic systems. Furthermore, she is also active in the development of algorithms and tools (solvers) for satisfiability checking."
