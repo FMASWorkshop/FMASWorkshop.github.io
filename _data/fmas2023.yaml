@@ -100,7 +100,7 @@ In this talk I will highlight some of the activities within the node, focussing 
 <li> (formal aspects of) a node-wide automotive case study investigation. </li>
 </ul>"
 
-  - name: "Erika Ábrahám"
+  - name: "Prof. Erika Ábrahám"
     bio: "was born in Hungary and moved to Germany to study Computer Science at the University of Kiel. After her diploma studies, she started to work on deductive proof systems and received her Ph.D. from the University of Leiden in 2005. As a postdoctoral researcher, she was active in different areas of formal methods at the University of Freiburg and at Forschungszentrum Jülich before she was appointed a junior professorship at RWTH Aachen University in 2008, and became a full professor in 2013. Ábrahám's main research interests are formal methods for the synthesis and analysis of discrete, hybrid, and probabilistic systems. Furthermore, she is also active in the development of algorithms and tools (solvers) for satisfiability checking."
     link: "https://ths.rwth-aachen.de/people/erika-abraham/"
     title: "SMT: Something you Must Try [Joint talk with iFM]"
