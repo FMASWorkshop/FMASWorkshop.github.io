@@ -1,113 +1,86 @@
 ### SCHEDULE ###
 
 
-show_schedule: false
+show_schedule: true
 schedule-day_one:
-- time: 10:00 - 10:10
+- time: 09:00 - 09:30 
   intro: true
-  name:  "Welcome and Introduction"
-
-- time: 10:10 - 11:10
-  invited: true
-  name: "Invited Talk: "
-
-- time: 11:10 - 12:00
-  name: ""
-
-- time: 12:00 - 13:00
+  name:  "Welcome and Introduction: FMAS Now & Then"
+  
+- time: 09:30 - 10:00
+  theme: true
+  name: "Session 1: Trust and Information Flow"
+  papers: [ {time: 09:30 - 09:45, name: "Trust Modelling and Verification Using Event-B - Asieh Salehi Fathabadi and Vahid Yazdanpanah"}, {time: 09:45 - 10:00, name: "What to tell when? -- Information Provision as a Game - Astrid Rakow, Akhila Bairy, and Mehrnoush Hajnorouzi"} ]
+  
+- time: 10:00 - 10:30
   break: true
-  name:  "BREAK"
-
+  name:  "BREAK"  
+  
 - theme : true
-  name : "Session 1: "
+  name : "Session 2: Verification and Assurance of Neural Networks"
+  papers: [ { time: 10:30 - 10:45, name: "Comparing Differentiable Logics for Learning Systems: A Research Preview - Thomas Flinkow, Barak A. Pearlmutter, and Rosemary Monahan"}, {time: 10:45 - 11:15, name: "Extending Neural Network Verification to a Larger Family of Piece-wise Linear Activation Functions - László Antal, Hana Masara, and Erika Ábrahám"}, {time: 11:15 - 11:30, name: "Certified Control for Train Sign Classification - Jan Roßbach and Michael Leuschel"} ]
 
-- time: 13:00 - 13:40
-  name:   ""
-
-- time: 13:40 - 14:20
-  name:  ""
-
-- time: 14:20 - 15:00
-  name:  ""
+- time: 12:00 - 14:00
+  break: true
+  name:  "Lunch"
+  
+- invited: true
+  name : "SMT: Something you Must Try - Erika Ábrahám (RWTH Aachen University, DE)"
+  time: 14:00 - 15:00
+  joint: true
 
 - time: 15:00 - 15:30
   break : true
   name:  "BREAK"
 
-- theme : true
-  name : "Session 2: "
 
-- time: 15:30 - 15:50
-  name: ""
+- time: 15:30 - 17:00
+  name: "Joint Session: Autonomous Systems"
+  theme: true
+  joint: true
+  papers: [ {time: "15:30 - 16:00", name: "Formal Modelling and Analysis of a Self-Adaptive Robotic System - Juliane Päßler, Maurice H. ter Beek, Ferruccio Damiani, Silvia Lizeth Tapia Tarifa, and Einar Broch Johnsen", joint: true}, {time: "16:00 - 16:30", name: "CAN-verify: Verification Tool for BDI Agents - Mengwei Xu, Thibault Rivoalen, Blair Archibald and Michele Sevegnani", joint: true}, {time: 16:30 - 17:00, name: "Model checking for Robot Reactive Planning - Christopher Chandler, Bernd Porr, Alice Miller, and Giulia Lafratta"}]
 
-- time: 15:50 - 16:30
-  name:  ""
 
-- time: 16:30 - 16:50
-  name:  ""
-
-- time: 16:50 - 17:30
-  name:  ""
-
-- time: ""
+- time: 17:00 - 17:15
   close: true
   name: "Day One Close"
 
 schedule-day_two:
-- time: 10:00 - 10:10
-  intro: true
-  name:  "Welcome and Introduction"
 
-- time: 10:10 - 11:10
+- time: 09:00 - 10:00
   invited: true
-  name: "Invited Talk: "
+  name: "Invited Talk: Formal Methods within the TAS Governance node - Alice Miller (University of Glasgow, UK)"
 
-- time: 11:10 - 12:00
-  name: ""
-
-
-- time: 12:00 - 13:00
+- time: 10:00 - 10:30
   break : true
   name:  "BREAK"
+  
+- theme : true
+  name : "Session 3: Verified Intelligent Transportation"
+  papers: [ {time: 10:30 - 11:00, name: "Online Reachability Analysis and Space Convexification for Autonomous Racing - Sergiy Bogomolov, Taylor T Johnson, Diego Manzanas, Patrick Musau, and Paulius Stankaitis"} , {time: 11:00 - 11:30, name: "Automatic Generation of Scenarios for System-level Simulation-based Verification of Autonomous Driving Systems - Srajan Goyal, Alberto Griggio, Jacob Kimblad, and Stefano Tonetta"} , {time: 11:30 - 12:00, name: "Enforcing Timing Properties in Motorway Traffic - Christopher Bischopink"}]
+
+
+- time: 12:00 - 14:00
+  break : true
+  name:  "Lunch"
 
 - theme : true
-  name : "Session 3: "
-
-- time: 13:00 - 13:40
-  name:  ""
-
-- time: 13:40 - 14:20
-  name: ""
-
-- time: 14:20 - 15:00
-  name: ""
+  name : "Session 4: Formal Assurance across the Control Loop"
+  papers: [{time: 14:00 - 14:15, name:  "Correct-by-Construction Control for Stochastic and Uncertain Dynamical Models via Formal Abstractions - Thom Badings, Licio Romao, Alessandro Abate, and Nils Jansen"}, {time: 14:15 - 14:30, name: "Towards Formal Fault Injection for Safety Assessment of Automated Systems - Ashfaq Farooqui and Behrooz Sangchoolie"} , {time: 14:30 - 15:00, name: "Formal Verification of Long Short-Term Memory based Audio Classifiers: A Star based Approach - Neelanjana Pal and Taylor T. Johnson"}]
 
 - time: 15:00 - 15:30
   break: true
   name:  "BREAK"
 
 - theme : true
-  name : "Session 4: "
+  name : "Session 5: Runtime verification"
+  papers: [{time: 15:30 - 15:45, name: "3vLTL: a Tool to Generate Automata for Three-valued LTL - Francesco Belardinelli, Angelo Ferrando, and Vadim Malvone"} , {time: 15:45 - 16:15, name: "Towards proved formal specification and verification of STL operators as synchronous observers - Céline Bellanger, Pierre-Loïc Garoche, Matthieu Martel, and Célia Picard"} , {time: 16:15 - 16:45, name: "Runtime Verification of Learning Properties for Reinforcement Learning Algorithms - Tommaso Mannucci and Julio de Oliveira Filho"} ]
 
-- time: 15:30 - 16:10
-  name: ""
-
-- time: 16:10 - 16:30
-  name: ""
-
-- time: 16:30 - 16:50
-  name: ""
-
-- time: 16:50 - 17:30
-  name: ""
-
-- time: 17:30 - 17:50
-  name: ""
-
-
-- time: ""
+- time: 16:45 - 17:00
   close: true
   name: "Day Two Close"
+  
+  
 ### TALKS ###
 show_talks: true
 invited_talks:
@@ -127,7 +100,7 @@ In this talk I will highlight some of the activities within the node, focussing 
 <li> (formal aspects of) a node-wide automotive case study investigation. </li>
 </ul>"
 
-  - name: "Erika Ábrahám"
+  - name: "Prof. Erika Ábrahám"
     bio: "was born in Hungary and moved to Germany to study Computer Science at the University of Kiel. After her diploma studies, she started to work on deductive proof systems and received her Ph.D. from the University of Leiden in 2005. As a postdoctoral researcher, she was active in different areas of formal methods at the University of Freiburg and at Forschungszentrum Jülich before she was appointed a junior professorship at RWTH Aachen University in 2008, and became a full professor in 2013. Ábrahám's main research interests are formal methods for the synthesis and analysis of discrete, hybrid, and probabilistic systems. Furthermore, she is also active in the development of algorithms and tools (solvers) for satisfiability checking."
     link: "https://ths.rwth-aachen.de/people/erika-abraham/"
     title: "SMT: Something you Must Try [Joint talk with iFM]"
