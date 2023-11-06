@@ -32,18 +32,24 @@ schedule-day_one:
 - time: 15:00 - 15:30
   break : true
   name:  "BREAK"
-
-
+  
 - time: 15:30 - 17:00
   name: "Joint Session: Autonomous Systems"
   theme: true
   joint: true
   papers: [ {time: "15:30 - 16:00", name: "Formal Modelling and Analysis of a Self-Adaptive Robotic System - Juliane Päßler, Maurice H. ter Beek, Ferruccio Damiani, Silvia Lizeth Tapia Tarifa, and Einar Broch Johnsen", joint: true}, {time: "16:00 - 16:30", name: "CAN-verify: Verification Tool for BDI Agents - Mengwei Xu, Thibault Rivoalen, Blair Archibald and Michele Sevegnani", joint: true}, {time: 16:30 - 17:00, name: "Model checking for Robot Reactive Planning - Christopher Chandler, Bernd Porr, Alice Miller, and Giulia Lafratta"}]
 
-
 - time: 17:00 - 17:15
   close: true
   name: "Day One Close"
+  
+- time: 18:30 - 22:00
+  dinner: true
+  name: "FMAS 2023 Social Dinner"
+  details: {time: "18:30 - 22:00", name: "The FMAS 2023 Social Dinner will be held at De Waag. Details about the dinner can be found on the <a href='https://ifm23.liacs.nl/social.html#FMAS-dinner'>iFM website</a>." }
+  
+
+  
 
 schedule-day_two:
 
@@ -66,6 +72,7 @@ schedule-day_two:
 
 - theme : true
   name : "Session 4: Formal Assurance across the Control Loop"
+  chair: "Stefano Tonetta"
   papers: [{time: 14:00 - 14:15, name:  "Correct-by-Construction Control for Stochastic and Uncertain Dynamical Models via Formal Abstractions - Thom Badings, Licio Romao, Alessandro Abate, and Nils Jansen"}, {time: 14:15 - 14:30, name: "Towards Formal Fault Injection for Safety Assessment of Automated Systems - Ashfaq Farooqui and Behrooz Sangchoolie"} , {time: 14:30 - 15:00, name: "Formal Verification of Long Short-Term Memory based Audio Classifiers: A Star based Approach - Neelanjana Pal and Taylor T. Johnson"}]
 
 - time: 15:00 - 15:30
@@ -80,7 +87,7 @@ schedule-day_two:
   close: true
   name: "Day Two Close"
   
-  
+
 ### TALKS ###
 show_talks: true
 invited_talks:
