@@ -96,7 +96,7 @@ invited_talks:
   - name: "Prof. Alice Miller"
     bio: "is a Professor of Computing Science who has worked in Glasgow's School of Computing Science since 1997, as a Post doc, Daphne Jackson Fellow, Lecturer and Senior Lecturer. Before that she worked in the Universities of East Anglia, Western Australia and Stirling. Her PhD is in Number Theory, but she has worked in Formal Verification for most of her research career. Essentially, Formal Verification uses mathematical techniques to try to prove things about systems - in particular to try to reduce hard problems to tractable ones. She is a member of the London Mathematical Society and the IET, and is a Chartered Engineer."
     link: "https://www.gla.ac.uk/schools/computing/staff/alicemiller/"
-    title: "Formal methods within the TAS Regulation node"
+    title: "Formal methods within the TAS Governance node"
     abstract: "The TAS Governance Node part of the £33M Trustworthy Autonomous Systems Programme funded by the UKRI Strategic Priorities Fund.
 
 The aim of the node is to explore how to make autonomous systems aware of &mdash; and responsive to &mdash; changing regulations. Led by the University of Edinburgh, it brings together researchers from the universities of Edinburgh, Glasgow, Nottingham, Heriot-Watt, Sussex, and Kings College London; as well as multiple industrial partners.
