@@ -11,7 +11,7 @@ schedule-day_one:
   theme: true
   name: "Session 1: Trust and Information Flow (Expo 1)"
   chair: "Alice Miller"
-  papers: [ {time: 09:30 - 09:45, name: "Trust Modelling and Verification Using Event-B - Asieh Salehi Fathabadi and Vahid Yazdanpanah"}, {time: 09:45 - 10:00, name: "What to tell when? -- Information Provision as a Game - Astrid Rakow, Akhila Bairy, and Mehrnoush Hajnorouzi"} ]
+  papers: [ {time: 09:30 - 09:45,"What to tell when? -- Information Provision as a Game - Astrid Rakow, Akhila Bairy, and Mehrnoush Hajnorouzi"}, {time: 09:45 - 10:00, name:  name: "Trust Modelling and Verification Using Event-B - Asieh Salehi Fathabadi and Vahid Yazdanpanah"} ]
   
 - time: 10:00 - 10:30
   break: true
