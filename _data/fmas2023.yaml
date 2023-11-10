@@ -19,14 +19,15 @@ schedule-day_one:
   
 - theme : true
   name : "Session 2: Verification and Assurance of Neural Networks (Expo 1)"
-  papers: [ { time: 10:30 - 10:45, name: "Comparing Differentiable Logics for Learning Systems: A Research Preview - Thomas Flinkow, Barak A. Pearlmutter, and Rosemary Monahan"}, {time: 10:45 - 11:15, name: "Extending Neural Network Verification to a Larger Family of Piece-wise Linear Activation Functions - László Antal, Hana Masara, and Erika Ábrahám"}, {time: 11:15 - 11:30, name: "Certified Control for Train Sign Classification - Jan Roßbach and Michael Leuschel"} ]
-
+  papers: [ { time: 10:30 - 10:45, name: "Comparing Differentiable Logics for Learning Systems: A Research Preview - Thomas Flinkow, Barak A. Pearlmutter, and Rosemary Monahan"}, {time: 10:45 - 11:15, name: "Extending Neural Network Verification to a Larger Family of Piece-wise Linear Activation Functions - László Antal, Hana Masara, and Erika Ábrahám"}, {time: 11:15 - 11:30, name: "Certified Control for Train Sign Classification - Jan Roßbach and Michael Leuschel"}, {time: 11:30 - 11:45, name: "3vLTL: a Tool to Generate Automata for Three-valued LTL - Francesco Belardinelli, Angelo Ferrando, and Vadim Malvone"} ]
+  
+  
 - time: 12:00 - 14:00
   break: true
   name:  "Lunch"
   
 - invited: true
-  name : "SMT: Something you Must Try - Erika Ábrahám from RWTH Aachen University, DE (Theater Room)"
+  name : "Joint iFM/FMAS Invited Talk: 'SMT: Something you Must Try' - Erika Ábrahám from RWTH Aachen University, DE (Theater Room)"
   chair: "Paula Herber"
   time: 14:00 - 15:00
   joint: true
@@ -36,11 +37,11 @@ schedule-day_one:
   name:  "BREAK"
   
 - time: 15:30 - 17:00
-  name: "Joint Session: Autonomous Systems (Theater Room)"
+  name: "Joint iFM/FMAS Session: Autonomous Systems (Theater Room)"
   chair: "Marie Farrell"
   theme: true
   joint: true
-  papers: [ {time: "15:30 - 16:00", name: "Formal Modelling and Analysis of a Self-Adaptive Robotic System - Juliane Päßler, Maurice H. ter Beek, Ferruccio Damiani, Silvia Lizeth Tapia Tarifa, and Einar Broch Johnsen", joint: true}, {time: "16:00 - 16:30", name: "CAN-verify: Verification Tool for BDI Agents - Mengwei Xu, Thibault Rivoalen, Blair Archibald and Michele Sevegnani", joint: true}, {time: 16:30 - 17:00, name: "Model checking for Robot Reactive Planning - Christopher Chandler, Bernd Porr, Alice Miller, and Giulia Lafratta"}]
+  papers: [ {time: "15:30 - 16:00", name: "Formal Modelling and Analysis of a Self-Adaptive Robotic System (iFM 2023 paper) - Juliane Päßler, Maurice H. ter Beek, Ferruccio Damiani, Silvia Lizeth Tapia Tarifa, and Einar Broch Johnsen", joint: true}, {time: "16:00 - 16:30", name: "CAN-verify: Verification Tool for BDI Agents (iFM 2023 paper) - Mengwei Xu, Thibault Rivoalen, Blair Archibald and Michele Sevegnani", joint: true}, {time: 16:30 - 17:00, name: "Model checking for Robot Reactive Planning - Christopher Chandler, Bernd Porr, Alice Miller, and Giulia Lafratta"}]
 
 - time: 17:00 - 17:15
   close: true
@@ -87,9 +88,9 @@ schedule-day_two:
 - theme : true
   name : "Session 5: Runtime verification (Expo 2)"
   chair: "Maike Schwammberger"
-  papers: [{time: 15:30 - 15:45, name: "3vLTL: a Tool to Generate Automata for Three-valued LTL - Francesco Belardinelli, Angelo Ferrando, and Vadim Malvone"} , {time: 15:45 - 16:15, name: "Towards proved formal specification and verification of STL operators as synchronous observers - Céline Bellanger, Pierre-Loïc Garoche, Matthieu Martel, and Célia Picard"} , {time: 16:15 - 16:45, name: "Runtime Verification of Learning Properties for Reinforcement Learning Algorithms - Tommaso Mannucci and Julio de Oliveira Filho"} ]
+  papers: [{time: 15:30 - 16:00, name: "Towards proved formal specification and verification of STL operators as synchronous observers - Céline Bellanger, Pierre-Loïc Garoche, Matthieu Martel, and Célia Picard"} , {time: 16:00 - 16:30, name: "Runtime Verification of Learning Properties for Reinforcement Learning Algorithms - Tommaso Mannucci and Julio de Oliveira Filho"} ]
 
-- time: 16:45 - 17:00
+- time: 16:30 - 17:00
   close: true
   name: "Day Two Close"
   
