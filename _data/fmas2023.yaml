@@ -1,7 +1,7 @@
 ### SCHEDULE ###
 
 
-show_schedule: true
+show_schedule: false
 schedule-day_one:
 - time: 09:00 - 09:30 
   intro: true
@@ -128,7 +128,7 @@ show_papers: true
 papers:
   -
     title: "3vLTL: a Tool to Generate Automata for Three-valued LTL"
-    titleLink:
+    titleLink: "https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2023.13"
     authors: "Francesco Belardinelli, Angelo Ferrando, and Vadim Malvone"
     abstract: "Multi-valued logics have a long tradition in the literature on system verification, including run-time verification.
 However, comparatively fewer model-checking tools have been developed for multi-valued specification languages.
@@ -136,28 +136,28 @@ We present  3vLTL, a tool to generate Buchi automata from  formulas in Linear-ti
 Given an LTL formula, a set of atomic propositions as alphabet for the automaton, and a truth value, our procedure generates a Buchi automaton that accepts all the words that assign the chosen truth value to the LTL formula. Given the particular type of the output of the tool, it can also be seamlessly processed by third-party libraries in a natural way. That is, the Buchi automaton can then be used in the context of formal verification to check whether an LTL formula is true, false, or undefined on a given model."
   -
     title: "Trust Modelling and Verification Using Event-B"
-    titleLink:
+    titleLink: "https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2023.2"
     authors: "Asieh Salehi Fathabadi and Vahid Yazdanpanah"
     abstract: "Trust is a crucial component in collaborative multiagent systems (MAS) involving humans and autonomous AI agents. Rather than assuming trust based on past system behaviours, it is important to formally verify trust by modelling the current state and capabilities of agents. We argue for verifying actual trust relations based on agents' abilities to deliver intended outcomes in specific contexts. To enable reasoning about different notions of trust, we propose using the refinement-based formal method Event-B. Refinement allows progressively introducing new aspects of trust - from abstract to concrete models incorporating knowledge and runtime states. We demonstrate modelling three trust concepts and verifying associated trust  properties in MAS. The formal, correctness-by-construction approach allows deducing guarantees about trustworthy autonomy in human-AI partnerships. Overall, our contribution facilitates rigorous verification of trust in multiagent systems."
   -
     title: "Runtime Verification of Learning Properties for Reinforcement Learning Algorithms"
-    titleLink:
+    titleLink: "https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2023.15"
     authors: "Tommaso Mannucci and Julio de Oliveira Filho"
     abstract: "Reinforcement learning (RL) algorithms interact with their environment in a trial-and-error fashion. Such interactions can be expensive, inefficient, and timely when learning on a physical system rather than in a simulation. This work develops new runtime verification techniques to predict when the learning phase has not met or will not meet qualitative and timely expectations. This paper presents three verification properties concerning the quality and timeliness of learning in RL algorithms. With each property, we propose design steps for monitoring and assessing the properties during the system's operation."
   -
     title: "Online Reachability Analysis and Space Convexification for Autonomous Racing"
-    titleLink:
+    titleLink: "https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2023.7"
     authors: "Sergiy Bogomolov, Taylor T Johnson, Diego Manzanas, Patrick Musau, and Paulius Stankaitis"
     abstract: "This paper presents an optimisation-based approach for an obstacle avoidance problem within an autonomous vehicle racing context.  Our control regime leverages online reachability analysis and sensor data to compute the maximal safe traversable region that an agent can traverse within the environment. The idea is to first compute a non-convex safe region, which then can be convexified via a novel coupled separating hyperplane algorithm. This derived safe area is then used to formulate a nonlinear model-predictive control problem that seeks to find an optimal and safe driving trajectory. We evaluate the proposed approach through a series of diverse experiments and assess the runtime requirements of our proposed approach through an analysis of the effects of a set of varying optimisation objectives for generating these coupled hyperplanes."
   -
     title: "Towards proved formal specification and verification of STL operators as synchronous observers"
-    titleLink:
+    titleLink: "https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2023.14"
     authors: "Céline Bellanger, Pierre-Loïc Garoche, Matthieu Martel, and Célia Picard"
     abstract: "Signal Temporal Logic (STL) is a convenient formalism to express bounded horizon properties of autonomous critical systems. STL extends LTL to real-valued signals and associates a non-singleton bound interval to each temporal operators. In this work we provide a rigorous encoding of non-nested discrete-time STL formulas into Lustre synchronous observers.
 Our encoding provides a three-valued online semantics for the observers and therefore enables both the verification of the property and the search of counter-examples. A key contribution of this work is instrumented proof of the validity of the implementation. Each node is proved correct with respect to the original STL semantics. All the experiments are automated with the Kind2 model-checker and the Z3 SMT solver."
   -
     title: "What to tell when? -- Information Provision as a Game"
-    titleLink:
+    titleLink: "https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2023.1"
     authors: "Astrid Rakow, Akhila Bairy, and Mehrnoush Hajnorouzi"
     abstract: "Constantly informing systems (CIS), that is technical systems that provide us with information over a long period of time, face the challenge of providing us with helpful information.
 The information base of a human model changes over time but also his mood and his ability to accept information.
@@ -167,19 +167,19 @@ We envision using psychological models of the human mind and emotions in an info
 Its analysis gives comparative insights into design variants."
   -
     title: "Enforcing Timing Properties in Motorway Traffic"
-    titleLink:
+    titleLink: "https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2023.9"
     authors: "Christopher Bischopink"
     abstract: "In previous work, we proposed an Runtime Enforcement Approach to deal with timing properties in motorway traffic, which are present in form of Timed Multi-Lane Spatial Logic (TMLSL) formulae, a logic tailored to express both spatial and timing properties.
 Employing communication between the cars, we utilised a nondeterministic controller guessing which actions to execute next for each car, before asking the local monitors of the cars for permission to execute the announced actions.
 In this contribution, we consider a more sensible controller that only considers sequences that satisfy its own properties. This is done utilising region automata that one can generate from the cars' specifications. In the approach, we also came along a small decidability result for TMLSL."
   -
     title: "Model checking for Robot Reactive Planning"
-    titleLink:
+    titleLink: "https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2023.6"
     authors: "Christopher Chandler, Bernd Porr, Alice Miller, and Giulia Lafratta"
     abstract: "In this paper, we show how model checking can be used to create multi-step plans for a differential drive wheeled robot so that it can avoid immediate danger. Using a small, purpose built model checking algorithm in situ we generate plans in real time in a way that reflects the egocentric reactive response of simple biological agents. Our approach is based on chaining temporary control systems which are spawned to eliminate disturbances in the local environment that disrupt an autonomous agent from its preferred action (or resting state). The method involves a novel discretization of 2D LiDAR data which is sensitive to bounded stochastic variations in the immediate environment. We operationalise multi-step planning using invariant checking by forward depth-first search, using a cul-de-sac scenario as a first test case. Our results demonstrate that model checking can be used to plan efficient trajectories for local obstacle avoidance, improving on the performance of a reactive agent which can only plan one step. We achieve this in near real-time using no pre-computed data. While our method has limitations, we believe our approach shows promise as an avenue for the development of safe, reliable and transparent trajectory planning in the context of autonomous vehicles."
   -
     title: "Certified Control for Train Sign Classification"
-    titleLink:
+    titleLink: "https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2023.5"
     authors: "Jan Roßbach and Michael Leuschel"
     abstract: "The study of fully autonomous train systems for specialized applications is of high economic interest. The KI-LOK research project is involved in developing new methods for certifying such systems.
 Here we explore the utility of a certified control architecture for a runtime monitor that prevents false positive detection of traffic signs in an AI-based perception system. The monitor uses classical computer vision algorithms to check if the signs -- detected by an AI object detection model -- fit pre-defined specifications. We provide such specifications for some critical signs and integrate a Python prototype of the monitor with a popular object detection model to measure relevant performance metrics on generated data.
@@ -187,23 +187,23 @@ Our initial results are promising, achieving considerable precision gains with
 only minor recall reduction; however, further investigation into Generalization possibilities will be necessary."
   -
     title: "Towards Formal Fault Injection for Safety Assessment of Automated Systems"
-    titleLink:
+    titleLink: "https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2023.11"
     authors: "Ashfaq Farooqui and Behrooz Sangchoolie"
     abstract: "Reasoning about the safety, security, and other dependability attributes of autonomous systems is a challenge that needs to be addressed before the adoption of such systems in day-to-day life. _Formal methods_ contain a class of methods that can mathematically reason about the system's behavior. Since these methods employ mathematical techniques, a correctness proof is sufficient to conclude the system's dependability. However, these methods are usually applied to abstract models of the system, which might not fully represent the actual system. _Fault injection_, on the other hand, is a class of testing methods that are often used to evaluate the dependability of systems at different phases of the development lifecycle. However, the amount of testing required to evaluate the system is rather large and often a problem. This vision paper presents the concept of _formal fault injection_, a fusion of these two techniques. Our vision involves integrating them throughout the development lifecycle to enhance the dependability of autonomous systems. We advocate for a more cohesive approach by identifying five areas of mutual support between formal methods and fault injection. By forging stronger ties between the two fields, we pave the way for developing safe and dependable autonomous systems. This paper delves into the integration's potential and outlines future research avenues, addressing open challenges along the way."
   -
     title: "Formal Verification of Long Short-Term Memory based Audio Classifiers: A Star based Approach"
-    titleLink:
+    titleLink: "https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2023.12"
     authors: "Neelanjana Pal and Taylor T Johnson"
     abstract: "Formally verifying audio classification systems is essential to ensure accurate signal classification across real-world applications like surveillance, automotive voice commands, and multimedia content management, preventing potential errors with serious consequences. Drawing from recent research, this study advances the utilization of star-set-based formal verification, extended through reachability analysis, tailored explicitly for Long Short-Term Memory architectures and their Convolutional variations within the audio classification domain. By conceptualizing the classification process as a sequence of set operations, the star set-based reachability approach streamlines the exploration of potential operational states attainable by the system. The paper serves as an encompassing case study, validating and verifying sequence audio classification analytics within real-world contexts. It accentuates the necessity for robustness verification to ensure precise and dependable predictions, particularly in light of the impact of noise on the accuracy of output classifications."
   -
     title: "Correct-by-Construction Control for Stochastic and Uncertain Dynamical Models via Formal Abstractions"
-    titleLink:
+    titleLink: "https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2023.10"
     authors: "Thom Badings, Licio Romao, Alessandro Abate, and Nils Jansen"
     abstract: "Automated synthesis of correct-by-construction controllers for autonomous systems is crucial for their deployment in safety-critical scenarios.
 Such autonomous systems are naturally modeled as stochastic dynamical models. The general problem is to compute a controller that provably satisfies a given task, represented as a probabilistic temporal logic specification. However, factors such as stochastic uncertainty, imprecisely known parameters, and hybrid features make this problem challenging. We have developed an abstraction framework that can be used to solve this problem under various modeling assumptions. Our approach is based on a robust finite-state abstraction of the stochastic dynamical model in the form of a Markov decision process with intervals of probabilities (iMDP). We use state-of-the-art verification techniques to compute an optimal policy on the iMDP with guarantees for satisfying the given specification. We then show that, by construction, we can refine this policy into a feedback controller for which these guarantees carry over to the dynamical model. In this short paper, we survey our recent research in this area and highlight two challenges (related to scalability and dealing with nonlinear dynamics) that we aim to address with our ongoing research."
   -
     title: "Automatic Generation of Scenarios for System-level Simulation-based Verification of Autonomous Driving Systems"
-    titleLink:
+    titleLink: "https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2023.8"
     authors: "Srajan Goyal, Alberto Griggio, Jacob Kimblad, and Stefano Tonetta"
     abstract: " With the increasing complexity of Automated Driving Systems (ADS), ensuring their safety and re-
 liability has become a critical challenge. The Verification and Validation (V&V) of these systems are
@@ -227,7 +227,7 @@ highlight the potential of the approach as a powerful tool in the future of ADS 
 "
   -
     title: "Comparing Differentiable Logics for Learning Systems: A Research Preview"
-    titleLink:
+    titleLink: "https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2023.3"
     authors: "Thomas Flinkow, Barak A. Pearlmutter, and Rosemary Monahan"
     abstract: "Extensive research on formal verification of machine learning (ML) systems indicates that learning from data alone often fails to capture underlying background knowledge.
 A variety of verifiers have been developed to ensure that a machine-learnt model satisfies correctness and safety properties, however, these verifiers typically assume a trained network with fixed weights.
@@ -237,16 +237,16 @@ In this research preview, we compare and evaluate various logics from the litera
 Our experimental results are broadly consistent with results reported previously in literature; however, learning with differentiable logics introduces a new hyperparameter that is difficult to tune and has significant influence on the effectiveness of the logics."
   -
     title: "Extending Neural Network Verification to a Larger Family of Piece-wise Linear Activation Functions"
-    titleLink:
+    titleLink: "https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2023.4"
     authors: "László Antal, Hana Masara, and Erika Ábrahám"
     abstract: " In this paper, we extend an available neural network verification technique to support a wider class of piece-wise linear activation functions. Furthermore, we extend the algorithms, which provide in their original form exact respectively over-approximative results for bounded input sets represented as star sets, to allow also unbounded input sets. We implemented our algorithms and demonstrate their effectiveness on some case studies."
 
 
 ### DATES ###
 dates:
-  submission: "~~17th of August 2023~~ Extended to 31st of August 2023"
-  notification: "~~15th of September 2023~~ Extended to 29th of September 2023"
-  final_version: "20th of October 2023"
+  submission: "~~17th of August 2023~~ ~~Extended to 31st of August 2023~~"
+  notification: "~~15th of September 2023~~ ~~Extended to 29th of September 2023~"
+  final_version: "~~20th of October 2023~~"
   workshop: "15th and 16th of November 2023"
 
 ### PROGRAMME COMMITTEE ###
