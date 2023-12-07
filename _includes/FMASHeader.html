@@ -2,6 +2,7 @@
   .dropdown {
     position: relative;
     display: inline-block;
+    padding: 10px;
   }
 
   .dropdown-content {
@@ -17,6 +18,8 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+
 </style>
 
 
@@ -26,9 +29,9 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
     <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-
+ 
     {% if page_paths %}
-      <nav class="site-nav">
+      <nav class="site-nav" style="float:none">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon">
@@ -39,9 +42,10 @@
             </svg>
           </span>
         </label>
+    
+<br/>
 
-        <div class="trigger">
-          <div class="dropdown">
+          <div class="trigger dropdown">
             <span >Workshops <i class="fas fa-caret-down"></i></span>
             <div class="dropdown-content">
               {% assign workshops = site.workshops | sort: date %}
@@ -53,9 +57,25 @@
           </div>
 
 
+
+          <div class="trigger dropdown">
+            <span >Special Issues <i class="fas fa-caret-down"></i></span>
+            <div class="dropdown-content">
+              {% assign specials = site.special_issues | sort: date %}
+              {% assign reverseSpecials = specials | reverse %}
+              {% for si in reverseSpecials %}
+                <p><a href="{{ site.url }}{{ si.permalink }}">{{ si.acronym }}</a></p>
+              {% endfor %}
+            </div>
+          </div>
+
+     
+
 	          {% for path in page_paths %}
             {% assign my_page = site.pages | where: "path", path | last %}
             {% if my_page.exclude==null %}
+
+          
 
 
             {% if my_page.title %}

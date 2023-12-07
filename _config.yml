@@ -21,7 +21,7 @@
 title: Formal Methods for Autonomous Systems
 email: FMASWorkshop@tutanota.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The Workshop on Formal Methods for Autonomous Systems
+  The International Workshop on Formal Methods for Autonomous Systems
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://FMASWorkshop.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 images: "/images/"
@@ -39,6 +39,9 @@ icon : /images/favicon.ico
 collections:
   workshops:
     output: true
+  special_issues:
+    output : true
+
 
 # Build settings
 theme: minima
