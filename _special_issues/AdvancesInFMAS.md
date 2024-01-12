@@ -32,7 +32,7 @@ environment modelling.
 
 *Final manuscript submission deadline:* **June 7, 2024**
 
-Submission details are being finalised.
+Submission details can be found on the Science of Computer Programming website: [https://www.sciencedirect.com/journal/science-of-computer-programming/about/call-for-papers#advances-in-formal-methods-for-autonomous-systems](https://www.sciencedirect.com/journal/science-of-computer-programming/about/call-for-papers#advances-in-formal-methods-for-autonomous-systems)
 
 ### Guest editors
 
