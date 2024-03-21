@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Contact"
+title: "Financial Support"
 exclude: true # remove and this will appear in the menu
 ---
 
