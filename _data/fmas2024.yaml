@@ -1,0 +1,340 @@
+### SCHEDULE ###
+
+
+show_schedule: false
+schedule-day_one:
+- time: 09:00 - 09:30 
+  intro: true
+  name:  "Welcome and Introduction"
+  
+- time: 09:30 - 10:00
+  theme: true
+  name: "Session 1: Trust and Information Flow (Expo 1)"
+  chair: "Alice Miller"
+  papers: [ {time: 09:30 - 09:45, name: "What to tell when? -- Information Provision as a Game - Astrid Rakow, Akhila Bairy, and Mehrnoush Hajnorouzi"}, {time: 09:45 - 10:00, name: "Trust Modelling and Verification Using Event-B - Asieh Salehi Fathabadi and Vahid Yazdanpanah"} ]
+  
+- time: 10:00 - 10:30
+  break: true
+  name:  "BREAK"  
+  
+- theme : true
+  name : "Session 2: Verification and Assurance of Neural Networks (Expo 1)"
+  papers: [ { time: 10:30 - 10:45, name: "Comparing Differentiable Logics for Learning Systems: A Research Preview - Thomas Flinkow, Barak A. Pearlmutter, and Rosemary Monahan"}, {time: 10:45 - 11:15, name: "Extending Neural Network Verification to a Larger Family of Piece-wise Linear Activation Functions - László Antal, Hana Masara, and Erika Ábrahám"}, {time: 11:15 - 11:30, name: "Certified Control for Train Sign Classification - Jan Roßbach and Michael Leuschel"}, {time: 11:30 - 11:45, name: "3vLTL: a Tool to Generate Automata for Three-valued LTL - Francesco Belardinelli, Angelo Ferrando, and Vadim Malvone"} ]
+  
+  
+- time: 12:00 - 14:00
+  break: true
+  name:  "Lunch"
+  
+- invited: true
+  name : "Joint iFM/FMAS Invited Talk: 'SMT: Something you Must Try' - Erika Ábrahám from RWTH Aachen University, DE (Theater Room)"
+  chair: "Paula Herber"
+  time: 14:00 - 15:00
+  joint: true
+
+- time: 15:00 - 15:30
+  break : true
+  name:  "BREAK"
+  
+- time: 15:30 - 17:00
+  name: "Joint iFM/FMAS Session: Autonomous Systems (Theater Room)"
+  chair: "Marie Farrell"
+  theme: true
+  joint: true
+  papers: [ {time: "15:30 - 16:00", name: "Formal Modelling and Analysis of a Self-Adaptive Robotic System (iFM 2023 paper) - Juliane Päßler, Maurice H. ter Beek, Ferruccio Damiani, Silvia Lizeth Tapia Tarifa, and Einar Broch Johnsen", joint: true}, {time: "16:00 - 16:30", name: "CAN-verify: Verification Tool for BDI Agents (iFM 2023 paper) - Mengwei Xu, Thibault Rivoalen, Blair Archibald and Michele Sevegnani", joint: true}, {time: 16:30 - 17:00, name: "Model checking for Robot Reactive Planning - Christopher Chandler, Bernd Porr, Alice Miller, and Giulia Lafratta"}]
+
+- time: 17:00 - 17:15
+  close: true
+  name: "Day One Close"
+  
+- time: 18:30 - 22:00
+  dinner: true
+  name: "FMAS 2023 Social Dinner"
+  details: {time: "18:30 - 22:00", name: "The FMAS 2023 Social Dinner will be held at De Waag. Details about the dinner can be found on the <a href='https://ifm23.liacs.nl/social.html#FMAS-dinner'>iFM website</a>." }
+  
+
+  
+
+schedule-day_two:
+
+- time: 09:00 - 10:00
+  invited: true
+  name: "Invited Talk: Formal Methods within the TAS Governance node - Alice Miller from the University of Glasgow, UK (Expo 2)"
+  chair: "Matt Luckcuck"
+
+- time: 10:00 - 10:30
+  break : true
+  name:  "BREAK"
+  
+- theme : true
+  name : "Session 3: Verified Intelligent Transportation (Expo 2)"
+  chair: "Mario Gleirscher"
+  papers: [ {time: 10:30 - 11:00, name: "Online Reachability Analysis and Space Convexification for Autonomous Racing - Sergiy Bogomolov, Taylor T Johnson, Diego Manzanas, Patrick Musau, and Paulius Stankaitis"} , {time: 11:00 - 11:30, name: "Automatic Generation of Scenarios for System-level Simulation-based Verification of Autonomous Driving Systems - Srajan Goyal, Alberto Griggio, Jacob Kimblad, and Stefano Tonetta"} , {time: 11:30 - 12:00, name: "Enforcing Timing Properties in Motorway Traffic - Christopher Bischopink"}]
+
+
+- time: 12:00 - 14:00
+  break : true
+  name:  "Lunch"
+
+- theme : true
+  name : "Session 4: Formal Assurance across the Control Loop (Expo 2)"
+  chair: "Stefano Tonetta"
+  papers: [{time: 14:00 - 14:15, name:  "Correct-by-Construction Control for Stochastic and Uncertain Dynamical Models via Formal Abstractions - Thom Badings, Licio Romao, Alessandro Abate, and Nils Jansen"}, {time: 14:15 - 14:30, name: "Towards Formal Fault Injection for Safety Assessment of Automated Systems - Ashfaq Farooqui and Behrooz Sangchoolie"} , {time: 14:30 - 15:00, name: "Formal Verification of Long Short-Term Memory based Audio Classifiers: A Star based Approach - Neelanjana Pal and Taylor T. Johnson"}]
+
+- time: 15:00 - 15:30
+  break: true
+  name:  "BREAK"
+
+- theme : true
+  name : "Session 5: Runtime verification (Expo 2)"
+  chair: "Maike Schwammberger"
+  papers: [{time: 15:30 - 16:00, name: "Towards proved formal specification and verification of STL operators as synchronous observers - Céline Bellanger, Pierre-Loïc Garoche, Matthieu Martel, and Célia Picard"} , {time: 16:00 - 16:30, name: "Runtime Verification of Learning Properties for Reinforcement Learning Algorithms - Tommaso Mannucci and Julio de Oliveira Filho"} ]
+
+- time: 16:30 - 17:00
+  close: true
+  name: "Day Two Close"
+  
+
+### TALKS ###
+show_talks: false
+invited_talks:
+  - name: "Prof. Alice Miller"
+    bio: "is a Professor of Computing Science who has worked in Glasgow's School of Computing Science since 1997, as a Post doc, Daphne Jackson Fellow, Lecturer and Senior Lecturer. Before that she worked in the Universities of East Anglia, Western Australia and Stirling. Her PhD is in Number Theory, but she has worked in Formal Verification for most of her research career. Essentially, Formal Verification uses mathematical techniques to try to prove things about systems - in particular to try to reduce hard problems to tractable ones. She is a member of the London Mathematical Society and the IET, and is a Chartered Engineer."
+    link: "https://www.gla.ac.uk/schools/computing/staff/alicemiller/"
+    title: "Formal methods within the TAS Governance node"
+    abstract: "The TAS Governance Node part of the £33M Trustworthy Autonomous Systems Programme funded by the UKRI Strategic Priorities Fund.
+
+The aim of the node is to explore how to make autonomous systems aware of &mdash; and responsive to &mdash; changing regulations. Led by the University of Edinburgh, it brings together researchers from the universities of Edinburgh, Glasgow, Nottingham, Heriot-Watt, Sussex, and Kings College London; as well as multiple industrial partners.
+
+In this talk I will highlight some of the activities within the node, focussing on those that use Formal Methods. These include:
+<ul>
+<li> an automatic theory repair system for a legal responsibility framework for autonomous vehicles, </li>
+<li> accident anticipation through reasoned simulation, </li>
+<li> robot planning using in-situ model checking; and, </li>
+<li> (formal aspects of) a node-wide automotive case study investigation. </li>
+</ul>"
+
+
+
+
+### PAPERS ###
+show_papers: false
+papers:
+  -
+    title: "3vLTL: a Tool to Generate Automata for Three-valued LTL"
+    titleLink: "https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2023.13"
+    authors: "Francesco Belardinelli, Angelo Ferrando, and Vadim Malvone"
+    abstract: "Multi-valued logics have a long tradition in the literature on system verification, including run-time verification.
+However, comparatively fewer model-checking tools have been developed for multi-valued specification languages.
+We present  3vLTL, a tool to generate Buchi automata from  formulas in Linear-time Temporal Logic (LTL) interpreted on a three-valued semantics.
+Given an LTL formula, a set of atomic propositions as alphabet for the automaton, and a truth value, our procedure generates a Buchi automaton that accepts all the words that assign the chosen truth value to the LTL formula. Given the particular type of the output of the tool, it can also be seamlessly processed by third-party libraries in a natural way. That is, the Buchi automaton can then be used in the context of formal verification to check whether an LTL formula is true, false, or undefined on a given model."
+  
+
+
+### DATES ###
+dates:
+  submission: "tba"
+  notification: "tba"
+  final_version: "tba"
+  workshop: "11th and 12th of November 2024"
+
+### PROGRAMME COMMITTEE ###
+show_pc : false
+pc :
+
+ - first_name: Akhila
+   last_name: Bairy
+   affiliation: Carl von Ossietzky Universität Oldenburg (Germany)
+   link: https://uol.de/en/socps/team/m-sc-akhila-bairy
+
+ - first_name: Oana
+   last_name: Andrei
+   affiliation: University of Glasgow (UK)
+   link: https://www.dcs.gla.ac.uk/~oandrei/
+
+ - first_name: Alvaro
+   last_name: Miyazawa
+   affiliation: University of York (UK)
+   link: https://www.cs.york.ac.uk/people/?username=alvarohm
+
+ - first_name: Anastasia
+   last_name: Mavridou
+   affiliation: KBR Wyle/NASA Ames Research Center (USA)
+   link: http://amavridou.com/
+
+ - first_name: Angelo
+   last_name: Ferrando
+   affiliation:   University of Genova (Italy)
+   link: https://angeloferrando.github.io/website/
+
+ - first_name: Claudio
+   last_name: Menghi
+   affiliation:   University of Bergamo (Italy)
+   link: https://claudiomenghi.github.io/index.html
+
+ - first_name: Dominique
+   last_name: Méry
+   affiliation: Université de Lorraine (France)
+   link: https://members.loria.fr/Mery/
+
+ - first_name: Hao
+   last_name: Wu
+   affiliation:   Maynooth University (Ireland)
+   link: http://www.cs.nuim.ie/~haowu/
+
+# - first_name: Jérémie
+#   last_name: Guiochet
+#   affiliation: University of Toulouse (France)
+#   link: http://homepages.laas.fr/guiochet/
+
+ - first_name: Maike
+   last_name: Schwammberger
+   affiliation: Karlsruhe Institute of Technology (Germany)
+   link:  https://dblp.org/pid/187/5792.html
+
+ - first_name: Rafael C.
+   last_name: Cardoso
+   affiliation: University of Aberdeen (UK)
+   link: https://rafaelcaue.github.io/
+
+ - first_name: Silvia Lizeth
+   last_name:   Tapia Tarifa
+   affiliation: University of Oslo (Norway)
+   link: https://www.mn.uio.no/ifi/english/people/aca/sltarifa/index.html
+
+ - first_name: Verena
+   last_name: Klös
+   affiliation: TU Dresden (Germany)
+   link:  https://ceti.one/verena-klos/
+
+ - first_name: Taylor T.
+   last_name: Johnson
+   affiliation: Vanderbilt University (USA)
+   link: http://www.taylortjohnson.com/
+
+ - first_name: Christopher
+   last_name: Bischopink
+   affiliation: University of Oldenburg (Germany)
+   link: https://uol.de/en/csd/persons-contacts/christopher-bischopink-msc/
+
+ - first_name: Mallory S.
+   last_name: Graydon
+   affiliation: NASA Langley Research Center (USA)
+   link: https://shemesh.larc.nasa.gov/people/msg/
+
+#  - first_name: Divya
+#    last_name: Gopinath
+#    affiliation: NASA Ames Research Center (USA)
+#    link: https://ti.arc.nasa.gov/profile/dgopinat/
+
+ - first_name: Michael
+   last_name: Fisher
+   affiliation: University of Manchester (UK)
+   link: https://personalpages.manchester.ac.uk/staff/michael.fisher/
+
+ - first_name: Fatma
+   last_name: Faruq
+   affiliation: ETAS (UK)
+   link: https://fatmaf.github.io/
+
+ - first_name: Louise A.
+   last_name: Dennis
+   affiliation: University of Manchester (UK)
+   link: http://www.cs.man.ac.uk/~dennisl/
+
+ - first_name: Mario
+   last_name: Gleirscher
+   affiliation: University of Bremen (Germany)
+   link: http://www.gleirscher.at/mg/
+
+ - first_name: Colin
+   last_name: Paterson
+   affiliation: University of York (UK)
+   link: https://www.cs.york.ac.uk/people/?search=Colin&username=cap
+
+ - first_name: Alice
+   last_name: Miller
+   affiliation: University of Glasgow (UK)
+   link: https://www.gla.ac.uk/schools/computing/staff/alicemiller/
+
+ - first_name: Rosemary
+   last_name: Monahan
+   affiliation: Maynooth University (Ireland)
+   link: http://rosemarymonahan.com/
+
+ - first_name: Lina
+   last_name: Marsso
+   affiliation: University of Toronto (Canda)
+   link: http://convecs.inria.fr/people/Lina.Marsso/
+
+ - first_name: Mengwei
+   last_name: Xu
+   affiliation:  University of Newcastle (UK)
+   link: https://mengweixu.netlify.app/
+
+ - first_name: Ichiro
+   last_name: Hasuo
+   affiliation:  National Institute of Informatics (Japan)
+   link: https://group-mmm.org/%7Eichiro/
+
+ - first_name: Natasha
+   last_name: Neogi
+   affiliation: NASA Langley Research Center (USA)
+   link: https://www.linkedin.com/in/natasha-neogi-a15337110
+
+ - first_name: Baptiste
+   last_name: Pelletier
+   affiliation: ONERA - The French Aerospace Lab (France)
+   link:   Baptiste
+
+ - first_name: Andrea
+   last_name: Pferscher
+   affiliation: Graz University of Technology (Austria)
+   link: https://www.linkedin.com/in/baptiste-pelletier-357b87166/
+
+ - first_name: James
+   last_name: Stovold
+   affiliation: Lancaster University Leipzig (Germany)
+   link: https://www.research.lancs.ac.uk/portal/en/people/james-stovold(dfe17609-ed4c-4578-95e5-4c41b5238bc9).html
+
+ - first_name: Elena
+   last_name: Troubitsyna
+   affiliation: KTH Royal Institute of Technology (Sweden)
+   link: https://www.kth.se/profile/elenatro
+
+ - first_name: Gricel
+   last_name: Vázquez
+   affiliation: University of York (UK)
+   link: https://www.cs.york.ac.uk/people/?group=his&username=gricel
+
+ - first_name: Matt
+   last_name: Luckcuck
+   affiliation: University of Nottingham (UK)
+   link: https://orcid.org/0000-0002-6444-9312
+
+ - first_name: Marie
+   last_name: Farrell
+   affiliation: University of Manchester (UK)
+   link: https://orcid.org/0000-0001-7708-3877
+
+ - first_name: Yvonne
+   last_name: Murray
+   affiliation: University of Agder (Norway)
+   link: https://www.uia.no/en/kk/profile/yvonnm13
+
+
+
+
+
+
+
+
+#  - first_name:
+#    last_name:
+#    affiliation:
+#    link:
+
+
+register :
+
+easychair : 
