@@ -1,12 +1,14 @@
 ---
 layout: page
 title: "Organisation"
-exclude: true # remove and this will appear in the menu
 ---
 
-<img alt="FMAS Workshop Logo" style="float: left; margin: 1em" src="{{site.logos}}/FMAS-Logo.png">
+## FMAS Organising Committee
 
-<div class="w3-cell-row">
+FMAS is organised by
+
+
+
   <div class="w3-container w3-cell  w3-half w3-mobile">
     <p>{% include ext_link.html text="Dr Matt Luckcuck" link="https://orcid.org/0000-0002-6444-9312" %} University of Nottingham, UK
     </p>
@@ -14,8 +16,8 @@ exclude: true # remove and this will appear in the menu
   <div class="w3-container w3-cell  w3-half w3-mobile">
     <p>{% include ext_link.html text="Dr Marie Farrell" link="https://orcid.org/0000-0001-7708-3877" %} University of Manchester, UK</p>
   </div>  
-</div>  
-<div class="w3-cell-row">
+
+
   <div class="w3-container w3-cell  w3-half w3-mobile">
     <p>{% include ext_link.html text="Jun.-Prof. Dr Maike Schwammberger" link="https://orcid.org/0000-0002-3344-6282" %} Karlsruhe Institute of Technology, Germany</p>
   </div>
@@ -23,5 +25,9 @@ exclude: true # remove and this will appear in the menu
     <p>{% include ext_link.html text="Dr Mario Gleirscher" link="https://orcid.org/0000-0002-9445-6863" %} University of Bremen, Germany
     </p>
   </div>  
-</div>
+  <div class="w3-container w3-cell w3-half w3-mobile">
+    <p>{% include ext_link.html text="Dr Mengwei Xu" link="https://orcid.org/0000-0003-4978-3061" %} University of Newcastle, UK
+    </p>
+  </div>  
+
 

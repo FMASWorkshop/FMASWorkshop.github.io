@@ -3,7 +3,7 @@
   <div class="wrapper">
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
-    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="site-title" href="{{ "/" | relative_url }}"> <img alt="FMAS Workshop Logo" style="float: left; margin-top: 1em; margin-right: 1em" src="{{site.logos}}/FMAS-Logo-oblong.png">{{ site.title | escape }}</a>
  
     {% if page_paths %}
       <nav class="site-nav" style="float:none">
@@ -21,12 +21,12 @@
 <br/>
 
           <div class="trigger w3-dropdown-hover">
-            <span class="w3-button">Workshops <i class="fas fa-caret-down"></i></span>
-            <div class="w3-dropdown-content w3-bar-block w3-border">
+            <span class="w3-button w3-padding-small">Workshops <i class="fas fa-caret-down"></i></span>
+            <div class="w3-dropdown-content w3-bar-block w3-border w3-center w3-padding-small">
               {% assign workshops = site.workshops | sort: date %}
               {% assign reverseWorkshops = workshops | reverse %}
               {% for workshop in reverseWorkshops %}
-                <a class="w3-bar-item w3-button" href="{{ site.url }}{{ workshop.permalink }}">{{ workshop.acronym }}</a>
+                <a class="w3-bar-item w3-button w3-padding-small" href="{{ site.url }}{{ workshop.permalink }}">{{ workshop.acronym }}</a>
               {% endfor %}
             </div>
           </div>
@@ -34,12 +34,12 @@
 
 
           <div class="trigger w3-dropdown-hover">
-            <span class="w3-button">Special Issues <i class="fas fa-caret-down"></i></span>
-            <div class="w3-dropdown-content w3-bar-block w3-border">
+            <span class="w3-button w3-padding-small">Special Issues <i class="fas fa-caret-down"></i></span>
+            <div class="w3-dropdown-content w3-bar-block w3-border w3-center w3-padding-small">
               {% assign specials = site.special_issues | sort: date %}
               {% assign reverseSpecials = specials | reverse %}
               {% for si in reverseSpecials %}
-                <a  class="w3-bar-item w3-button" href="{{ site.url }}{{ si.permalink }}">{{ si.acronym }}</a>
+                <a  class="w3-bar-item w3-button w3-padding-small" href="{{ site.url }}{{ si.permalink }}">{{ si.acronym }}</a>
               {% endfor %}
             </div>
           </div>

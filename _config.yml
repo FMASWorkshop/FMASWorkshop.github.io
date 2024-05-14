@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Formal Methods for Autonomous Systems
+title: International Workshop on Formal Methods for Autonomous Systems
 email: FMASWorkshop@tutanota.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The International Workshop on Formal Methods for Autonomous Systems
+  A peer-reviewed, academic workshop that brings together researchers working on a range of techniques for the formal specification and verification of autonomous systems.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://FMASWorkshop.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 images: "/images/"
@@ -42,11 +42,14 @@ collections:
   special_issues:
     output : true
 
+sass:
+    sass_dir: _sass
 
 # Build settings
 theme: minima
 #plugins:
 #- jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -10,7 +10,6 @@ draft: false
 
 **Science of Computer Programming** special issue on  **Advances in Formal Methods for Autonomous Systems**
 
-<img alt="FMAS Workshop Logo" style="float: left; margin: 1em" src="{{site.images}}logos/FMAS-Logo.png">
 
 
 
