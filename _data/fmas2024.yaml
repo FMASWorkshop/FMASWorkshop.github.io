@@ -341,12 +341,7 @@ pc :
    last_name: Colombo
    affiliation: University of Malta (Malta)
    link: http://staff.um.edu.mt/christian.colombo
-
-   
- - first_name: Alice 
-   last_name: Miller
-   affiliation: Universtiy of Glasgos (UK)
-   link: https://www.gla.ac.uk/schools/computing/staff/alicemiller/
+  
 
 
 #  - first_name:
