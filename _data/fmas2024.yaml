@@ -187,10 +187,10 @@ pc :
    affiliation: University of Toulouse (France)
    link: http://homepages.laas.fr/guiochet/
 
-# - first_name: Maike
-#   last_name: Schwammberger
-#   affiliation: Karlsruhe Institute of Technology (Germany)
-#   link:  https://dblp.org/pid/187/5792.html
+ - first_name: Maike
+   last_name: Schwammberger
+   affiliation: Karlsruhe Institute of Technology (Germany)
+   link:  https://dblp.org/pid/187/5792.html
 
  - first_name: Rafael C.
    last_name: Cardoso
@@ -301,7 +301,6 @@ pc :
    last_name: Linker
    affiliation: Kernkonzept (Germany)
 
-
  - first_name: Elena
    last_name: Troubitsyna
    affiliation: KTH Royal Institute of Technology (Sweden)
@@ -312,15 +311,15 @@ pc :
    affiliation: University of York (UK)
    link: https://www.cs.york.ac.uk/people/?group=his&username=gricel
 
-# - first_name: Matt
-#   last_name: Luckcuck
-#   affiliation: University of Nottingham (UK)
-#   link: https://orcid.org/0000-0002-6444-9312
+ - first_name: Matt
+   last_name: Luckcuck
+   affiliation: University of Nottingham (UK)
+   link: https://orcid.org/0000-0002-6444-9312
 
-# - first_name: Marie
-#   last_name: Farrell
-#   affiliation: University of Manchester (UK)
-#   link: https://orcid.org/0000-0001-7708-3877
+ - first_name: Marie
+   last_name: Farrell
+   affiliation: University of Manchester (UK)
+   link: https://orcid.org/0000-0001-7708-3877
 
  - first_name: Yvonne
    last_name: Murray
@@ -341,8 +340,26 @@ pc :
    last_name: Colombo
    affiliation: University of Malta (Malta)
    link: http://staff.um.edu.mt/christian.colombo
-  
+   
+  - first_name: Thomas
+    last_name: Flinkow
+    affiliation: Maynooth University (Ireland)
 
+  - first_name: Livia
+    last_name: Lestingi
+    affiliation: Politecnico di Milano (Italy)
+    link:  https://leslivia.github.io/index.html
+    
+  - first_name: Juliane
+    last_name: Päßler
+    affiliation: University of Oslo (Norway)
+    link: https://www.mn.uio.no/ifi/english/people/aca/julipas/index.html
+    
+  - first_name: Paulius
+    last_name: Stankaitis
+    affiliation: University of Stirling
+    link: https://www.stir.ac.uk/people/1967891
+ 
 
 #  - first_name:
 #    last_name:
