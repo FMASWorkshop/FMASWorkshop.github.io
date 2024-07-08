@@ -141,7 +141,6 @@ dates:
 ### PROGRAMME COMMITTEE ###
 show_pc : true
 pc :
-
  - first_name: Akhila
    last_name: Bairy
    affiliation: Carl von Ossietzky Universität Oldenburg (Germany)
@@ -341,24 +340,24 @@ pc :
    affiliation: University of Malta (Malta)
    link: http://staff.um.edu.mt/christian.colombo
    
-  - first_name: Thomas
-    last_name: Flinkow
-    affiliation: Maynooth University (Ireland)
+ - first_name: Thomas
+   last_name: Flinkow
+   affiliation: Maynooth University (Ireland)
 
-  - first_name: Livia
-    last_name: Lestingi
-    affiliation: Politecnico di Milano (Italy)
-    link:  https://leslivia.github.io/index.html
+ - first_name: Livia
+   last_name: Lestingi
+   affiliation: Politecnico di Milano (Italy)
+   link:  https://leslivia.github.io/index.html
     
-  - first_name: Juliane
-    last_name: Päßler
-    affiliation: University of Oslo (Norway)
-    link: https://www.mn.uio.no/ifi/english/people/aca/julipas/index.html
+ - first_name: Juliane
+   last_name: Päßler
+   affiliation: University of Oslo (Norway)
+   link: https://www.mn.uio.no/ifi/english/people/aca/julipas/index.html
     
-  - first_name: Paulius
-    last_name: Stankaitis
-    affiliation: University of Stirling
-    link: https://www.stir.ac.uk/people/1967891
+ - first_name: Paulius
+   last_name: Stankaitis
+   affiliation: University of Stirling
+   link: https://www.stir.ac.uk/people/1967891
  
 
 #  - first_name:
