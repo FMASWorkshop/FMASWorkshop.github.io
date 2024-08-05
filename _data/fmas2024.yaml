@@ -96,23 +96,13 @@ schedule-day_two:
   
 
 ### TALKS ###
-show_talks: false
+show_talks: true
 invited_talks:
-  - name: "Prof. Alice Miller"
-    bio: "is a Professor of Computing Science who has worked in Glasgow's School of Computing Science since 1997, as a Post doc, Daphne Jackson Fellow, Lecturer and Senior Lecturer. Before that she worked in the Universities of East Anglia, Western Australia and Stirling. Her PhD is in Number Theory, but she has worked in Formal Verification for most of her research career. Essentially, Formal Verification uses mathematical techniques to try to prove things about systems - in particular to try to reduce hard problems to tractable ones. She is a member of the London Mathematical Society and the IET, and is a Chartered Engineer."
-    link: "https://www.gla.ac.uk/schools/computing/staff/alicemiller/"
-    title: "Formal methods within the TAS Governance node"
-    abstract: "The TAS Governance Node part of the £33M Trustworthy Autonomous Systems Programme funded by the UKRI Strategic Priorities Fund.
-
-The aim of the node is to explore how to make autonomous systems aware of &mdash; and responsive to &mdash; changing regulations. Led by the University of Edinburgh, it brings together researchers from the universities of Edinburgh, Glasgow, Nottingham, Heriot-Watt, Sussex, and Kings College London; as well as multiple industrial partners.
-
-In this talk I will highlight some of the activities within the node, focussing on those that use Formal Methods. These include:
-<ul>
-<li> an automatic theory repair system for a legal responsibility framework for autonomous vehicles, </li>
-<li> accident anticipation through reasoned simulation, </li>
-<li> robot planning using in-situ model checking; and, </li>
-<li> (formal aspects of) a node-wide automotive case study investigation. </li>
-</ul>"
+  - name: "Dr Silvia Lizeth Tapia Tarifa"
+    bio: " An associate professor at the Department of Informatics, University of Oslo. Her main research area in formal methods for parallel and distributed systems."
+    link: "https://www.mn.uio.no/ifi/personer/vit/sltarifa/"
+    title: "TBA"
+    abstract: "TBA"
 
 
 
