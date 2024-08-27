@@ -123,10 +123,10 @@ Given an LTL formula, a set of atomic propositions as alphabet for the automaton
 
 ### DATES ###
 dates:
-  submission: "~~9th August 2024~~ Extended to 23rd of August 2024"
+  submission: "~~9th August 2024~~ ~~Extended to 23rd of August 2024~~"
   notification: "26th September 2024"
   final_version: "10th of October 2024"
-  workshop: "11th and 12th of November 2024"
+  workshop: "11th -- 13th of November 2024"
 
 ### PROGRAMME COMMITTEE ###
 show_pc : true
