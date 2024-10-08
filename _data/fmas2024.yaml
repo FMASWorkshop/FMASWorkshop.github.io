@@ -99,7 +99,7 @@ schedule-day_two:
 show_talks: true
 invited_talks:
   - name: "Dr Silvia Lizeth Tapia Tarifa"
-    bio: " An associate professor at the Department of Informatics, University of Oslo. Her main research area in formal methods for parallel and distributed systems."
+    bio: " is an Associate Professor at the Department of Informatics, University of Oslo. Her main research area in formal methods for parallel and distributed systems."
     link: "https://www.mn.uio.no/ifi/personer/vit/sltarifa/"
     title: "TBA"
     abstract: "TBA"
