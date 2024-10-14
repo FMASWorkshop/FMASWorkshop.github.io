@@ -101,8 +101,15 @@ invited_talks:
   - name: "Dr Silvia Lizeth Tapia Tarifa"
     bio: " is an Associate Professor at the Department of Informatics, University of Oslo. Her main research area in formal methods for parallel and distributed systems."
     link: "https://www.mn.uio.no/ifi/personer/vit/sltarifa/"
-    title: "TBA"
-    abstract: "TBA"
+    title: "Self-Adaptation in Autonomous Systems."
+    abstract: "Self-adaptation is a crucial feature of autonomous systems that must cope with uncertainties in, e.g., their environment and their internal state. A self-adaptive system (SAS) can be realised as a multi-layered system, e.g., a two-layered systems that have a separation of concerns between the domain-specific functionalities of the system (the managed subsystem) and the adaptation logic (the managing subsystem), which introduces an external feedback loop for managing adaptation in the system; or as a three-layered system, where the third layer can implement a feedback loop for architectural self-adaptation, which is used to reconfigure the second layer (the adaptation logic of the managing subsystem). In this talk I will present techniques that can capture the SAS’s variability, concretely software product lines, where the managing subsystem of an SAS can be modelled as a control layer capable of dynamically switching between valid configurations of the managed subsystem; and declarative stages in a lifecycle of a system, where we do not require explicit modelling of the transitions between stages in the lifecycles of a system; however, characteristics on an stage can be observed, which after observation may trigger changes in the self-adaptation logic itself. "
+    
+  - name: "Prof. Daniel Kröning"
+    bio: "is a Senior Principal Applied Scientist at Amazon, where he works on the correctness of the Neuron Compiler for distributed training and inference. Prior to joining Amazon, he worked as a Professor of Computer Science at the University of Oxford and is the co-founder of Diffblue Ltd., a University spinout that develops AI that targets code and code-like artefacts.\n He has received the Semiconductor Research Corporation (SRC) Inventor Recognition Award, an IBM Faculty Award, a Microsoft Research SEIF Award, and the Wolfson Research Merit Award. He serves on the CAV steering committee and was co-chair of FLOC 2018, EiC of Springer FMSD, and is co-author of the textbooks on Decision Procedures and Model Checking."
+    link: "https://www.kroening.com/"
+    title: "Proof for Industrial Systems using Neural Certificates"
+    abstract: "We introduce a novel approach to model checking software and hardware that combines machine learning and symbolic reasoning by using neural networks as formal proof certificates. We train our neural certificates from randomly generated executions of the system and we then symbolically check their validity which, upon the affirmative answer, establishes that the system provably satisfies the specification. We leverage the expressive power of neural networks to represent proof certificates and the fact that checking a certificate is much simpler than finding one. As a result, our machine learning procedure is entirely unsupervised, formally sound, and practically effective. We implemented a prototype and compared the performance of our method with the state-of-the-art academic and commercial model checkers on a set of Java programs and hardware designs written in SystemVerilog."
+    
 
 
 
@@ -124,8 +131,8 @@ Given an LTL formula, a set of atomic propositions as alphabet for the automaton
 ### DATES ###
 dates:
   submission: "~~9th August 2024~~ ~~Extended to 23rd of August 2024~~"
-  notification: "26th September 2024"
-  final_version: "10th of October 2024"
+  notification: "~~26th September 2024~~"
+  final_version: "~~10th of October 2024~~"
   workshop: "11th -- 13th of November 2024"
 
 ### PROGRAMME COMMITTEE ###
@@ -346,7 +353,7 @@ pc :
     
  - first_name: Paulius
    last_name: Stankaitis
-   affiliation: University of Stirling
+   affiliation: University of Stirling (UK)
    link: https://www.stir.ac.uk/people/1967891
  
 
@@ -356,6 +363,6 @@ pc :
 #    link:
 
 
-register :
+register : https://ifm2024.cs.manchester.ac.uk/registration.html
 
 easychair : https://easychair.org/conferences/?conf=fmas2024
