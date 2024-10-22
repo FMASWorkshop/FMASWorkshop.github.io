@@ -37,7 +37,7 @@ schedule-day_one:
   time: 15:30 - 17:00
   papers: [ { time: 15:30 - 16:00, name: "ROSMonitoring 2.0: Extending ROS Runtime Verification to Services and Ordered Topics - Maryam Ghaffari Saadat, Angelo Ferrando, Louise A. Dennis, and Michael Fisher"}, {time: 16:00 - 16:30, name: "Verification of Behavior Trees with Contingency Monitors - Serena Serbinowska, Nicholas Potteiger, Anne Tumlin, and Taylor T Johnson"}, {time: 16:30 - 17:00, name: "RV4Chatbot: Are Chatbots Allowed to Dream of Electric Sheep? - Andrea Gatti, Viviana Mascardi and Angelo Ferrando"} ]
     
-- time: 17:00 
+- time: "17:00"
   close: true
   name: "Day One Close"
 
@@ -52,6 +52,7 @@ schedule-day_two:
   name:  "Welcome"
 
 - time: 09:00 - 10:30
+  theme : true
   name : "Session 3: Control Algorithms"
   chair: "TBA"
   papers: [ {time: 09:00 - 09:30, name: "Model checking and verification of  synchronisation properties of cobot welding - Yvonne Murray, Henrik Nordlie, David A. Anisi, Pedro Ribeiro, and Ana Cavalcanti"} , {time: 09:30 - 10:00, name: "Synthesising Robust Controllers for Robot Collectives with Recurrent Tasks: A Case Study - Till Schnittka and Mario Gleirscher"} , {time: 10:00 - 10:30, name: "A Case Study on Numerical Analysis of a Path Computation Algorithm - Grégoire Boussu, Nikolai Kosmatov and Franck Vedrine"} ]
