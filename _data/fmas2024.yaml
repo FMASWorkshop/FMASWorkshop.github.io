@@ -1,98 +1,141 @@
 ### SCHEDULE ###
 
 
-show_schedule: false
+show_schedule: true
 schedule-day_one:
-- time: 09:00 - 09:30 
+- time: 09:00 - 11:00
   intro: true
-  name:  "Welcome and Introduction"
+  name:  "Refreshments and Registration"
   
-- time: 09:30 - 10:00
-  theme: true
-  name: "Session 1: Trust and Information Flow (Expo 1)"
-  chair: "Alice Miller"
-  papers: [ {time: 09:30 - 09:45, name: "What to tell when? -- Information Provision as a Game - Astrid Rakow, Akhila Bairy, and Mehrnoush Hajnorouzi"}, {time: 09:45 - 10:00, name: "Trust Modelling and Verification Using Event-B - Asieh Salehi Fathabadi and Vahid Yazdanpanah"} ]
+- time: 11:00 - 11:15
+  intro: true
+  name: "Welcome by Matt Luckcuck (General Chair)"
   
-- time: 10:00 - 10:30
-  break: true
-  name:  "BREAK"  
+- invited: true
+  name : "Invited Talk: 'Self-Adaptation in Autonomous Systems' - Dr Silvia Lizeth Tapia Tarifa from the University of Oslo"
+  chair: ""
+  time: 11:15 - 12:30
   
-- theme : true
-  name : "Session 2: Verification and Assurance of Neural Networks (Expo 1)"
-  papers: [ { time: 10:30 - 10:45, name: "Comparing Differentiable Logics for Learning Systems: A Research Preview - Thomas Flinkow, Barak A. Pearlmutter, and Rosemary Monahan"}, {time: 10:45 - 11:15, name: "Extending Neural Network Verification to a Larger Family of Piece-wise Linear Activation Functions - László Antal, Hana Masara, and Erika Ábrahám"}, {time: 11:15 - 11:30, name: "Certified Control for Train Sign Classification - Jan Roßbach and Michael Leuschel"}, {time: 11:30 - 11:45, name: "3vLTL: a Tool to Generate Automata for Three-valued LTL - Francesco Belardinelli, Angelo Ferrando, and Vadim Malvone"} ]
-  
-  
-- time: 12:00 - 14:00
+- time: 12:30 - 14:00
   break: true
   name:  "Lunch"
   
-- invited: true
-  name : "Joint iFM/FMAS Invited Talk: 'SMT: Something you Must Try' - Erika Ábrahám from RWTH Aachen University, DE (Theater Room)"
-  chair: "Paula Herber"
-  time: 14:00 - 15:00
-  joint: true
 
+- time: 14:00 - 15:00
+  theme: true
+  name: "Session 1: Hybrid Systems"
+  chair: "TBA"
+  papers: [ {time: 14:00 - 14:30, name: "Autonomous System Safety Properties with Multi-Machine Hybrid Event-B - Richard Banach"}, {time: 14:30 - 15:00, name: "Formal simulation and visualisation of hybrid programs - Pedro Mendes, Ricardo Correia, Renato Neves, and José Proença"} ]
+  
+  
 - time: 15:00 - 15:30
   break : true
   name:  "BREAK"
   
-- time: 15:30 - 17:00
-  name: "Joint iFM/FMAS Session: Autonomous Systems (Theater Room)"
-  chair: "Marie Farrell"
-  theme: true
-  joint: true
-  papers: [ {time: "15:30 - 16:00", name: "Formal Modelling and Analysis of a Self-Adaptive Robotic System (iFM 2023 paper) - Juliane Päßler, Maurice H. ter Beek, Ferruccio Damiani, Silvia Lizeth Tapia Tarifa, and Einar Broch Johnsen", joint: true}, {time: "16:00 - 16:30", name: "CAN-verify: Verification Tool for BDI Agents (iFM 2023 paper) - Mengwei Xu, Thibault Rivoalen, Blair Archibald and Michele Sevegnani", joint: true}, {time: 16:30 - 17:00, name: "Model checking for Robot Reactive Planning - Christopher Chandler, Bernd Porr, Alice Miller, and Giulia Lafratta"}]
-
-- time: 17:00 - 17:15
+- theme : true
+  name : "Session 2: Runtime Monitoring"
+  time: 15:30 - 17:00
+  papers: [ { time: 15:30 - 16:00, name: "ROSMonitoring 2.0: Extending ROS Runtime Verification to Services and Ordered Topics - Maryam Ghaffari Saadat, Angelo Ferrando, Louise A. Dennis, and Michael Fisher"}, {time: 16:00 - 16:30, name: "Verification of Behavior Trees with Contingency Monitors - Serena Serbinowska, Nicholas Potteiger, Anne Tumlin, and Taylor T Johnson"}, {time: 16:30 - 17:00, name: "RV4Chatbot: Are Chatbots Allowed to Dream of Electric Sheep? - Andrea Gatti, Viviana Mascardi and Angelo Ferrando"} ]
+    
+- time: 17:00 
   close: true
   name: "Day One Close"
-  
-- time: 18:30 - 22:00
-  dinner: true
-  name: "FMAS 2023 Social Dinner"
-  details: {time: "18:30 - 22:00", name: "The FMAS 2023 Social Dinner will be held at De Waag. Details about the dinner can be found on the <a href='https://ifm23.liacs.nl/social.html#FMAS-dinner'>iFM website</a>." }
-  
 
   
+
+
 
 schedule-day_two:
 
-- time: 09:00 - 10:00
-  invited: true
-  name: "Invited Talk: Formal Methods within the TAS Governance node - Alice Miller from the University of Glasgow, UK (Expo 2)"
-  chair: "Matt Luckcuck"
+- time: 08:45 - 09:00
+  intro: true
+  name:  "Welcome"
 
-- time: 10:00 - 10:30
+- time: 09:00 - 10:30
+  invited: true
+  name : "Session 3: Control Algorithms"
+  chair: "TBA"
+  papers: [ {time: 09:00 - 09:30, name: "Model checking and verification of  synchronisation properties of cobot welding - Yvonne Murray, Henrik Nordlie, David A. Anisi, Pedro Ribeiro, and Ana Cavalcanti"} , {time: 09:30 - 10:00, name: "Synthesising Robust Controllers for Robot Collectives with Recurrent Tasks: A Case Study - Till Schnittka and Mario Gleirscher"} , {time: 10:00 - 10:30, name: "A Case Study on Numerical Analysis of a Path Computation Algorithm - Grégoire Boussu, Nikolai Kosmatov and Franck Vedrine"}]
+
+
+- time: 10:30 - 11:00
   break : true
   name:  "BREAK"
   
 - theme : true
-  name : "Session 3: Verified Intelligent Transportation (Expo 2)"
-  chair: "Mario Gleirscher"
-  papers: [ {time: 10:30 - 11:00, name: "Online Reachability Analysis and Space Convexification for Autonomous Racing - Sergiy Bogomolov, Taylor T Johnson, Diego Manzanas, Patrick Musau, and Paulius Stankaitis"} , {time: 11:00 - 11:30, name: "Automatic Generation of Scenarios for System-level Simulation-based Verification of Autonomous Driving Systems - Srajan Goyal, Alberto Griggio, Jacob Kimblad, and Stefano Tonetta"} , {time: 11:30 - 12:00, name: "Enforcing Timing Properties in Motorway Traffic - Christopher Bischopink"}]
+  time: 11:00 - 11:30 
+  name : "Session 4: Multi-Layerd Verification"
+  chair: "TBA"
+  papers: [{time: 11:00 - 11:15, name:  "Cross-layer Formal Verification of Robotic Systems - Sylvain Raïs, Julien Brunel, David Doose, and Frédéric Herbreteau"}, {time: 11:15 - 11:30, name: "Using Formal Models, Safety Shields and Certified Control to Validate AI-Based Train Systems - Jan Gruteser, Jan Roßbach, Fabian Vu and Michael Leuschel"}]
 
-
-- time: 12:00 - 14:00
+- time: 12:30 - 14:00
   break : true
   name:  "Lunch"
 
 - theme : true
-  name : "Session 4: Formal Assurance across the Control Loop (Expo 2)"
-  chair: "Stefano Tonetta"
-  papers: [{time: 14:00 - 14:15, name:  "Correct-by-Construction Control for Stochastic and Uncertain Dynamical Models via Formal Abstractions - Thom Badings, Licio Romao, Alessandro Abate, and Nils Jansen"}, {time: 14:15 - 14:30, name: "Towards Formal Fault Injection for Safety Assessment of Automated Systems - Ashfaq Farooqui and Behrooz Sangchoolie"} , {time: 14:30 - 15:00, name: "Formal Verification of Long Short-Term Memory based Audio Classifiers: A Star based Approach - Neelanjana Pal and Taylor T. Johnson"}]
+  name : "Session 5: Formal Methods for Machine Learning"
+  time: 14:00 - 15:00
+  chair: "TBA"
+  papers: [{time: 14:00 - 14:15, name: "Model Checking for Reinforcement Learning in Autonomous Driving: One Can Do More Than You Think! - Rong Gu"} , {time: 14:15 - 15:00, name: "Creating a Formally Verified Neural Network for Autonomous Navigation: An Experience Report - Syed Ali Asadullah Bukhari, Thomas Flinkow, Medet Inkarbekov, Barak A. Pearlmutter, and Rosemary Monahan"} ]
 
 - time: 15:00 - 15:30
   break: true
   name:  "BREAK"
 
 - theme : true
-  name : "Session 5: Runtime verification (Expo 2)"
-  chair: "Maike Schwammberger"
-  papers: [{time: 15:30 - 16:00, name: "Towards proved formal specification and verification of STL operators as synchronous observers - Céline Bellanger, Pierre-Loïc Garoche, Matthieu Martel, and Célia Picard"} , {time: 16:00 - 16:30, name: "Runtime Verification of Learning Properties for Reinforcement Learning Algorithms - Tommaso Mannucci and Julio de Oliveira Filho"} ]
+  name : "Session 6: Open challenges and FMAS Future Discussion"
+  time: 15:30 - 17:00
+  chair: "TBA"
+  papers: [{time: 15:30 - 15:45, name: "Open Challenges in the Formal Verification of Autonomous Driving - Paolo Burgio, Angelo Ferrando and Marco Villani"} , {time: 15:45 - 17:00, name: "Discussion - Future of FMAS"} ]
 
-- time: 16:30 - 17:00
+- time: 17:00
   close: true
   name: "Day Two Close"
+  
+  
+- time: 18:30 - Late
+  dinner: true
+  name: "FMAS 2024 Social Dinner"
+  details: {time: "18:30 - Late", name: "FMAS 2024 Social Dinner. More details to follow." }
+  
+
+schedule-day_three:
+
+- time: 08:45 - 09:20
+  intro: true
+  name:  "iFM Arrival and Registration"
+  
+- time: 09:20 - 09:30
+  intro : true
+  name: "iFM Opening"
+ 
+- invited: true
+  name : "Joint iFM/FMAS Invited Talk: 'Proof for Industrial Systems using Neural Certificates' - Prof. Daniel Kröning from Amazon"
+  chair: "Laura Kovács"
+  time: 09:30 - 10:30
+  joint: true
+
+- time: 10:30 - 11:00
+  break: true
+  name:  "BREAK"  
+  
+ 
+- time: 11:00 - 12:30
+  name: "Joint iFM/FMAS Session: iFM Practices and Verification"
+  chair: "Mengwei Xu"
+  theme: true
+  joint: true
+  papers: [ {time: "tba", name: "A Formal Tainting-Based Framework for Malware Analysis (iFM 2024 paper) - Andrei-Catalin Mogage and Dorel Lucanu", joint: true}, {time: "tba", name: "Formalizing Stateful Behavior Trees (FMAS 2024 paper) - Serena Serbinowska, Preston Robinette, Gabor Karsai, and Taylor T Johnson", joint: true}, {time: tba, name: "A Systematic Literature Review on a Decade of Industrial TLA+ Practice (iFM 2024 paper) - Roman Bögli, Leandro Lerena, Christos Tsigkanos and Timo Kehrer"}, {time: tba, name: "Proving Termination via Measure Transfer in Equivalence Checking (iFM 2024 paper) - Dragana Milovančević, Carsten Fuhs, Mario Bucev and Viktor Kunčak"}]
+
+- time: 12:30 - 14:00
+  break: true
+  name:  "Lunch"
+
+
+- time: "14:00"
+  break: true
+  name: "Rejoins iFM Program" 
+
   
 
 ### TALKS ###
@@ -101,7 +144,7 @@ invited_talks:
   - name: "Dr Silvia Lizeth Tapia Tarifa"
     bio: " is an Associate Professor at the Department of Informatics, University of Oslo. Her main research area in formal methods for parallel and distributed systems."
     link: "https://www.mn.uio.no/ifi/personer/vit/sltarifa/"
-    title: "Self-Adaptation in Autonomous Systems."
+    title: "Self-Adaptation in Autonomous Systems"
     abstract: "Self-adaptation is a crucial feature of autonomous systems that must cope with uncertainties in, e.g., their environment and their internal state. A self-adaptive system (SAS) can be realised as a multi-layered system, e.g., a two-layered systems that have a separation of concerns between the domain-specific functionalities of the system (the managed subsystem) and the adaptation logic (the managing subsystem), which introduces an external feedback loop for managing adaptation in the system; or as a three-layered system, where the third layer can implement a feedback loop for architectural self-adaptation, which is used to reconfigure the second layer (the adaptation logic of the managing subsystem). In this talk I will present techniques that can capture the SAS’s variability, concretely software product lines, where the managing subsystem of an SAS can be modelled as a control layer capable of dynamically switching between valid configurations of the managed subsystem; and declarative stages in a lifecycle of a system, where we do not require explicit modelling of the transitions between stages in the lifecycles of a system; however, characteristics on an stage can be observed, which after observation may trigger changes in the self-adaptation logic itself. "
     
   - name: "Prof. Daniel Kröning"
@@ -115,18 +158,308 @@ invited_talks:
 
 
 ### PAPERS ###
-show_papers: false
+show_papers: true
 papers:
-  -
-    title: "3vLTL: a Tool to Generate Automata for Three-valued LTL"
-    titleLink: "https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2023.13"
-    authors: "Francesco Belardinelli, Angelo Ferrando, and Vadim Malvone"
-    abstract: "Multi-valued logics have a long tradition in the literature on system verification, including run-time verification.
-However, comparatively fewer model-checking tools have been developed for multi-valued specification languages.
-We present  3vLTL, a tool to generate Buchi automata from  formulas in Linear-time Temporal Logic (LTL) interpreted on a three-valued semantics.
-Given an LTL formula, a set of atomic propositions as alphabet for the automaton, and a truth value, our procedure generates a Buchi automaton that accepts all the words that assign the chosen truth value to the LTL formula. Given the particular type of the output of the tool, it can also be seamlessly processed by third-party libraries in a natural way. That is, the Buchi automaton can then be used in the context of formal verification to check whether an LTL formula is true, false, or undefined on a given model."
-  
+  - title: "RV4Chatbot: Are Chatbots Allowed to Dream of Electric Sheep?"
+    authors: "Andrea Gatti, Viviana Mascardi, and Angelo Ferrando"
+    abstract: "Chatbots have become integral to various application
+domains, including those with safety-critical
+considerations. As a result, there is a pressing need for
+methods that ensure chatbots consistently adhere to
+expected, safe behaviours. In this paper, we introduce
+RV4Chatbot, a Runtime Verification framework designed to
+monitor deviations in chatbot behaviour. We formalise
+expected behaviours as interaction protocols between the
+user and the chatbot. We present the RV4Chatbot design and
+describe two implementations that instantiate it: RV4Rasa,
+for monitoring chatbots created with the Rasa framework,
+and RV4Dialogflow, for monitoring Dialogflow chatbots.
+Additionally, we detail experiments conducted in a factory
+automation scenario using both RV4Rasa and RV4Dialogflow."
 
+  - title: "Autonomous System Safety Properties with Multi-Machine Hybrid Event-B"
+    authors: "Richard Banach"
+    abstract: "Event-B is a well known methodology for the verified design
+and development
+of systems that can be characterised as discrete transition
+systems. Hybrid
+Event-B is a conservative extension that interleaves the
+discrete transitions
+of Event-B (assumed to be temporally isolated) with
+episodes of continuously
+varying state change. While a single Hybrid Event-B machine
+is sufficient for
+applications with a single locus of control, it will not do
+for autonomous
+systems, which have several loci of control by default.
+Multi-machine Hybrid
+Event-B is designed to allow the specification of systems
+with several loci
+of control. The formalism is succinctly surveyed, pointing
+out the subtle
+semantic issues involved. The multi-machine formalism is
+then used to specify
+a relatively simple incident response system, involving a
+controller, two
+drones and three responders, working in a partly
+coordinated and partly
+independent fashion to manage a putative hazardous scenario."
+
+  - title: "Model Checking for Reinforcement Learning in Autonomous Driving: One Can Do More Than You Think!"
+    authors: "Rong Gu"
+    abstract: "Most reinforcement learning (RL) platforms use high-level
+programming languages, such as OpenAI Gymnasium using
+Python. These frameworks provide various API and benchmarks
+for testing RL algorithms in different domains, such as
+autonomous driving (AD) and robotics. These platforms often
+emphasise the design of RL algorithms and the training
+performance but neglect the correctness of models and
+reward functions, which can be crucial for the successful
+application of RL. This paper proposes using formal methods
+to model AD systems and demonstrates how model checking
+(MC) can be used in RL for AD. Most studies combining MC
+and RL focus on safety, such as safety shields. However,
+this paper shows different facets where MC can strengthen
+RL. First, an MC-based model pre-analysis can reveal bugs
+with respect to sensor accuracy and learning step size.
+This step serves as a preparation of RL, which saves time
+if bugs exist and deepens users' understanding of the
+target system. Second, reward automata can greatly improve
+learning performance especially when the learning
+objectives are multiple. All these findings are supported
+by experiments."
+
+  - title: "Open Challenges in the Formal Verification of Autonomous Driving"
+    authors: "Paolo Burgio, Angelo Ferrando, and Marco Villani"
+    abstract: "In the realm of autonomous driving, the development and
+integration of highly complex and heterogeneous systems are
+standard practice. Modern vehicles are not monolithic
+systems; instead, they are composed of diverse hardware
+components, each running its own software systems. An
+autonomous vehicle comprises numerous independent
+components, often developed by different and potentially
+competing companies. This diversity poses significant
+challenges for the certification process, as it
+necessitates certifying components that may not disclose
+their internal behaviour (black-boxes). In this paper, we
+present a real-world case study of an autonomous driving
+system, identify key open challenges associated with its
+development and integration, and explore how formal
+verification techniques can address these challenges to
+ensure system reliability and safety."
+
+  - title: "ROSMonitoring 2.0: Extending ROS Runtime Verification to Services and Ordered Topics"
+    authors: "Maryam Ghaffari Saadat, Angelo Ferrando, Louise A. Dennis, and Michael Fisher"
+    abstract: "Formal verification of robotic applications presents
+challenges due to their hybrid nature and distributed
+architecture. This paper introduces ROSMonitoring 2.0, an
+extension of ROSMonitoring designed to facilitate the
+monitoring of both topics and services while considering
+the order in which messages are published and received. The
+framework has been enhanced to support these novel features
+for both ROS1 and ROS2 environments, offering improved
+real-time support, security, scalability, and
+interoperability. We discuss the modifications made to
+accommodate these advancements and present results obtained
+from a case study involving the runtime monitoring of
+specific components of a fire-fighting Uncrewed Aerial
+Vehicle (UAV)."
+
+  - title: "Cross-layer Formal Verification of Robotic Systems"
+    authors: "Sylvain Raïs, Julien Brunel, David Doose, and Frédéric Herbreteau"
+    abstract: "The design and verification of robotic systems are often
+divided into several layers for reasons of system
+modularity and complexity. However, some system properties
+can only be studied by considering several layers
+simultaneously. We propose a cross-layer verification
+method to check the expected properties of concrete robotic
+systems. Our method verifies a layer using abstractions of
+other layers. We propose two approaches: refining the
+models of the abstract layers and refining the property
+under verification. A combination of these two approaches
+seems the most promising to ensure model genericity and
+avoid the problem of state-space explosion."
+
+  - title: "Using Formal Models, Safety Shields and Certified Control to Validate AI-Based Train Systems"
+    authors: "Jan Gruteser, Jan Roßbach, Fabian Vu and Michael Leuschel"
+    abstract: "The certification of autonomous systems is an important
+concern in science and industry. The KI- LOK project
+explores new methods for certifying and safely integrating
+AI components into autonomous trains. We pursued a
+two-layered approach: (1) ensuring the safety of the
+steering system by formal analysis using the B method, and
+(2) improving the reliability of the perception system with
+a runtime certificate checker. This work links both
+strategies within a demonstrator that runs simulations on
+the formal model, controlled by the real AI output and the
+real certificate checker. The demonstrator is integrated
+into the formal method tool PROB. This enables runtime
+monitoring, runtime verification, and statistical
+validation of formal safety properties using a formal B
+model. Consequently, one can detect and analyse potential
+vulnerabilities and weaknesses of the AI and the
+certificate checker. We apply these techniques to a signal
+detection case study, demonstrating the effectiveness and
+presenting initial findings."
+
+  - title: "A Case Study on Numerical Analysis of a Path Computation Algorithm"
+    authors: "Grégoire Boussu, Nikolai Kosmatov and Franck Vedrine"
+    abstract: "Lack of numerical precision in control software --- in
+particular,
+related to trajectory computation --- can lead to
+incorrect results with costly or even catastrophic
+consequences.
+Various tools have been proposed to analyze the precision
+of program computations.
+This paper presents a case study on numerical analysis of
+an industrial
+implementation of the fast marching algorithm,  a popular
+path computation algorithm
+frequently used for trajectory computation.
+We briefly describe the selected tools, present the applied
+methodology,
+highlight some attention points, summarize the results and
+outline
+future work directions."
+
+  - title: "Synthesising Robust Controllers for Robot Collectives with Recurrent Tasks: A Case Study"
+    authors: "Till Schnittka and Mario Gleirscher"
+    abstract: "When designing correct-by-construction controllers for
+autonomous collectives, three key challenges are the task
+specification, the modelling, and its use at practical
+scale. In this paper, we focus on a simple yet useful
+abstraction for high-level controller synthesis for robot
+collectives with optimisation goals (e.g., maximum
+cleanliness, minimum energy consumption) as well as
+recurrence (e.g., maintain a contamination threshold, avoid
+running out of charge) and safety (e.g., mutually exclusive
+room occupation) constraints.
+
+Due to technical limitations (related to scalability and
+using constraints in the synthesis), we simplify a
+graph-based setting using stochastic two-player games into
+a single-player game on partially observable Markov
+decision processes (POMDPs). Robustness against
+environmental uncertainty is encoded via partial
+observability. Linear-time correctness properties are
+verified separately after synthesising the POMDP strategy.
+
+We contribute at-scale guidance on POMDP modelling and
+controller synthesis for tasked robot collectives
+exemplified by the scenario of battery-driven robots
+responsible for cleaning public buildings with utilisation
+constraints"
+
+  - title: "Model checking and verification of synchronisation properties of cobot welding"
+    authors: "Yvonne Murray, Henrik Nordlie, David A. Anisi, Pedro Ribeiro and Ana Cavalcanti"
+    abstract: "This work describes use of model checking to verify
+synchronisation properties of an industrial welding system
+consisting of a cobot arm and an external turntable. The
+robots move synchronously, but sometimes get out of
+synchronisation. This gives inadequate weld qualities in
+problem areas, such as around corners. These mistakes are
+costly, since time is lost both in the robotic welding and
+in manual repairs needed to improve the weld. Verification
+of the synchronisation properties showed that they were
+fulfilled as long as assumptions of correctness were made
+about parts outside the scope of the model, indicating
+limitations in the hardware. These results motivated a
+re-calibration of the real-life system, drastically
+improving the welding results."
+
+  - title: "Formal simulation and visualisation of hybrid programs"
+    authors: "Pedro Mendes, Ricardo Correia, Renato Neves and José Proença"
+    abstract: "The design and analysis of systems that combine
+computational, discrete behaviour with physical processes'
+continuous dynamics – such as movement, velocity, and
+voltage – is a famous, challenging task. Several
+theoretical results from programming theory emerged in the
+last decades to tackle the issue; some of which are the
+basis of a proof-of-concept tool, called Lince, that aids
+in the analysis of such systems, by presenting simulations
+of their respective behaviours.
+
+Being a proof-of-concept, the tool is quite limited w.r.t.
+usability, and when attempting to apply it to a set of
+common, concrete problems, involving autonomous driving and
+others, it either simply cannot simulate them or fails to
+provide a satisfactory user-experience.
+
+This work thus complements the aforementioned theoretical
+approaches with a more practical perspective by improving
+Lince along several dimensions: to name a few, richer
+syntactic constructs, more operations, more informative
+plotting systems and errors messages, and a better
+performance overall. We illustrate our improvements via
+small different case-studies that involve both autonomous
+driving and electrical systems."
+
+  - title: "Formalizing Stateful Behavior Trees"
+    authors: "Serena Serbinowska, Preston Robinette, Gabor Karsai and Taylor T Johnson"
+    abstract: "Behavior Trees (BTs) are high-level controllers that are
+useful in a variety of planning tasks and are gaining
+traction in robotic mission planning. As they gain
+popularity in safety-critical domains, it is important to
+formalize their syntax and semantics, as well as verify
+properties for them. In this paper, we formalize a class of
+BTs we call Stateful Behavior Trees (SBTs) that have
+auxiliary variables and operate in an environment that can
+change over time. SBTs have access to persistent shared
+memory—often known as a blackboard—that keeps track of
+these auxiliary variables. We demonstrate that SBTs are
+equivalent in computational power to Turing Machines when
+the blackboard can store mathematical (unbounded) integers.
+We also identify conditions where SBTs have computational
+power equivalent to finite state automata, specifically
+where the auxiliary variables are of finitary types. We
+present a domain specific language (DSL) for writing SBTs
+and adapt the tool BehaVerify for use with this DSL. This
+new DSL in BehaVerify supports interfacing with popular BT
+libraries in
+Python, and also provides generation of Haskell code and
+nuXmv models, the latter of which are used for model
+checking temporal logic specifications for the SBTs. We
+include examples and scalability results where BehaVerify
+outperforms another verification tool (MoVe4BT) by a factor
+of 100."
+
+  - title: "Creating a Formally Verified Neural Network for Autonomous
+Navigation: An Experience Report"
+    authors: "Syed Ali Asadullah Bukhari, Thomas Flinkow, Medet Inkarbekov, Barak A. Pearlmutter and Rosemary Monahan"
+    abstract: "The increased reliance of self-driving vehicles on neural
+networks opens up the challenge of their verification.
+In this paper we present an experience report, describing a
+case study which we undertook to explore the design and
+training of a neural network on a custom dataset for
+vision-based autonomous navigation.
+We are particularly interested in the use of machine
+learning with differentiable logics to obtain networks
+satisfying basic safety properties by design, guaranteeing
+the behaviour of the neural network after training.
+We motivate the choice of a suitable neural network
+verifier for our purposes and report our observations on
+the use of neural network verifiers for self-driving
+systems."
+
+  - title: "Verification of Behavior Trees with Contingency Monitors"
+    authors: "Serena Serbinowska, Nicholas Potteiger, Anne Tumlin and Taylor T Johnson"
+    abstract: "Behavior Trees (BTs) are high level controllers that have
+found use in a wide range of robotics tasks. As they grow
+in popularity and usage, it is crucial to ensure that the
+appropriate tools and methods are available for ensuring
+they work as intended. To that end, we created a new
+methodology by which to create Runtime Monitors for BTs.
+These monitors can be used by the BT to correct when
+undesirable behavior is detected and are capable of
+handling LTL specifications. We demonstrate that in terms
+of runtime, the generated monitors are on par with monitors
+generated by existing tools and highlight certain features
+that make our method more desirable in various situations.
+We note that our method allows for our monitors to be
+swapped out with alternate monitors with fairly minimal
+user effort. Finally, our method ties in with our existing
+tool, BehaVerify, allowing for the verification of BTs with
+monitors."
 
 ### DATES ###
 dates:
