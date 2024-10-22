@@ -52,10 +52,9 @@ schedule-day_two:
   name:  "Welcome"
 
 - time: 09:00 - 10:30
-  invited: true
   name : "Session 3: Control Algorithms"
   chair: "TBA"
-  papers: [ {time: 09:00 - 09:30, name: "Model checking and verification of  synchronisation properties of cobot welding - Yvonne Murray, Henrik Nordlie, David A. Anisi, Pedro Ribeiro, and Ana Cavalcanti"} , {time: 09:30 - 10:00, name: "Synthesising Robust Controllers for Robot Collectives with Recurrent Tasks: A Case Study - Till Schnittka and Mario Gleirscher"} , {time: 10:00 - 10:30, name: "A Case Study on Numerical Analysis of a Path Computation Algorithm - Grégoire Boussu, Nikolai Kosmatov and Franck Vedrine"}]
+  papers: [ {time: 09:00 - 09:30, name: "Model checking and verification of  synchronisation properties of cobot welding - Yvonne Murray, Henrik Nordlie, David A. Anisi, Pedro Ribeiro, and Ana Cavalcanti"} , {time: 09:30 - 10:00, name: "Synthesising Robust Controllers for Robot Collectives with Recurrent Tasks: A Case Study - Till Schnittka and Mario Gleirscher"} , {time: 10:00 - 10:30, name: "A Case Study on Numerical Analysis of a Path Computation Algorithm - Grégoire Boussu, Nikolai Kosmatov and Franck Vedrine"} ]
 
 
 - time: 10:30 - 11:00
