@@ -26,8 +26,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://FMASWorkshop.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 images: "/images/"
 logos : "/images/logos"
-twitter_username: FMASWorkshop
-github_username:  FMASWorkshop
+#twitter_username: FMASWorkshop
+#github_username:  FMASWorkshop
+
 
 # Used as meta tags in _layouts/default.html
 author : FMAS
