@@ -93,7 +93,7 @@ schedule-day_two:
 - theme : true
   name : "Session 6: Open challenges and Discussion"
   time: "15:30 - 17:00"
-  chair: "TBA"
+  chair: "Maike Schwammberger"
   papers: [{time: 15:30 - 15:45, name: "Open Challenges in the Formal Verification of Autonomous Driving - Paolo Burgio, Angelo Ferrando and Marco Villani"} , {time: 15:45 - 17:00, name: "Discussion - Future Directions"} ]
 
 - time: "17:00"
