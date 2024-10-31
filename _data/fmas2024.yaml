@@ -69,9 +69,11 @@ schedule-day_two:
   papers: [{time: 11:00 - 11:15, name:  "Cross-layer Formal Verification of Robotic Systems - Sylvain Raïs, Julien Brunel, David Doose, and Frédéric Herbreteau"}, {time: 11:15 - 11:30, name: "Using Formal Models, Safety Shields and Certified Control to Validate AI-Based Train Systems - Jan Gruteser, Jan Roßbach, Fabian Vu and Michael Leuschel"}]
 
 - time: "11:30 - 12:30"
+  tutorial: true
   name: "Tutorial Session -  Model-Checking Agent Programming Languages: The MCAPL Framework"
   chair: "Louise Dennis, University of Manchester"
   invited: true
+  details: null
 
 - time: "12:30 - 14:00"
   break : true
