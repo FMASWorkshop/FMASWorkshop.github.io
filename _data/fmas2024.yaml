@@ -83,7 +83,7 @@ schedule-day_two:
 - theme : true
   name : "Session 5: Formal Methods for Machine Learning"
   time: "14:00 - 15:00"
-  chair: "TBA"
+  chair: "Taylor Johnson"
   papers: [{time: 14:00 - 14:30, name: "Model Checking for Reinforcement Learning in Autonomous Driving: One Can Do More Than You Think! - Rong Gu"} , {time: 14:30 - 15:00, name: "Creating a Formally Verified Neural Network for Autonomous Navigation: An Experience Report - Syed Ali Asadullah Bukhari, Thomas Flinkow, Medet Inkarbekov, Barak A. Pearlmutter, and Rosemary Monahan"} ]
 
 - time: "15:00 - 15:30"
