@@ -13,7 +13,7 @@ schedule-day_one:
   
 - invited: true
   name : "Invited Talk: 'Self-Adaptation in Autonomous Systems' - Dr Silvia Lizeth Tapia Tarifa from the University of Oslo"
-  chair: ""
+  chair: "Matt Luckcuck"
   time: "11:15 - 12:30"
   
 - time: "12:30 - 14:00"
