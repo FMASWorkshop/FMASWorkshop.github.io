@@ -72,7 +72,7 @@ schedule-day_two:
 - time: "11:30 - 12:30"
   tutorial: true
   name: "Tutorial Session -  Model-Checking Agent Programming Languages: The MCAPL Framework"
-  chair: "Louise Dennis, University of Manchester"
+  chair: "Louise A. Dennis, University of Manchester"
   invited: true
   details: null
 
@@ -93,8 +93,8 @@ schedule-day_two:
 - theme : true
   name : "Session 6: Open challenges and Discussion"
   time: "15:30 - 17:00"
-  chair: "Maike Schwammberger"
-  papers: [{time: 15:30 - 15:45, name: "Open Challenges in the Formal Verification of Autonomous Driving - Paolo Burgio, Angelo Ferrando and Marco Villani"} , {time: 15:45 - 17:00, name: "Discussion - Future Directions"} ]
+  chair: "Akhila Bairy"
+  papers: [{time: 15:30 - 15:45, name: "Open Challenges in the Formal Verification of Autonomous Driving - Paolo Burgio, Angelo Ferrando and Marco Villani"} , {time: 15:45 - 17:00, name: "Discussion - Challenges and Solutions (Akhila Bairy, Maike Schwammberger, Simon Kolker)"} ]
 
 - time: "17:00"
   close: true
@@ -133,7 +133,7 @@ schedule-day_three:
   chair: "Mengwei Xu"
   theme: true
   joint: true
-  papers: [ {time: "tba", name: "A Formal Tainting-Based Framework for Malware Analysis (iFM 2024 paper) - Andrei-Catalin Mogage and Dorel Lucanu", joint: true}, {time: "tba", name: "Formalizing Stateful Behavior Trees (FMAS 2024 paper) - Serena Serbinowska, Preston Robinette, Gabor Karsai, and Taylor T Johnson", joint: true}, {time: tba, name: "A Systematic Literature Review on a Decade of Industrial TLA+ Practice (iFM 2024 paper) - Roman Bögli, Leandro Lerena, Christos Tsigkanos and Timo Kehrer"}, {time: tba, name: "Proving Termination via Measure Transfer in Equivalence Checking (iFM 2024 paper) - Dragana Milovančević, Carsten Fuhs, Mario Bucev and Viktor Kunčak"}]
+  papers: [ {time: "11:00", name: "A Formal Tainting-Based Framework for Malware Analysis (iFM 2024 paper) - Andrei-Catalin Mogage and Dorel Lucanu", joint: true}, {time: "11:30", name: "Formalizing Stateful Behavior Trees (FMAS 2024 paper) - Serena Serbinowska, Preston Robinette, Gabor Karsai, and Taylor T Johnson", joint: true}, {time: 12:00, name: "A Systematic Literature Review on a Decade of Industrial TLA+ Practice (iFM 2024 paper) - Roman Bögli, Leandro Lerena, Christos Tsigkanos and Timo Kehrer"}, {time: 12:15, name: "Proving Termination via Measure Transfer in Equivalence Checking (iFM 2024 paper) - Dragana Milovančević, Carsten Fuhs, Mario Bucev and Viktor Kunčak"}]
 
 - time: "12:30 - 14:00"
   break: true
