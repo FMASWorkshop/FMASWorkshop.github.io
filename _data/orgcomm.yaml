@@ -1,0 +1,56 @@
+- firstName: "Dr Matt"
+  secondName: "Luckcuck"
+  website: "https://mluckcuck.github.io/"
+  orcid: "https://orcid.org/0000-0002-6444-9312"        
+  institute:  "University of Nottingham, UK"
+  
+- firstName: "Dr Marie"
+  secondName: "Farrell"
+  website: "https://mariefarrell.github.io/"
+  orcid: "https://orcid.org/0000-0001-7708-3877" 
+  institute: "University of Manchester, UK"
+  
+- firstName: "Jun.-Prof. Dr Maike"
+  secondName: "Schwammberger"
+  orcid: "https://orcid.org/0000-0002-3344-6282"
+  institute: "Karlsruhe Institute of Technology, Germany"
+   
+- firstName: "Dr Mario"
+  secondName: "Gleirscher"
+  orcid: "https://orcid.org/0000-0002-9445-6863"
+  institute: "University of Bremen, Germany" 
+
+- firstName: "Dr Mengwei"
+  secondName: "Xu"
+  website: "https://mengweixu.netlify.app/"
+  orcid: "https://orcid.org/0000-0003-4978-3061"
+  institute: "University of Newcastle, UK"
+
+  
+- firstName: "Akhila"
+  secondName: "Bairy"
+  orcid: "https://orcid.org/0000-0002-8796-1474"
+  institute: "Karlsruhe Institute of Technology, Germany"
+ 
+  
+- firstName: "Diana Carolina Benjumea"
+  secondName: "Hernandez"
+  orcid: "https://orcid.org/0000-0003-1840-7178"
+  institute: "University of Manchester, UK"
+  
+- firstName: "Thomas"
+  secondName: "Flinkow"
+  orcid:  "https://orcid.org/0000-0002-8075-2194"
+  institute: "Maynooth University, Ireland"
+  
+- firstName: "Simon"
+  secondName: "Kolker"
+  orcid:  "https://orcid.org/0000-0001-9144-2856"
+  institute: "University of Manchester, UK"
+  
+  
+- firstName: "Dr Ray"
+  secondName: "Limarga"
+  website: "https://scholar.google.com/citations?hl=en&user=1vBTDV4AAAAJ&view_op=list_works&sortby=pubdate"
+  orcid: "https://orcid.org/0009-0002-1142-7651"
+  institute: "University of Manchester, UK"
