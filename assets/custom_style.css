@@ -1,0 +1,26 @@
+---
+---
+
+.flexWrapper {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: calc(1000px - (30px * 2));
+    width: 100%;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 550px) {
+    .flexWrapper {
+        display: block;
+    }
+} 
+
+.wrapper {
+    max-width: calc(1000px - (30px * 2));
+    margin:0 auto;
+}
+.wrapper.custom {
+    max-width: 70%;
+}
+.sideBar {
+    max-width: 30%;
+}
