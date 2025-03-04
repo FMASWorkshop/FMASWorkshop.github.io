@@ -3,154 +3,24 @@
 
 show_schedule: false
 schedule-day_one:
-- time: "09:00 - 11:00"
+- time: "08:45 - 09:00"
   intro: true
-  name:  "Refreshments and Registration"
+  name:  "Welcome"
   
-- time: "11:00 - 11:15"
-  intro: true
-  name: "Welcome by Matt Luckcuck (General Chair)"
-  
-- invited: true
-  name : "Invited Talk: 'Self-Adaptation in Autonomous Systems' - Dr Silvia Lizeth Tapia Tarifa from the University of Oslo"
-  chair: "Matt Luckcuck"
-  time: "11:15 - 12:30"
-  
-- time: "12:30 - 14:00"
-  break: true
-  name:  "Lunch"
-  
-
-- time: "14:00 - 15:00"
-  theme: true
-  name: "Session 1: Hybrid Systems"
-  chair: "Angelo Ferrando"
-  papers: [ {time: 14:00 - 14:30, name: "Autonomous System Safety Properties with Multi-Machine Hybrid Event-B - Richard Banach"}, {time: 14:30 - 15:00, name: "Formal simulation and visualisation of hybrid programs - Pedro Mendes, Ricardo Correia, Renato Neves, and José Proença"} ]
-  
-  
-- time: "15:00 - 15:30"
-  break : true
-  name:  "BREAK"
-  
-- theme : true
-  name : "Session 2: Runtime Monitoring"
-  chair: "Mario Gleirscher"
-  time: "15:30 - 17:00"
-  papers: [ { time: 15:30 - 16:00, name: "ROSMonitoring 2.0: Extending ROS Runtime Verification to Services and Ordered Topics - Maryam Ghaffari Saadat, Angelo Ferrando, Louise A. Dennis, and Michael Fisher"}, {time: 16:00 - 16:30, name: "Verification of Behavior Trees with Contingency Monitors - Serena Serbinowska, Nicholas Potteiger, Anne Tumlin, and Taylor T Johnson"}, {time: 16:30 - 17:00, name: "RV4Chatbot: Are Chatbots Allowed to Dream of Electric Sheep? - Andrea Gatti, Viviana Mascardi and Angelo Ferrando"} ]
-    
-- time: "17:00"
-  close: true
-  name: "Day One Close"
-
-  
-
-
-
 schedule-day_two:
-
+- time: "08:45 - 09:00"
+  intro: true
+  name:  "Welcome"
+  
+schedule-day_three:
 - time: "08:45 - 09:00"
   intro: true
   name:  "Welcome"
 
-- time: "09:00 - 10:30"
-  theme : true
-  name : "Session 3: Control Algorithms"
-  chair: "Youcheng Sun"
-  papers: [ {time: 09:00 - 09:30, name: "Model checking and verification of  synchronisation properties of cobot welding - Yvonne Murray, Henrik Nordlie, David A. Anisi, Pedro Ribeiro, and Ana Cavalcanti"} , {time: 09:30 - 10:00, name: "Synthesising Robust Controllers for Robot Collectives with Recurrent Tasks: A Case Study - Till Schnittka and Mario Gleirscher"} , {time: 10:00 - 10:30, name: "A Case Study on Numerical Analysis of a Path Computation Algorithm - Grégoire Boussu, Nikolai Kosmatov and Franck Vedrine"} ]
-
-
-- time: "10:30 - 11:00"
-  break : true
-  name:  "BREAK"
-  
-- theme : true
-  time: "11:00 - 11:30"
-  name : "Session 4: Multi-Layerd Verification"
-  chair: "Rosemary Monahan"
-  papers: [{time: 11:00 - 11:15, name:  "Cross-layer Formal Verification of Robotic Systems - Sylvain Raïs, Julien Brunel, David Doose, and Frédéric Herbreteau"}, {time: 11:15 - 11:30, name: "Using Formal Models, Safety Shields and Certified Control to Validate AI-Based Train Systems - Jan Gruteser, Jan Roßbach, Fabian Vu and Michael Leuschel"}]
-
-- time: "11:30 - 12:30"
-  tutorial: true
-  name: "Tutorial Session -  Model-Checking Agent Programming Languages: The MCAPL Framework"
-  chair: "Louise A. Dennis, University of Manchester"
-  invited: true
-  details: null
-
-- time: "12:30 - 14:00"
-  break : true
-  name:  "Lunch"
-
-- theme : true
-  name : "Session 5: Formal Methods for Machine Learning"
-  time: "14:00 - 15:00"
-  chair: "Taylor Johnson"
-  papers: [{time: 14:00 - 14:30, name: "Model Checking for Reinforcement Learning in Autonomous Driving: One Can Do More Than You Think! - Rong Gu"} , {time: 14:30 - 15:00, name: "Creating a Formally Verified Neural Network for Autonomous Navigation: An Experience Report - Syed Ali Asadullah Bukhari, Thomas Flinkow, Medet Inkarbekov, Barak A. Pearlmutter, and Rosemary Monahan"} ]
-
-- time: "15:00 - 15:30"
-  break: true
-  name:  "BREAK"
-
-- theme : true
-  name : "Session 6: Open challenges and Discussion"
-  time: "15:30 - 17:00"
-  chair: "Akhila Bairy"
-  papers: [{time: 15:30 - 15:45, name: "Open Challenges in the Formal Verification of Autonomous Driving - Paolo Burgio, Angelo Ferrando and Marco Villani"} , {time: 15:45 - 17:00, name: "Discussion - Challenges and Solutions (Akhila Bairy, Maike Schwammberger, Simon Kolker)"} ]
-
-- time: "17:00"
-  close: true
-  name: "Day Two Close"
-  
-  
-- time: "18:30 - Late"
-  dinner: true
-  name: "FMAS 2024 Social Dinner"
-  details: {time: "18:30 - Late", name: "FMAS 2024 Social Dinner. More details to follow." }
-  
-
-schedule-day_three:
-
-- time: "08:45 - 09:20"
-  intro: true
-  name:  "iFM Arrival and Registration"
-  
-- time: 09:20 - 09:30
-  intro : true
-  name: "iFM Opening"
- 
-- invited: true
-  name : "Joint iFM/FMAS Invited Talk: 'Proof for Industrial Systems using Neural Certificates' - Prof. Daniel Kröning from Amazon"
-  chair: "Laura Kovács"
-  time: "09:30 - 10:30"
-  joint: true
-
-- time: "10:30 - 11:00"
-  break: true
-  name:  "BREAK"  
-  
- 
-- time: "11:00 - 12:30"
-  name: "Joint iFM/FMAS Session: iFM Practices and Verification"
-  chair: "Mengwei Xu"
-  theme: true
-  joint: true
-  papers: [ {time: "11:00", name: "A Formal Tainting-Based Framework for Malware Analysis (iFM 2024 paper) - Andrei-Catalin Mogage and Dorel Lucanu", joint: true}, {time: "11:30", name: "Formalizing Stateful Behavior Trees (FMAS 2024 paper) - Serena Serbinowska, Preston Robinette, Gabor Karsai, and Taylor T Johnson", joint: true}, {time: "12:00", name: "A Systematic Literature Review on a Decade of Industrial TLA+ Practice (iFM 2024 paper) - Roman Bögli, Leandro Lerena, Christos Tsigkanos and Timo Kehrer"}, {time: "12:15", name: "Proving Termination via Measure Transfer in Equivalence Checking (iFM 2024 paper) - Dragana Milovančević, Carsten Fuhs, Mario Bucev and Viktor Kunčak"}]
-
-- time: "12:30 - 14:00"
-  break: true
-  name:  "Lunch"
-
-
-- time: "14:00"
-  break: true
-  name: "Rejoins iFM Program" 
-
-  
 
 ### TALKS ###
 show_talks: false
 invited_talks:
-
-
 
 
 ### PAPERS ###
@@ -162,10 +32,10 @@ papers:
 
 ### DATES ###
 dates:
-  submission: "9th August 2024"
-  notification: "26th September 2024"
-  final_version: "10th of October 2024"
-  workshop: "11th -- 13th of November 2024"
+  submission: "TBA"
+  notification: "TBA"
+  final_version: "TBA"
+  workshop: "TBA"
 
 ### PROGRAMME COMMITTEE ###
 show_pc : true
