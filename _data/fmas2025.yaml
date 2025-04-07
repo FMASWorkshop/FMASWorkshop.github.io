@@ -28,14 +28,12 @@ show_papers: false
 papers:
 
 
-
-
 ### DATES ###
 dates:
-  submission: "TBA"
-  notification: "TBA"
-  final_version: "TBA"
-  workshop: "TBA"
+  submission: "22nd August 2025"
+  notification: "6th October 2025"
+  final_version: "17th October 2025"
+  workshop: "17th-19th November 2025"
 
 ### PROGRAMME COMMITTEE ###
 show_pc : true
@@ -267,4 +265,4 @@ pc :
 
 register : https://ifm2024.cs.manchester.ac.uk/registration.html
 
-easychair : https://easychair.org/conferences/?conf=fmas2024
+easychair : https://easychair.org/conferences/?conf=fmas2025

@@ -3,6 +3,9 @@ layout: default
 ---
 <article class="post">
   {% if page.title contains "Formal Methods for Autonomous Systems" %}
+    <header class="post-header">
+      <h1 class="post-title">{{ page.acronym | escape }}</h1>
+    </header>
   {% else %}
     <header class="post-header">
       <h1 class="post-title">{{ page.title | escape }}</h1>

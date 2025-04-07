@@ -19,7 +19,7 @@
 .sideBar {
     max-width: 30%;
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
     .flexWrapper {
         display: block;
     }
@@ -34,5 +34,27 @@
     margin: 0 auto;
 }
 .jumpButtons button {
+    cursor: pointer;
+}
+.actions {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.actionBtn {
+    font-family: 'Times New Roman', Times, serif;
+    color: #10263b;
+ text-decoration: solid underline #deb406 4px;   
+ font-size: large;
+ text-align: center;
+
+}
+
+
+.thisYearBtn {
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    margin: 2px;
     cursor: pointer;
 }
