@@ -2,9 +2,9 @@
 layout: page
 title: "Organisation"
 ---
-<div class="w3-container">
-<h2>FMAS Organising Committee</h2>
-</div>
+
+<h2 class="w3-container">FMAS Organising Committee</h2>
+
 {% for member in site.data.orgcomm  %}  
 
   <div class="w3-container w3-cell  w3-half w3-mobile">
