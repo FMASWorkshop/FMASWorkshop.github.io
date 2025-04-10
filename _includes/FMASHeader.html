@@ -17,11 +17,9 @@
             </svg>
           </span>
         </label>
-    
-<br/>
 
           <div class="trigger w3-dropdown-hover">
-            <span class="w3-button w3-padding-small">Workshops <i class="fas fa-caret-down"></i></span>
+            <span class="w3-button w3-padding-small" >Workshops <i class="fas fa-caret-down"></i></span>
             <div class="w3-dropdown-content w3-bar-block w3-border w3-center w3-padding-small">
               {% assign workshops = site.workshops | sort: date %}
               {% assign reverseWorkshops = workshops | reverse %}
@@ -54,7 +52,7 @@
 
 
             {% if my_page.title %}
-            <a class="page-link w3-button" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            <a class="trigger page-link w3-button" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {% endif %}
 
             {% endif %}
