@@ -18,9 +18,10 @@
           </span>
         </label>
 
-          <div class="trigger w3-dropdown-hover">
-            <span class="w3-button w3-padding-small" >Workshops <i class="fas fa-caret-down"></i></span>
-            <div class="w3-dropdown-content w3-bar-block w3-border w3-center w3-padding-small">
+          <div class="trigger w3-dropdown-click w3-dropdown-hover ">
+           <span onclick="toggleMenu('workshops')" class="w3-button w3-padding-small mobile-menu-label" >Workshops <i class="fas fa-caret-down"></i></span>
+           <span class="w3-button w3-padding-small desktop-menu-label" >Workshops <i class="fas fa-caret-down"></i></span>
+            <div id="workshops" class="w3-dropdown-content w3-bar-block w3-border w3-center w3-padding-small">
               {% assign workshops = site.workshops | sort: date %}
               {% assign reverseWorkshops = workshops | reverse %}
               {% for workshop in reverseWorkshops %}
@@ -31,9 +32,10 @@
 
 
 
-          <div class="trigger w3-dropdown-hover">
-            <span class="w3-button w3-padding-small">Special Issues <i class="fas fa-caret-down"></i></span>
-            <div class="w3-dropdown-content w3-bar-block w3-border w3-center w3-padding-small">
+          <div class="trigger w3-dropdown-click w3-dropdown-hover ">
+            <span onclick="toggleMenu('special-issues')" class="w3-button w3-padding-small mobile-menu-label">Special Issues <i class="fas fa-caret-down"></i></span>
+            <span class="w3-button w3-padding-small desktop-menu-label">Special Issues <i class="fas fa-caret-down"></i></span>
+            <div id="special-issues" class="w3-dropdown-content w3-bar-block w3-border w3-center w3-padding-small">
               {% assign specials = site.special_issues | sort: date %}
               {% assign reverseSpecials = specials | reverse %}
               {% for si in reverseSpecials %}
@@ -52,7 +54,9 @@
 
 
             {% if my_page.title %}
-            <a class="trigger page-link w3-button" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            <div class="trigger  w3-button">
+              <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            </div>
             {% endif %}
 
             {% endif %}
