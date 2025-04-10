@@ -100,6 +100,8 @@
 
 
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/custom_style.css" | relative_url }}">
+  
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
@@ -134,6 +136,7 @@
 
     }	  
 </style>
+
 	
   <!-- Scripts for the submenus, only used in Mobile -->
 <script>
@@ -159,13 +162,18 @@ function toggleMenu(id)
 </head>
 
   <body>
-
     {% include FMASHeader.html %}
 
     <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
+      <div class="flexWrapper">
+        <div class="wrapper custom">
+          {{ content }}
+        </div>
+        <div class="sideBar">
+          {% include side_bar.html %}
+        </div>
       </div>
+      
     </main>
 
     {% include footer.html %}
