@@ -4,10 +4,11 @@
 .flexWrapper {
     display: flex;
     flex-flow: row wrap;
-    max-width: calc(1000px - (30px * 2));
+    max-width: calc(1200px - (30px * 2));
     width: 100%;
     margin: 0 auto;
 }
+    
 
 .wrapper {
     max-width: calc(1000px - (30px * 2));
@@ -15,17 +16,21 @@
 }
 .wrapper.custom {
     max-width: 70%;
+   
 }
 .sideBar {
     max-width: 30%;
 }
+
 .sideBar li {
     overflow-wrap: anywhere;
 }
 hr.rounded {
     display: none;
 }
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 600px) 
+{
     .flexWrapper {
         display: block;
     }
@@ -41,6 +46,8 @@ hr.rounded {
         border-top: 3px rounded #bbb;
       }
 }
+
+
 
 .jumpButtons {
     width: fit-content;
