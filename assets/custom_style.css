@@ -18,6 +18,7 @@
 }
 .sideBar {
     max-width: 30%;
+    overflow-wrap: break-word;
 }
 hr.rounded {
     display: none;
