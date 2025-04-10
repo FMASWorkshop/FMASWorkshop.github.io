@@ -18,7 +18,9 @@
 }
 .sideBar {
     max-width: 30%;
-    overflow-wrap: break-word;
+}
+.sideBar li {
+    overflow-wrap: anywhere;
 }
 hr.rounded {
     display: none;
