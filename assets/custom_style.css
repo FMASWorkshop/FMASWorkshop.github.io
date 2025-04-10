@@ -19,14 +19,24 @@
 .sideBar {
     max-width: 30%;
 }
+hr.rounded {
+    display: none;
+}
 @media only screen and (max-width: 600px) {
     .flexWrapper {
         display: block;
     }
     .sideBar {
-        max-width: 70%;
+        max-width: 80%;
         margin: 0 auto;
     }
+    .wrapper.custom {
+        max-width: 100%;
+    }
+    hr.rounded {
+        display: block;
+        border-top: 3px rounded #bbb;
+      }
 }
 
 .jumpButtons {
