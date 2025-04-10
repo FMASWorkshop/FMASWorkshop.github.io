@@ -1,0 +1,5 @@
+<div class="jumpButtons">
+    {% for item in page.sections %}
+        <a href="#{{ item | slugify }}"><button>{{ item }}</button></a>
+    {% endfor %}
+</div>

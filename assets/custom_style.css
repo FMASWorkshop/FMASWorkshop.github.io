@@ -1,0 +1,70 @@
+---
+---
+
+.flexWrapper {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: calc(1000px - (30px * 2));
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper {
+    max-width: calc(1000px - (30px * 2));
+    margin:0 auto;
+}
+.wrapper.custom {
+    max-width: 70%;
+}
+.sideBar {
+    max-width: 30%;
+}
+hr.rounded {
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .flexWrapper {
+        display: block;
+    }
+    .sideBar {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .wrapper.custom {
+        max-width: 100%;
+    }
+    hr.rounded {
+        display: block;
+        border-top: 3px rounded #bbb;
+      }
+}
+
+.jumpButtons {
+    width: fit-content;
+    margin: 0 auto;
+}
+.jumpButtons button {
+    cursor: pointer;
+}
+.actions {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.actionBtn {
+    font-family: 'Times New Roman', Times, serif;
+    color: #10263b;
+ text-decoration: solid underline #deb406 4px;   
+ font-size: large;
+ text-align: center;
+
+}
+
+
+.thisYearBtn {
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    margin: 2px;
+    cursor: pointer;
+}
