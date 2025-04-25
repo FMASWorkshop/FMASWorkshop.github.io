@@ -1,6 +1,7 @@
 ---
 ---
 
+
 .flexWrapper {
     display: flex;
     flex-flow: row wrap;
@@ -11,7 +12,8 @@
     
 
 .wrapper {
-    max-width: calc(1000px - (30px * 2));
+    max-width: calc(1200px - (30px * 2));
+    width: 100%;
     margin:0 auto;
 }
 .wrapper.custom {
