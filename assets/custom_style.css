@@ -50,6 +50,23 @@ hr.rounded {
 }
 
 
+.linkedin {
+    width: 100%;
+    height: 3em;
+    display: flex;
+    align-items: center; /* Vertically center children */
+    margin-bottom: 5px;
+}
+.linkedin p {
+    margin: 0; /* Remove large margin */
+}
+.linkedin img {
+    border-radius: 2px;
+    border: solid 2px grey;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
 
 .jumpButtons {
     width: fit-content;
