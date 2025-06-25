@@ -63,15 +63,15 @@ pc :
    affiliation:   University of Modena and Reggio Emilia (Italy)
    link: https://angeloferrando.github.io/website/
 
-# - first_name: Claudio
-#   last_name: Menghi
-#   affiliation:   University of Bergamo (Italy)
-#   link: https://claudiomenghi.github.io/index.html
+ - first_name: Claudio
+   last_name: Menghi
+   affiliation:   University of Bergamo (Italy)
+   link: https://claudiomenghi.github.io/index.html
 
- - first_name: Dominique
-   last_name: Méry
-   affiliation: Université de Lorraine (France)
-   link: https://members.loria.fr/Mery/
+ #- first_name: Dominique
+ #  last_name: Méry
+ #  affiliation: Université de Lorraine (France)
+ #  link: https://members.loria.fr/Mery/
 
  - first_name: Hao
    last_name: Wu
@@ -117,36 +117,51 @@ pc :
    last_name: Graydon
    affiliation: NASA Langley Research Center (USA)
    link: https://shemesh.larc.nasa.gov/people/msg/
+    
+ - first_name: Siddhartha
+   last_name: Bhattacharyya
+   affiliation: Florida Institute of Technology (USA)
+   link: https://www.fit.edu/faculty-profiles/b/bhattacharyya-siddhartha/
+
+ - first_name: Neeraj Kumar
+   last_name: Singh
+   affiliation: INPT-ENSEEIHT / IRIT, University of Toulouse (France)
+   link: https://sites.google.com/site/singhnne/
+
+ - first_name: Oisín
+   last_name: Sheridan
+   affiliation: Maynooth University (Ireland)
+   link: https://www.researchgate.net/profile/Oisin-Sheridan
 
 #  - first_name: Divya
 #    last_name: Gopinath
 #    affiliation: NASA Ames Research Center (USA)
 #    link: https://ti.arc.nasa.gov/profile/dgopinat/
 
- - first_name: Michael
-   last_name: Fisher
-   affiliation: University of Manchester (UK)
-   link: https://personalpages.manchester.ac.uk/staff/michael.fisher/
+ #- first_name: Michael
+ #  last_name: Fisher
+ #  affiliation: University of Manchester (UK)
+ #  link: https://personalpages.manchester.ac.uk/staff/michael.fisher/
 
 # - first_name: Fatma
 #   last_name: Faruq
 #   affiliation: ETAS (UK)
 #   link: https://fatmaf.github.io/
 
- - first_name: Louise A.
-   last_name: Dennis
-   affiliation: University of Manchester (UK)
-   link: http://www.cs.man.ac.uk/~dennisl/
+ #- first_name: Louise A.
+ #  last_name: Dennis
+ #  affiliation: University of Manchester (UK)
+ #  link: http://www.cs.man.ac.uk/~dennisl/
 
- - first_name: Mario
-   last_name: Gleirscher
-   affiliation: University of Bremen (Germany)
-   link: http://www.gleirscher.at/mg/
+ #- first_name: Mario
+ #  last_name: Gleirscher
+ #  affiliation: University of Bremen (Germany)
+ #  link: http://www.gleirscher.at/mg/
 
- - first_name: Colin
-   last_name: Paterson
-   affiliation: University of York (UK)
-   link: https://www.cs.york.ac.uk/people/?search=Colin&username=cap
+ #- first_name: Colin
+ #  last_name: Paterson
+ #  affiliation: University of York (UK)
+ #  link: https://www.cs.york.ac.uk/people/?search=Colin&username=cap
 
  - first_name: Alice
    last_name: Miller
@@ -168,20 +183,20 @@ pc :
    affiliation:  University of Newcastle (UK)
    link: https://mengweixu.netlify.app/
 
-# - first_name: Ichiro
-#   last_name: Hasuo
-#   affiliation:  National Institute of Informatics (Japan)
-#   link: https://group-mmm.org/%7Eichiro/
+ - first_name: Ichiro
+   last_name: Hasuo
+   affiliation:  National Institute of Informatics (Japan)
+   link: https://group-mmm.org/%7Eichiro/
 
- - first_name: Natasha
-   last_name: Neogi
-   affiliation: NASA Langley Research Center (USA)
-   link: https://www.linkedin.com/in/natasha-neogi-a15337110
+# - first_name: Natasha
+#   last_name: Neogi
+#   affiliation: NASA Langley Research Center (USA)
+#   link: https://www.linkedin.com/in/natasha-neogi-a15337110
 
- - first_name: Baptiste
-   last_name: Pelletier
-   affiliation: ONERA - The French Aerospace Lab (France)
-   link:   https://www.linkedin.com/in/baptiste-pelletier-357b87166/
+ #- first_name: Baptiste
+ #  last_name: Pelletier
+ #  affiliation: ONERA - The French Aerospace Lab (France)
+ #  link:   https://www.linkedin.com/in/baptiste-pelletier-357b87166/
 
  - first_name: Andrea
    last_name: Pferscher
@@ -202,10 +217,10 @@ pc :
    affiliation: KTH Royal Institute of Technology (Sweden)
    link: https://www.kth.se/profile/elenatro
 
- - first_name: Gricel
-   last_name: Vázquez
-   affiliation: University of York (UK)
-   link: https://www.cs.york.ac.uk/people/?group=his&username=gricel
+ #- first_name: Gricel
+ #  last_name: Vázquez
+ #  affiliation: University of York (UK)
+ #  link: https://www.cs.york.ac.uk/people/?group=his&username=gricel
 
  - first_name: Matt
    last_name: Luckcuck
@@ -217,25 +232,25 @@ pc :
    affiliation: University of Manchester (UK)
    link: https://orcid.org/0000-0001-7708-3877
 
- - first_name: Yvonne
-   last_name: Murray
-   affiliation: University of Agder (Norway)
-   link: https://www.uia.no/en/kk/profile/yvonnm13
+ #- first_name: Yvonne
+ #  last_name: Murray
+ #  affiliation: University of Agder (Norway)
+ #  link: https://www.uia.no/en/kk/profile/yvonnm13
 
- - first_name: Marco
-   last_name: Autili
-   affiliation: "Università dell'Aquila (Italy)"
-   link: https://people.disim.univaq.it/marco.autili/
+ #- first_name: Marco
+ #  last_name: Autili
+ #  affiliation: "Università dell'Aquila (Italy)"
+ #  link: https://people.disim.univaq.it/marco.autili/
 
- - first_name: Daniela
-   last_name: Briola
-   affiliation: "Università degli Studi di Milano-Bicocca (Italy)"
-   link: https://en.unimib.it/daniela-briola
+ #- first_name: Daniela
+ #  last_name: Briola
+ #  affiliation: "Università degli Studi di Milano-Bicocca (Italy)"
+ #  link: https://en.unimib.it/daniela-briola
    
- - first_name: Christian
-   last_name: Colombo
-   affiliation: University of Malta (Malta)
-   link: http://staff.um.edu.mt/christian.colombo
+# - first_name: Christian
+#   last_name: Colombo
+#   affiliation: University of Malta (Malta)
+#   link: http://staff.um.edu.mt/christian.colombo
    
  - first_name: Thomas
    last_name: Flinkow
@@ -246,15 +261,15 @@ pc :
    affiliation: Politecnico di Milano (Italy)
    link:  https://leslivia.github.io/index.html
     
- - first_name: Juliane
-   last_name: Päßler
-   affiliation: University of Oslo (Norway)
-   link: https://www.mn.uio.no/ifi/english/people/aca/julipas/index.html
+ #- first_name: Juliane
+ #  last_name: Päßler
+ #  affiliation: University of Oslo (Norway)
+  # link: https://www.mn.uio.no/ifi/english/people/aca/julipas/index.html
     
- - first_name: Paulius
-   last_name: Stankaitis
-   affiliation: University of Stirling (UK)
-   link: https://www.stir.ac.uk/people/1967891
+ #- first_name: Paulius
+#   last_name: Stankaitis
+#   affiliation: University of Stirling (UK)
+#   link: https://www.stir.ac.uk/people/1967891
  
 
 #  - first_name:
