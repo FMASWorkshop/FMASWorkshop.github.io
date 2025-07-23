@@ -138,15 +138,15 @@ pc :
 #    affiliation: NASA Ames Research Center (USA)
 #    link: https://ti.arc.nasa.gov/profile/dgopinat/
 
- #- first_name: Michael
- #  last_name: Fisher
- #  affiliation: University of Manchester (UK)
- #  link: https://personalpages.manchester.ac.uk/staff/michael.fisher/
+ - first_name: Michael
+   last_name: Fisher
+   affiliation: University of Manchester (UK)
+   link: https://personalpages.manchester.ac.uk/staff/michael.fisher/
 
-# - first_name: Fatma
-#   last_name: Faruq
-#   affiliation: ETAS (UK)
-#   link: https://fatmaf.github.io/
+ - first_name: Fatma
+   last_name: Faruq
+   affiliation: University of Manchester (UK)
+   link: https://fatmaf.github.io/
 
  #- first_name: Louise A.
  #  last_name: Dennis
@@ -158,10 +158,10 @@ pc :
  #  affiliation: University of Bremen (Germany)
  #  link: http://www.gleirscher.at/mg/
 
- #- first_name: Colin
- #  last_name: Paterson
- #  affiliation: University of York (UK)
- #  link: https://www.cs.york.ac.uk/people/?search=Colin&username=cap
+ - first_name: Colin
+   last_name: Paterson
+   affiliation: University of York (UK)
+   link: https://www.cs.york.ac.uk/people/?search=Colin&username=cap
 
  - first_name: Alice
    last_name: Miller
@@ -188,15 +188,15 @@ pc :
    affiliation:  National Institute of Informatics (Japan)
    link: https://group-mmm.org/%7Eichiro/
 
-# - first_name: Natasha
-#   last_name: Neogi
-#   affiliation: NASA Langley Research Center (USA)
-#   link: https://www.linkedin.com/in/natasha-neogi-a15337110
+ - first_name: Natasha
+   last_name: Neogi
+   affiliation: NASA Langley Research Center (USA)
+   link: https://www.linkedin.com/in/natasha-neogi-a15337110
 
- #- first_name: Baptiste
- #  last_name: Pelletier
- #  affiliation: ONERA - The French Aerospace Lab (France)
- #  link:   https://www.linkedin.com/in/baptiste-pelletier-357b87166/
+ - first_name: Baptiste
+   last_name: Pelletier
+   affiliation: ONERA - The French Aerospace Lab (France)
+   link:   https://www.linkedin.com/in/baptiste-pelletier-357b87166/
 
  - first_name: Andrea
    last_name: Pferscher
@@ -259,7 +259,22 @@ pc :
  - first_name: Livia
    last_name: Lestingi
    affiliation: Politecnico di Milano (Italy)
-   link:  https://leslivia.github.io/index.html
+   link: https://leslivia.github.io/index.html
+
+ - first_name: Priyank
+   last_name: Desai
+   affiliation: Amazon.com (USA)
+   link: https://www.linkedin.com/in/priyankhdesai/ 
+
+ - first_name: Astrid
+   last_name: Rakow
+   affiliation: German Aerospace Center (DLR) e.V. (Germany)
+   link: https://scholar.google.com/citations?user=RbhxsW0AAAAJ&hl=de
+ 
+ - first_name: Asmae
+   last_name: Heydari Tabar
+   affiliation: Karlsruhe Institute of Technology (Germany)
+   link: https://www.linkedin.com/in/asmaheydaritabar/?originalSubdomain=de
     
  #- first_name: Juliane
  #  last_name: Päßler
@@ -270,12 +285,11 @@ pc :
 #   last_name: Stankaitis
 #   affiliation: University of Stirling (UK)
 #   link: https://www.stir.ac.uk/people/1967891
- 
 
-#  - first_name:
-#    last_name:
-#    affiliation:
-#    link:
+ - first_name: Christian
+   last_name: Heinzemann
+   affiliation: Robert Bosch GmbH Corporate Research (Germany)
+   link: https://scholar.google.com/citations?user=m8ij9yMAAAAJ&hl=de
 
 
 register : https://ifm2024.cs.manchester.ac.uk/registration.html
