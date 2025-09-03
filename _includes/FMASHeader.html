@@ -3,13 +3,16 @@
   <div class="wrapper">
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
-    <a class="site-title" href="{{ "/" | relative_url }}">
+    <a class="site-title" href="{{ "/" | relative_url }}" style="display:flex;align-items: center;">
       {% if page.logo %}
         <img alt="FMAS Workshop Logo" style="max-height: 108px; float: left; margin-top: 1em; margin-right: 1em" src="{{site.logos}}/{{page.logo}}">
       {% else %}
         <img alt="FMAS Workshop Logo" style="float: left; margin-top: 1em; margin-right: 1em" src="{{site.logos}}/FMAS-Logo.png">
       {% endif %}
-      {{ site.title | escape }}
+      <div style="display:flex;align-items: center; line-height: normal;">
+        {{ site.title | escape }}
+      </div>
+      
     </a>
  
     {% if page_paths %}
