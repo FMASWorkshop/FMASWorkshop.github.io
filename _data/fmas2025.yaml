@@ -291,6 +291,16 @@ pc :
    affiliation: Robert Bosch GmbH Corporate Research (Germany)
    link: https://scholar.google.com/citations?user=m8ij9yMAAAAJ&hl=de
 
+ - first_name: Sanaz
+   last_name: Sheikhi
+   affiliation: Stony Brook University (USA)
+   link: https://scholar.google.com/citations?user=zCDOQSQAAAAJ
+
+ - first_name: Stefano
+   last_name: Tonetta
+   affiliation: Fondazione Bruno Kessler (FBK) (Italy)
+   link: https://fm.fbk.eu/author/stefano-tonetta.html
+
 
 register : https://ifm2024.cs.manchester.ac.uk/registration.html
 
