@@ -79,6 +79,8 @@ hr.rounded {
     display: flex;
     width: 100%;
     justify-content: space-around;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 .actionBtn {
     font-family: 'Times New Roman', Times, serif;
