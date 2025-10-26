@@ -24,15 +24,61 @@ invited_talks:
 
 
 ### PAPERS ###
-show_papers: false
+show_papers: true
 papers:
+  - title: "Watchdogs and Oracles: Runtime Verification Meets Large Language Models for Autonomous Systems"
+    authors: "Angelo Ferrando"
+    type: "short"
+
+  - title: "Achieving Safe Control Online through Integration of Harmonic Control Lyapunov–Barrier Functions with Unsafe Object-Centric Action Policies"
+    authors: "Marlow Fawn and Matthias Scheutz"
+    type: "regular"
+
+  - title: "Mutation Testing for Industrial Robotic Systems"
+    authors: "Marcela Gonçalves dos Santos, Sylvain Hallé and Fabio Petrillo"
+    type: "regular"
+
+  - title: "Safe-ROS: An Architecture for Autonomous Robots in Safety-Critical Domains"
+    authors: "Diana Benjumea Hernandez, Marie Farrell and Louise Dennis"
+    type: "regular"
+
+  - title: "Analyzing many simulations of hybrid programs in Lince"
+    authors: "Reydel Arrieta Olano, Renato Neves, José Proença and Patrick Meumeu Yomsi"
+    type: "short"
+
+
+  - title: "Abstract Scene Graphs: Formalizing and Monitoring Spatial Properties of Automated Driving Functions"
+    authors: "Ishan Saxena, Bernd Westphal and Martin Fränzle"
+    type: "short"
+
+
+  - title: "Formal Verification of Local Robustness of a Classification Algorithm for a Spatial Use Case"
+    authors: "Delphine Longuet, Amira Elouazzani, Alejandro Penacho Riveiros and Nicola Bastianello"
+    type: "regular"
+
+
+  - title: "Model Learning for Adjusting the Level of Automation in HCPS"
+    authors: "Mehrnoush Hajnorouzi, Astrid Rakow and Martin Fränzle"
+    type: "regular"
+
+
+  - title: "Context-aware, Ante-hoc Explanations of Driving Behaviour"
+    authors: "Dominik Grundt, Ishan Saxena, Malte Petersen, Bernd Westphal and Eike Möhlmann"
+    type: "regular"
+
+
+  - title: "Towards A Catalogue of Formalised Requirement Patterns for Robotic Space Missions"
+    authors: "Mahdi Etumi, Hazel Taylor and Marie Farrell"
+    type: "regular"
+
+
 
 
 ### DATES ###
 dates:
   submission: "<s>22nd 28th August 2025</s>"
-  notification: "6th October 2025"
-  final_version: "17th October 2025"
+  notification: "<s>6th October 2025</s>"
+  final_version: "<s>17th October 2025</s>"
   workshop: "17th-19th November 2025"
 
 ### PROGRAMME COMMITTEE ###

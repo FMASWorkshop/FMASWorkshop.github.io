@@ -99,3 +99,8 @@ hr.rounded {
     margin: 2px;
     cursor: pointer;
 }
+
+.paper-title {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
