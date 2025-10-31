@@ -50,6 +50,8 @@ sass:
 theme: minima
 #plugins:
 #- jekyll-feed
+timezone: Europe/Paris
+
 
 
 # Exclude from processing.
