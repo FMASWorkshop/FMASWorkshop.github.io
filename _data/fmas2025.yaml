@@ -19,7 +19,7 @@ schedule:
     - time: "13:30 - 15:00"
       theme: true
       name: "Session 0: Opening and Run-time Monitoring and Robustness of Cyber-Physical Systems"
-      chair: "TBA"
+      chair: "Maike Schwammberger"
       papers: [ 
         {time: 13:30 - 13:50, name: "Opening"},
         {time: 13:50 - 14:10, paper_id: "6"},
@@ -48,12 +48,11 @@ schedule:
     info: ""
     events:
       - time: "9:00 - 10:00"
-        theme: true
-        name: "Session 2: FMAS Keynote"
+        invited: true
+        title: "Session 2 Keynote: Logic of Autonomous Dynamical Systems"
+        speaker: "Prof. Dr. André Platzer"        
         chair: "Maike Schwammberger"
-        papers: [ 
-          {time: 9:00 - 9:30, name: "Logic of Autonomous Dynamical Systems (Keynote)"}
-        ]
+        time: "9:00 - 9:30"
 
       - time: "10:00 - 10:30"
         intro: true
@@ -62,7 +61,7 @@ schedule:
       - time: "10:30 - 12:00"
         theme: true
         name: "Session 3: Formal Verification of Cyber-Physical Systems"
-        chair: "TBA"
+        chair: "Silvia Lizeth Tapia Tarifa"
         papers: [ 
           {time: 10:30 - 11:00, paper_id: "2"},
           {time: 11:00 - 11:20, paper_id: "1"},
@@ -109,7 +108,8 @@ schedule:
       - time: "9:00 - 10:00"
         invited: true
         chair: "Marie Farrell"
-        name: "Invited Talk: Integrated Formal Methods for the Verification of Cyber-Physical and Autonomous Systems"
+        title: "Invited Talk: Integrated Formal Methods for the Verification of Cyber-Physical and Autonomous Systems"
+        speaker: "Prof. Paula Herber"
       
       - time: "10:00 - 10:30"
         intro: true
