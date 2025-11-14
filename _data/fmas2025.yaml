@@ -90,11 +90,11 @@ schedule:
 
       - time: "15:30 - 17:00"
         intro: true
-        name: "Breakout Activity"
+        name: "Session 5: Breakout Activity"
 
       - time: "19:30"
         dinner: true
-        name: "Workshop Dinner with IFM Doctoral Academy"
+        name: "Workshop Dinner together with IFM PhD Symposium"
         venue: "L'Excuse"
         address: "219 rue de Tolbiac, 75013 Paris"
         details: "Drinks are not included and must be paid for on site."
@@ -108,7 +108,7 @@ schedule:
       - time: "9:00 - 10:00"
         invited: true
         chair: "Marie Farrell"
-        title: "Invited Talk: Integrated Formal Methods for the Verification of Cyber-Physical and Autonomous Systems"
+        title: "Session 6 Invited Talk: Integrated Formal Methods for the Verification of Cyber-Physical and Autonomous Systems"
         speaker: "Prof. Paula Herber"
       
       - time: "10:00 - 10:30"
@@ -117,12 +117,12 @@ schedule:
 
       - time: "10:30 - 12:10"
         theme: true
-        name: "Session 6: Autonomous Systems (shared with iFM)"
+        name: "Session 7: Autonomous Systems (shared with iFM)"
         chair: "Maike Schwammberger"
         papers: [ 
-          {time: 10:30 - 11:00, name: "(IFM) Formal Modelling of Trust in Autonomous Delivery Vehicles - Manar Altamimi, Asieh Salehi Fathabadi and Vahid Yazdanpanah"},
+          {time: 10:30 - 11:00, name: "(IFM) Formal Modelling of Trust in Autonomous Delivery Vehicles<br/><i>Manar Altamimi, Asieh Salehi Fathabadi and Vahid Yazdanpanah</i>"},
           {time: 11:00 - 11:30, paper_id: "10"},
-          {time: 11:30 - 12:00, name: "(IFM) The CAISAR Platform: Extending the Reach of Machine Learning Specification and Verification - Michele Alberti, François Bobot, Julien Girard-Satabin, Alban Grastien, Aymeric Varasse and Zakaria Chihani"},
+          {time: 11:30 - 12:00, name: "(IFM) The CAISAR Platform: Extending the Reach of Machine Learning Specification and Verification<br/><i>Michele Alberti, François Bobot, Julien Girard-Satabin, Alban Grastien, Aymeric Varasse and Zakaria Chihani</i>"},
           {time: 12:00 - 12:10, name: "FMAS Wrap-Up"}
         ]
 
