@@ -3,7 +3,7 @@
 
 show_schedule: true
 schedule:
-  - day: "Day One"
+  - day: "Day One: Monday 17th November"
     date: "17-11-25"
     location: "TBA"
     info: ""
@@ -42,7 +42,7 @@ schedule:
         ]
 
 
-  - day: "Day Two"
+  - day: "Day Two - Tuesday 18th November"
     date: "18-11-25"
     location: "TBA"
     info: ""
@@ -93,8 +93,15 @@ schedule:
         intro: true
         name: "Breakout Activity"
 
+      - time: "19:30"
+        dinner: true
+        name: "Workshop Dinner with IFM Doctoral Academy"
+        venue: "L'Excuse"
+        address: "219 rue de Tolbiac, 75013 Paris"
+        details: "Drinks are not included and must be paid for on site."
 
-  - day: "Day Three"
+
+  - day: "Day Three - Wednesday 19th November"
     date: "19-11-25"
     location: "TBA"
     info: ""
