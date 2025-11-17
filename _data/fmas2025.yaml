@@ -150,7 +150,7 @@ invited_talks:
 show_papers: true
 papers:
   - title: "Watchdogs and Oracles: Runtime Verification Meets Large Language Models for Autonomous Systems"
-  	titleLink: "https://dx.doi.org/10.4204/EPTCS.436.8"
+    titleLink: "https://dx.doi.org/10.4204/EPTCS.436.8"
     authors: "Angelo Ferrando"
     type: "short"
     id: 1
