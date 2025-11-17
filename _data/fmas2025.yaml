@@ -52,7 +52,6 @@ schedule:
         title: "Session 2 Keynote: Logic of Autonomous Dynamical Systems"
         speaker: "Prof. Dr. André Platzer"        
         chair: "Maike Schwammberger"
-        time: "9:00 - 9:30"
 
       - time: "10:00 - 10:30"
         intro: true
