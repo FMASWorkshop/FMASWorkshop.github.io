@@ -150,30 +150,35 @@ invited_talks:
 show_papers: true
 papers:
   - title: "Watchdogs and Oracles: Runtime Verification Meets Large Language Models for Autonomous Systems"
+  	titleLink: "https://dx.doi.org/10.4204/EPTCS.436.8"
     authors: "Angelo Ferrando"
     type: "short"
     id: 1
     abstract: "Assuring the safety and trustworthiness of autonomous systems is particularly difficult when learning-enabled components and open environments are involved. Formal methods provide strong guarantees but depend on complete models and static assumptions. Runtime verification (RV) complements them by monitoring executions at run time and, in its predictive variants, by anticipating potential violations. Large language models (LLMs), meanwhile, excel at translating natural language into formal artefacts and recognising patterns in data, yet they remain error-prone and lack formal guarantees. This vision paper argues for a symbiotic integration of RV and LLMs. RV can serve as a guardrail for LLM-driven autonomy, while LLMs can extend RV by assisting specification capture, supporting anticipatory reasoning, and helping to handle uncertainty. We outline how this mutual reinforcement differs from existing surveys and roadmaps, discuss challenges and certification implications, and identify future research directions towards dependable autonomy."
 
   - title: "Achieving Safe Control Online through Integration of Harmonic Control Lyapunov–Barrier Functions with Unsafe Object-Centric Action Policies"
+    titleLink: "https://dx.doi.org/10.4204/EPTCS.436.7"
     authors: "Marlow Fawn and Matthias Scheutz"
     type: "regular"
     id: 2
     abstract: "We propose a method for combining Harmonic Control Lyapunov–Barrier Functions (HCLBFs) derived from Signal Temporal Logic (STL) specifications with any given robot policy to turn an unsafe policy into a safe one with formal guarantees. The two components are combined via HCLBF-derived safety certificates, thus producing commands that preserve both safety and task-driven behavior. We demonstrate the operation of the principles with a simple proof-of-concept implementation for an object-centric force-based policy trained through reinforcement learning for a movement task of a stationary robot arm that is able to avoid colliding with obstacles on a table top after combining the policy with the safety constraints. The proposed method can be generalized to more complex specifications and dynamic task settings."
 
   - title: "Mutation Testing for Industrial Robotic Systems"
+    titleLink: "https://dx.doi.org/10.4204/EPTCS.436.5"
     authors: "Marcela Gonçalves dos Santos, Sylvain Hallé and Fabio Petrillo"
     type: "regular"
     id: 3
     abstract: "Industrial robotic systems (IRS) are increasingly deployed in diverse environments, where failures can result in severe accidents and costly downtime. Ensuring the reliability of the software controlling these systems is therefore critical. Mutation testing, a technique widely used in software engineering, evaluates the effectiveness of test suites by introducing small faults, or mutants, into the code. However, traditional mutation operators are poorly suited to robotic programs, which involve message-based commands and interactions with the physical world. This paper explores the adaptation of mutation testing to IRS by defining domain-specific mutation operators that capture the semantics of robot actions and sensor readings. We propose a methodology for generating meaningful mutants at the level of high-level read and write operations, including movement, gripper actions, and sensor noise injection. An empirical study on a pick-and-place scenario demonstrates that our approach produces more informative mutants and reduces the number of invalid or equivalent cases compared to conventional operators. Results highlight the potential of mutation testing to enhance test suite quality and contribute to safer, more reliable industrial robotic systems."
 
   - title: "Safe-ROS: An Architecture for Autonomous Robots in Safety-Critical Domains"
+    titleLink: "https://dx.doi.org/10.4204/EPTCS.436.6"
     authors: "Diana Benjumea Hernandez, Marie Farrell and Louise Dennis"
     type: "regular"
     id: 4
     abstract: "Deploying autonomous robots in safety-critical domains requires architectures that ensure operational effectiveness and safety compliance. In this paper, we contribute the Safe-ROS architecture for developing reliable and verifiable autonomous robots in such domains. It features two distinct subsystems: (1) an intelligent control system that is responsible for normal/routine operations, and (2) a Safety System consisting of Safety Instrumented Functions (SIFs) that provide formally verifiable independent oversight. We demonstrate Safe-ROS on an AgileX Scout Mini robot performing autonomous inspection in a nuclear environment. One safety requirement is selected and instantiated as a SIF. To support verification, we implement the SIF as a cognitive agent, programmed to stop the robot whenever it detects that it is too close to an obstacle. We verify that the agent meets the safety requirement and integrate it into the autonomous inspection. This integration is also verified, and the full deployment is validated in a Gazebo simulation, and lab testing. We evaluate this architecture in the context of the UK nuclear sector, where safety and regulation are crucial aspects of deployment. Success criteria include the development of a formal property from the safety requirement, implementation, and verification of the SIF, and the integration of the SIF into the operational robotic autonomous system. Our results demonstrate that the Safe-ROS architecture can provide safety verifiable oversight while deploying autonomous robots in safety-critical domains, offering a robust framework that can be extended to additional requirements and various applications."
 
   - title: "Analyzing many simulations of hybrid programs in Lince"
+    titleLink: "https://dx.doi.org/10.4204/EPTCS.436.9"
     authors: "Reydel Arrieta Olano, Renato Neves, José Proença and Patrick Meumeu Yomsi"
     type: "short"
     id: 5
@@ -182,6 +187,7 @@ papers:
 
   - title: "Abstract Scene Graphs: Formalizing and Monitoring Spatial Properties of Automated Driving Functions"
     authors: "Ishan Saxena, Bernd Westphal and Martin Fränzle"
+    titleLink: "https://dx.doi.org/10.4204/EPTCS.436.3"
     type: "short"
     id: 6
     abstract: "Automated Driving Functions (ADFs) need to comply with spatial properties of varied complexity while driving on public roads. Since such situations are safety-critical in nature, it is necessary to continuously check ADFs for compliance with their spatial properties. Due to their complexity, such spatial properties need to be formalized to enable their automated checking. Scene Graphs (SGs) allow for an explicit structured representation of objects present in a traffic scene and their spatial relationships to each other. In this paper, we build upon the SG construct and propose the Abstract Scene Graph (ASG) formalism to formalize spatial properties of ADFs. We show using real-world examples how spatial properties can be formalized using ASGs. Finally, we present a framework that uses ASGs to perform Runtime Monitoring of ADFs. To this end, we also show algorithmically how a spatial property formalized as an ASG can be satisfied by ADF system behaviour."
@@ -189,12 +195,14 @@ papers:
 
   - title: "Formal Verification of Local Robustness of a Classification Algorithm for a Spatial Use Case"
     authors: "Delphine Longuet, Amira Elouazzani, Alejandro Penacho Riveiros and Nicola Bastianello"
+    titleLink: "https://dx.doi.org/10.4204/EPTCS.436.4"
     type: "regular"
     id: 7
     abstract: "Failures in satellite components are costly and challenging to address, often requiring significant human and material resources. Embedding a hybrid AI-based system for fault detection directly in the satellite can greatly reduce this burden by allowing earlier detection. However, such systems must operate with extremely high reliability. To ensure this level of dependability, we employ the formal verification tool Marabou to verify the local robustness of the neural network models used in the AI-based algorithm. This tool allows us to quantify how much a model’s input can be perturbed before its output behavior becomes unstable, thereby improving trustworthiness with respect to its performance under uncertainty."
 
 
   - title: "Model Learning for Adjusting the Level of Automation in HCPS"
+    titleLink: "https://dx.doi.org/10.4204/EPTCS.436.10"
     authors: "Mehrnoush Hajnorouzi, Astrid Rakow and Martin Fränzle"
     type: "regular"
     id: 8
@@ -202,6 +210,7 @@ papers:
 
 
   - title: "Context-aware, Ante-hoc Explanations of Driving Behaviour"
+    titleLink: "https://dx.doi.org/10.4204/EPTCS.436.11"
     authors: "Dominik Grundt, Ishan Saxena, Malte Petersen, Bernd Westphal and Eike Möhlmann"
     type: "regular"
     id: 9
@@ -209,6 +218,7 @@ papers:
 
 
   - title: "Towards A Catalogue of Formalised Requirement Patterns for Robotic Space Missions"
+    titleLink: "https://dx.doi.org/10.4204/EPTCS.436.12"
     authors: "Mahdi Etumi, Hazel Taylor and Marie Farrell"
     type: "regular"
     id: 10
