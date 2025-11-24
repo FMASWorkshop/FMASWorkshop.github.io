@@ -1,0 +1,40 @@
+{% comment %}
+Expect arguments:
+  - papers: list of papers
+{% endcomment %}
+
+{% if include.papers %}
+{% assign sorted_papers = include.papers | sort: "title" %}
+{% for paper in sorted_papers %}
+<article > 
+<div class="paper-title w3-container w3-indigo w3-round-xlarge" >
+ {{paper.title}}
+ {% if paper.type %}
+  ({{paper.type}})
+ {% endif %}
+ 
+</div>
+<ul class="paper-details w3-panel w3-pale-blue w3-round-large">
+<li> <b>Authors:</b> {{paper.authors}} </li>
+<li>
+{% if paper.titleLink != null %}
+  <li> <b>Paper:</b> <a href="{{paper.titleLink}}" rel="external"> {{paper.titleLink}} <span class="fas fa-external-link-alt"></span></a> </li>
+{% endif%}
+{% if paper.video %}
+  <li>
+    <b>Video:</b> <a href="{{paper.video}}" download="" > <button type="button" > Download </button></a></li>
+{% endif %}
+{% if paper.bibtex %}
+<li>
+    <b>Cite:</b> <a href="{{paper.bibtex}}" download="" > <button type="button" > BibTeX </button></a>
+</li>
+{% endif %}
+<details>
+  <summary><b class="clickable">Abstract</b> </summary>
+    {{paper.abstract}}
+</details> 
+</li>
+</ul>
+</article>
+{% endfor %}
+{%endif%}

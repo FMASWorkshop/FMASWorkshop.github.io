@@ -1,0 +1,26 @@
+papers:
+  - title: "A Temporal Logic Semantics for Teleo-Reactive Procedures"
+    titleLink: https://link.springer.com/chapter/10.1007/978-3-030-54994-7_1
+    authors: "Keith Clark"
+    abstract: "Teleo-Reactive (TR) procedures are a robotic agent programming language proposed by Nils Nilsson. Each parameterised procedure comprises a sequence of guarded action rules where the guards of later rules are sub-goals of the guard of the first rule. We informally describe the evaluation semantics of a TR procedure call. We then formalise the concept of a TR procedure call evaluation by expressing key properties in LTL. Finally we show how the LTL statements can be used to prove key properties of a simple TR program making use of assumptions about the correspondence between the agent’s Belief Store percept facts and properties of the perceived world, and between the agent’s actions and environment change."
+  
+  - title: "Verification of Fair Controllers for Urban Traffic Manoeuvres at Intersections"
+    titleLink: https://link.springer.com/chapter/10.1007/978-3-030-54994-7_18
+    authors: "Maike Schwammberger and Christopher Bischopink"
+    abstract: "Nowadays, autonomous crossing manoeuvres at intersections are especially challenging. In related work, a crossing controller for provably safe autonomous urban traffic manoeuvres was introduced. We extend this controller by a decentralised scheduling mechanism that ensures fair behaviour of the controller and also guarantees bounded liveness. We verify the correctness of our extension by an implementation and analysis with UPPAAL Stratego."
+  
+  - title: "CriSGen: Constraint-based Generation of Critical Scenarios for Autonomous Vehicles"
+    titleLink: https://link.springer.com/chapter/10.1007/978-3-030-54994-7_17
+    authors: "Andreas Nonnengart, Matthias Klusch, and Christian Mueller"
+    abstract: "Ensuring pedestrian-safety is paramount to the acceptance and success of autonomous cars. The scenario-based training and testing of such self-driving vehicles in virtual driving simulation environments increasingly gained attention in the past years. Key challenge is the automated generation of critical traffic scenarios which usually are rare in real-world traffic, while computing and testing all possible scenarios is  infeasible in practice. In this paper, we present a formal method-based approach CriSGen for an automated and complete generation of critical traffic scenarios for virtual training of self-driving cars. These scenarios are determined as close variants of given but uncritical and formally abstracted scenarios via reasoning on their non-linear arithmetic constraint formulas, such that the original maneuver of the self-driving car in them will not be pedestrian-safe anymore, enforcing it to further adapt the behavior during training."
+  
+  - title: "A Mission Definition, Verification and Validation Toolchain"
+    titleLink: https://link.springer.com/chapter/10.1007/978-3-030-54994-7_20
+    authors: "Louis Viard, Laurent Ciarletta and Pierre-Etienne Moreau"
+    abstract: "Safe operation of Cyber-Physical Systems such as Unmanned Aircraft Systems requires guarantees not only on the system, but also on the mission. Following approaches that are used to produce robust Cyber-Physical Controllers, we present the architecture of a mission definition, verification and validation toolchain. We conclude by reporting on the current state of the authors' implementation of this framework."
+  
+  - title: "Formalisation and Implementation of Road Junction Rules on an Autonomous Vehicle Modelled as an Agent"
+    titleLink: https://link.springer.com/chapter/10.1007/978-3-030-54994-7_16
+    authors: "Gleifer Alves, Louise Dennis and Michael Fisher"
+    abstract: "The design of autonomous vehicles includes obstacle detection and avoidance, route planning, speed control, etc. However, there is a gap considering how the rules of the road should be represented in an autonomous vehicle. Additionally, it is necessary to understand the behaviour of autonomous systems in order to check whether or not they work according to the rules of the road. Here, we propose a model checking agent-based architecture to embed the rules of the road in an agent representing the behaviour of an autonomous vehicle."
+  

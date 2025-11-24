@@ -150,6 +150,7 @@ show_papers: true
 papers:
   - title: "Watchdogs and Oracles: Runtime Verification Meets Large Language Models for Autonomous Systems"
     titleLink: "https://dx.doi.org/10.4204/EPTCS.436.8"
+    bibtex: "https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?436.8"
     authors: "Angelo Ferrando"
     type: "short"
     id: 1
@@ -157,6 +158,7 @@ papers:
 
   - title: "Achieving Safe Control Online through Integration of Harmonic Control Lyapunov–Barrier Functions with Unsafe Object-Centric Action Policies"
     titleLink: "https://dx.doi.org/10.4204/EPTCS.436.7"
+    bibtex: "https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?436.7"
     authors: "Marlow Fawn and Matthias Scheutz"
     type: "regular"
     id: 2
@@ -164,6 +166,7 @@ papers:
 
   - title: "Mutation Testing for Industrial Robotic Systems"
     titleLink: "https://dx.doi.org/10.4204/EPTCS.436.5"
+    bibtex: "https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?436.5"
     authors: "Marcela Gonçalves dos Santos, Sylvain Hallé and Fabio Petrillo"
     type: "regular"
     id: 3
@@ -171,6 +174,7 @@ papers:
 
   - title: "Safe-ROS: An Architecture for Autonomous Robots in Safety-Critical Domains"
     titleLink: "https://dx.doi.org/10.4204/EPTCS.436.6"
+    bibtex: "https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?436.6"
     authors: "Diana Benjumea Hernandez, Marie Farrell and Louise Dennis"
     type: "regular"
     id: 4
@@ -178,6 +182,7 @@ papers:
 
   - title: "Analyzing many simulations of hybrid programs in Lince"
     titleLink: "https://dx.doi.org/10.4204/EPTCS.436.9"
+    bibtex: "https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?436.9"
     authors: "Reydel Arrieta Olano, Renato Neves, José Proença and Patrick Meumeu Yomsi"
     type: "short"
     id: 5
@@ -187,6 +192,7 @@ papers:
   - title: "Abstract Scene Graphs: Formalizing and Monitoring Spatial Properties of Automated Driving Functions"
     authors: "Ishan Saxena, Bernd Westphal and Martin Fränzle"
     titleLink: "https://dx.doi.org/10.4204/EPTCS.436.3"
+    bibtex: "https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?436.3"
     type: "short"
     id: 6
     abstract: "Automated Driving Functions (ADFs) need to comply with spatial properties of varied complexity while driving on public roads. Since such situations are safety-critical in nature, it is necessary to continuously check ADFs for compliance with their spatial properties. Due to their complexity, such spatial properties need to be formalized to enable their automated checking. Scene Graphs (SGs) allow for an explicit structured representation of objects present in a traffic scene and their spatial relationships to each other. In this paper, we build upon the SG construct and propose the Abstract Scene Graph (ASG) formalism to formalize spatial properties of ADFs. We show using real-world examples how spatial properties can be formalized using ASGs. Finally, we present a framework that uses ASGs to perform Runtime Monitoring of ADFs. To this end, we also show algorithmically how a spatial property formalized as an ASG can be satisfied by ADF system behaviour."
@@ -195,6 +201,7 @@ papers:
   - title: "Formal Verification of Local Robustness of a Classification Algorithm for a Spatial Use Case"
     authors: "Delphine Longuet, Amira Elouazzani, Alejandro Penacho Riveiros and Nicola Bastianello"
     titleLink: "https://dx.doi.org/10.4204/EPTCS.436.4"
+    bibtex: "https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?436.4"
     type: "regular"
     id: 7
     abstract: "Failures in satellite components are costly and challenging to address, often requiring significant human and material resources. Embedding a hybrid AI-based system for fault detection directly in the satellite can greatly reduce this burden by allowing earlier detection. However, such systems must operate with extremely high reliability. To ensure this level of dependability, we employ the formal verification tool Marabou to verify the local robustness of the neural network models used in the AI-based algorithm. This tool allows us to quantify how much a model’s input can be perturbed before its output behavior becomes unstable, thereby improving trustworthiness with respect to its performance under uncertainty."
@@ -202,6 +209,7 @@ papers:
 
   - title: "Model Learning for Adjusting the Level of Automation in HCPS"
     titleLink: "https://dx.doi.org/10.4204/EPTCS.436.10"
+    bibtex: "https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?436.10"
     authors: "Mehrnoush Hajnorouzi, Astrid Rakow and Martin Fränzle"
     type: "regular"
     id: 8
@@ -210,6 +218,7 @@ papers:
 
   - title: "Context-aware, Ante-hoc Explanations of Driving Behaviour"
     titleLink: "https://dx.doi.org/10.4204/EPTCS.436.11"
+    bibtex: "https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?436.11"
     authors: "Dominik Grundt, Ishan Saxena, Malte Petersen, Bernd Westphal and Eike Möhlmann"
     type: "regular"
     id: 9
@@ -218,6 +227,7 @@ papers:
 
   - title: "Towards A Catalogue of Formalised Requirement Patterns for Robotic Space Missions"
     titleLink: "https://dx.doi.org/10.4204/EPTCS.436.12"
+    bibtex: "https://dx.doi.org/10.4204/EPTCS.436.12"
     authors: "Mahdi Etumi, Hazel Taylor and Marie Farrell"
     type: "regular"
     id: 10
