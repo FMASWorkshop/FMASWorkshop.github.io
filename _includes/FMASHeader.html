@@ -53,7 +53,18 @@
               {% endfor %}
             </div>
           </div>
-
+          
+          <div class="trigger w3-dropdown-click w3-dropdown-hover ">
+            <span onclick="toggleMenu('discussions')" class="w3-button w3-padding-small w3-hide-large w3-hide-medium">Discussions<i class="fas fa-caret-down"></i></span>
+            <span class="w3-button w3-padding-small w3-hide-small">Discussions <i class="fas fa-caret-down"></i></span>
+            <div id="special-issues" class="w3-dropdown-content w3-bar-block w3-border w3-center w3-padding-small">
+              {% assign discussions = site.discussions | sort: date %}
+              {% assign reverseDiscussions = discussions | reverse %}
+              {% for di in reverseDiscussions %}
+                <a  class="w3-bar-item w3-button w3-padding-small" href="{{ site.url }}{{ di.permalink }}">{{ di.acronym }}</a>
+              {% endfor %}
+            </div>
+          </div>
      
 
 	          {% for path in page_paths %}

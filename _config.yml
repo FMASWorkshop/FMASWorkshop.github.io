@@ -36,12 +36,15 @@ publisher : FMAS
 card_picture : /images/fmas-logo.png
 icon : /images/favicon.ico
 
+
 #Collections
 collections:
   workshops:
     output: true
   special_issues:
     output : true
+  discussions:
+    output: true
 
 sass:
     sass_dir: _sass

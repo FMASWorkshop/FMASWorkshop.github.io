@@ -1,5 +1,7 @@
 ### SCHEDULE ###
 
+discussion: https://app.mural.co/embed/4eaa676a-6a33-42bc-8fb3-445f3ba1516f
+
 
 show_schedule: true
 schedule-day_one:
@@ -168,84 +170,84 @@ show_papers: true
 papers:
   - title: "RV4Chatbot: Are Chatbots Allowed to Dream of Electric Sheep?"
     authors: "Andrea Gatti, Viviana Mascardi, and Angelo Ferrando"
-    titleLink: https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2024.5
+    titleLink: https://dx.doi.org/10.4204/EPTCS.411.5
     bibtex: https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?411.5
     abstract: "Chatbots have become integral to various application domains, including those with safety-critical considerations. As a result, there is a pressing need for methods that ensure chatbots consistently adhere to expected, safe behaviours. In this paper, we introduce RV4Chatbot, a Runtime Verification framework designed to monitor deviations in chatbot behaviour. We formalise expected behaviours as interaction protocols between the user and the chatbot. We present the RV4Chatbot design and describe two implementations that instantiate it: RV4Rasa, for monitoring chatbots created with the Rasa framework, and RV4Dialogflow, for monitoring Dialogflow chatbots. Additionally, we detail experiments conducted in a factory automation scenario using both RV4Rasa and RV4Dialogflow."
   
   - title: "Autonomous System Safety Properties with Multi-Machine Hybrid Event-B"
-    titleLink: https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2024.1
+    titleLink: https://dx.doi.org/10.4204/EPTCS.411.1
     bibtex: https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?411.1
     authors: "Richard Banach"
     abstract: "Event-B is a well known methodology for the verified design and development of systems that can be characterised as discrete transition systems. Hybrid Event-B is a conservative extension that interleaves the discrete transitions of Event-B (assumed to be temporally isolated) with episodes of continuously varying state change. While a single Hybrid Event-B machine is sufficient for applications with a single locus of control, it will not do for autonomous systems, which have several loci of control by default. Multi-machine Hybrid Event-B is designed to allow the specification of systems with several loci of control. The formalism is succinctly surveyed, pointing out the subtle semantic issues involved. The multi-machine formalism is then used to specify a relatively simple incident response system, involving a controller, two drones and three responders, working in a partly coordinated and partly independent fashion to manage a putative hazardous scenario."
 
   - title: "Model Checking for Reinforcement Learning in Autonomous Driving: One Can Do More Than You Think!"
     authors: "Rong Gu"
-    titleLink: https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2024.11
+    titleLink: https://dx.doi.org/10.4204/EPTCS.411.11
     bibtex: https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?411.11
     abstract: "Most reinforcement learning (RL) platforms use high-level programming languages, such as OpenAI Gymnasium using Python. These frameworks provide various API and benchmarks for testing RL algorithms in different domains, such as autonomous driving (AD) and robotics. These platforms often emphasise the design of RL algorithms and the training performance but neglect the correctness of models and reward functions, which can be crucial for the successful application of RL. This paper proposes using formal methods to model AD systems and demonstrates how model checking (MC) can be used in RL for AD. Most studies combining MC and RL focus on safety, such as safety shields. However, this paper shows different facets where MC can strengthen RL. First, an MC-based model pre-analysis can reveal bugs with respect to sensor accuracy and learning step size. This step serves as a preparation of RL, which saves time if bugs exist and deepens users' understanding of the target system. Second, reward automata can greatly improve learning performance especially when the learning objectives are multiple. All these findings are supported by experiments."
 
   - title: "Open Challenges in the Formal Verification of Autonomous Driving"
     authors: "Paolo Burgio, Angelo Ferrando, and Marco Villani"
-    titleLink: https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2024.13
+    titleLink: https://dx.doi.org/10.4204/EPTCS.411.13
     bibtex: https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?411.13
     abstract: "In the realm of autonomous driving, the development and integration of highly complex and heterogeneous systems are standard practice. Modern vehicles are not monolithic systems; instead, they are composed of diverse hardware components, each running its own software systems. An autonomous vehicle comprises numerous independent components, often developed by different and potentially competing companies. This diversity poses significant challenges for the certification process, as it necessitates certifying components that may not disclose their internal behaviour (black-boxes). In this paper, we present a real-world case study of an autonomous driving system, identify key open challenges associated with its development and integration, and explore how formal verification techniques can address these challenges to ensure system reliability and safety."
 
   - title: "ROSMonitoring 2.0: Extending ROS Runtime Verification to Services and Ordered Topics"
     authors: "Maryam Ghaffari Saadat, Angelo Ferrando, Louise A. Dennis, and Michael Fisher"
-    titleLink: https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2024.3
+    titleLink: https://dx.doi.org/10.4204/EPTCS.411.3
     bibtex: https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?411.3
     abstract: "Formal verification of robotic applications presents challenges due to their hybrid nature and distributed architecture. This paper introduces ROSMonitoring 2.0, an extension of ROSMonitoring designed to facilitate the monitoring of both topics and services while considering the order in which messages are published and received. The framework has been enhanced to support these novel features for both ROS1 and ROS2 environments, offering improved real-time support, security, scalability, and interoperability. We discuss the modifications made to accommodate these advancements and present results obtained from a case study involving the runtime monitoring of specific components of a fire-fighting Uncrewed Aerial Vehicle (UAV)."
 
   - title: "Cross-layer Formal Verification of Robotic Systems"
-    titleLink: https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2024.9
+    titleLink: https://dx.doi.org/10.4204/EPTCS.411.9
     bibtex: https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?411.9
     authors: "Sylvain Raïs, Julien Brunel, David Doose, and Frédéric Herbreteau"
     abstract: "The design and verification of robotic systems are often divided into several layers for reasons of system modularity and complexity. However, some system properties can only be studied by considering several layers simultaneously. We propose a cross-layer verification method to check the expected properties of concrete robotic systems. Our method verifies a layer using abstractions of other layers. We propose two approaches: refining the models of the abstract layers and refining the property under verification. A combination of these two approaches seems the most promising to ensure model genericity and avoid the problem of state-space explosion."
 
   - title: "Using Formal Models, Safety Shields and Certified Control to Validate AI-Based Train Systems"
-    titleLink: https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2024.10
+    titleLink: https://dx.doi.org/10.4204/EPTCS.411.10
     bibtex: https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?411.10
     authors: "Jan Gruteser, Jan Roßbach, Fabian Vu and Michael Leuschel"
     abstract: "The certification of autonomous systems is an important concern in science and industry. The KI- LOK project explores new methods for certifying and safely integrating AI components into autonomous trains. We pursued a two-layered approach: (1) ensuring the safety of the steering system by formal analysis using the B method, and (2) improving the reliability of the perception system with a runtime certificate checker. This work links both strategies within a demonstrator that runs simulations on the formal model, controlled by the real AI output and the real certificate checker. The demonstrator is integrated into the formal method tool PROB. This enables runtime monitoring, runtime verification, and statistical validation of formal safety properties using a formal B model. Consequently, one can detect and analyse potential vulnerabilities and weaknesses of the AI and the certificate checker. We apply these techniques to a signal detection case study, demonstrating the effectiveness and presenting initial findings."
 
   - title: "A Case Study on Numerical Analysis of a Path Computation Algorithm"
-    titleLink: https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2024.8
+    titleLink: https://dx.doi.org/10.4204/EPTCS.411.8
     bibtex: https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?411.8
     authors: "Grégoire Boussu, Nikolai Kosmatov and Franck Vedrine"
     abstract: "Lack of numerical precision in control software --- in particular, related to trajectory computation --- can lead to incorrect results with costly or even catastrophic consequences. Various tools have been proposed to analyze the precision of program computations. This paper presents a case study on numerical analysis of an industrial implementation of the fast marching algorithm,  a popular path computation algorithm frequently used for trajectory computation. We briefly describe the selected tools, present the applied methodology, highlight some attention points, summarize the results and outline future work directions."
 
   - title: "Synthesising Robust Controllers for Robot Collectives with Recurrent Tasks: A Case Study"
-    titleLink: https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2024.7
+    titleLink: https://dx.doi.org/10.4204/EPTCS.411.7
     bibtex: https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?411.7
     authors: "Till Schnittka and Mario Gleirscher"
     abstract: "When designing correct-by-construction controllers for autonomous collectives, three key challenges are the task specification, the modelling, and its use at practical scale. In this paper, we focus on a simple yet useful abstraction for high-level controller synthesis for robot collectives with optimisation goals (e.g., maximum cleanliness, minimum energy consumption) as well as recurrence (e.g., maintain a contamination threshold, avoid running out of charge) and safety (e.g., mutually exclusive room occupation) constraints.</br>Due to technical limitations (related to scalability and using constraints in the synthesis), we simplify a graph-based setting using stochastic two-player games into a single-player game on partially observable Markov decision processes (POMDPs). Robustness against environmental uncertainty is encoded via partial observability. Linear-time correctness properties are verified separately after synthesising the POMDP strategy. We contribute at-scale guidance on POMDP modelling and controller synthesis for tasked robot collectives exemplified by the scenario of battery-driven robots responsible for cleaning public buildings with utilisation constraints"
 
   - title: "Model checking and verification of synchronisation properties of cobot welding"
-    titleLink: https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2024.6  
+    titleLink: https://dx.doi.org/10.4204/EPTCS.411.6
     bibtex: https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?411.6
     authors: "Yvonne Murray, Henrik Nordlie, David A. Anisi, Pedro Ribeiro and Ana Cavalcanti"
     abstract: "This work describes use of model checking to verify synchronisation properties of an industrial welding system consisting of a cobot arm and an external turntable. The robots move synchronously, but sometimes get out of synchronisation. This gives inadequate weld qualities in problem areas, such as around corners. These mistakes are costly, since time is lost both in the robotic welding and in manual repairs needed to improve the weld. Verification of the synchronisation properties showed that they were fulfilled as long as assumptions of correctness were made about parts outside the scope of the model, indicating limitations in the hardware. These results motivated a re-calibration of the real-life system, drastically improving the welding results."
 
   - title: "Formal simulation and visualisation of hybrid programs"
-    titleLink: https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2024.2
+    titleLink: https://dx.doi.org/10.4204/EPTCS.411.2
     bibtex: https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?411.2
     authors: "Pedro Mendes, Ricardo Correia, Renato Neves and José Proença"
     abstract: "The design and analysis of systems that combine computational, discrete behaviour with physical processes' continuous dynamics – such as movement, velocity, and voltage – is a famous, challenging task. Several theoretical results from programming theory emerged in the last decades to tackle the issue; some of which are the basis of a proof-of-concept tool, called Lince, that aids in the analysis of such systems, by presenting simulations of their respective behaviours.</br> Being a proof-of-concept, the tool is quite limited w.r.t. usability, and when attempting to apply it to a set of common, concrete problems, involving autonomous driving and others, it either simply cannot simulate them or fails to provide a satisfactory user-experience.</br> This work thus complements the aforementioned theoretical approaches with a more practical perspective by improving Lince along several dimensions: to name a few, richer syntactic constructs, more operations, more informative plotting systems and errors messages, and a better performance overall. We illustrate our improvements via small different case-studies that involve both autonomous driving and electrical systems."
 
   - title: "Formalizing Stateful Behavior Trees"
-    titleLink: https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2024.14
+    titleLink: https://dx.doi.org/10.4204/EPTCS.411.14
     bibtex: https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?411.14
     authors: "Serena Serbinowska, Preston Robinette, Gabor Karsai and Taylor T Johnson"
     abstract: "Behavior Trees (BTs) are high-level controllers that are useful in a variety of planning tasks and are gaining traction in robotic mission planning. As they gain popularity in safety-critical domains, it is important to formalize their syntax and semantics, as well as verify properties for them. In this paper, we formalize a class of BTs we call Stateful Behavior Trees (SBTs) that have auxiliary variables and operate in an environment that can change over time. SBTs have access to persistent shared memory—often known as a blackboard—that keeps track of these auxiliary variables. We demonstrate that SBTs are equivalent in computational power to Turing Machines when the blackboard can store mathematical (unbounded) integers. We also identify conditions where SBTs have computational power equivalent to finite state automata, specifically where the auxiliary variables are of finitary types. We present a domain specific language (DSL) for writing SBTs and adapt the tool BehaVerify for use with this DSL. This new DSL in BehaVerify supports interfacing with popular BT libraries in Python, and also provides generation of Haskell code and nuXmv models, the latter of which are used for model checking temporal logic specifications for the SBTs. We include examples and scalability results where BehaVerify outperforms another verification tool (MoVe4BT) by a factor of 100."
 
   - title: "Creating a Formally Verified Neural Network for Autonomous Navigation: An Experience Report"
-    titleLink: "https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2024.12"
+    titleLink: "https://dx.doi.org/10.4204/EPTCS.411.12"
     bibtex: https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?411.12
     authors: "Syed Ali Asadullah Bukhari, Thomas Flinkow, Medet Inkarbekov, Barak A. Pearlmutter and Rosemary Monahan"
     abstract: "The increased reliance of self-driving vehicles on neural networks opens up the challenge of their verification. In this paper we present an experience report, describing a case study which we undertook to explore the design and training of a neural network on a custom dataset for vision-based autonomous navigation. We are particularly interested in the use of machine learning with differentiable logics to obtain networks satisfying basic safety properties by design, guaranteeing the behaviour of the neural network after training. We motivate the choice of a suitable neural network verifier for our purposes and report our observations on the use of neural network verifiers for self-driving systems."
 
   - title: "Verification of Behavior Trees with Contingency Monitors"
-    titleLink: https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?FMAS2024.4
+    titleLink: https://dx.doi.org/10.4204/EPTCS.411.4
     bibtex: https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?411.4
     authors: "Serena Serbinowska, Nicholas Potteiger, Anne Tumlin and Taylor T Johnson"
     abstract: "Behavior Trees (BTs) are high level controllers that have found use in a wide range of robotics tasks. As they grow in popularity and usage, it is crucial to ensure that the appropriate tools and methods are available for ensuring they work as intended. To that end, we created a new methodology by which to create Runtime Monitors for BTs. These monitors can be used by the BT to correct when undesirable behavior is detected and are capable of handling LTL specifications. We demonstrate that in terms of runtime, the generated monitors are on par with monitors generated by existing tools and highlight certain features that make our method more desirable in various situations. We note that our method allows for our monitors to be swapped out with alternate monitors with fairly minimal user effort. Finally, our method ties in with our existing tool, BehaVerify, allowing for the verification of BTs with monitors."
