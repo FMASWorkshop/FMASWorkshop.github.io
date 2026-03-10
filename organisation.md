@@ -5,13 +5,24 @@ title: "Organisation"
 
 <h2 class="w3-container">FMAS Organising Committee</h2>
 
-{% for member in site.data.orgcomm  %}  
+{% for member in site.data.orgcomm  %}
 
   <div class="w3-container w3-cell  w3-half w3-mobile">
     <p> <a href="{{ member.orcid }}" rel="external">{{member.firstName}} {{member.secondName}} <span class="fas fa-external-link-alt"></span></a> {{ member.institute }}
     </p>
   </div>
 {% endfor  %}
+
+<h3 class="w3-container">Past Organising Committee Members</h3>
+
+{% for member in site.data.pastOrgcomm  %}
+
+  <div class="w3-container w3-cell  w3-half w3-mobile">
+    <p> <a href="{{ member.orcid }}" rel="external">{{member.firstName}} {{member.secondName}} <span class="fas fa-external-link-alt"></span></a> {{ member.institute }}
+    </p>
+  </div>
+{% endfor  %}
+
 
 <h2 class="w3-container">FMAS Steering Committee</h2>
 
@@ -21,10 +32,4 @@ title: "Organisation"
   </div>
   <div class="w3-container w3-cell  w3-half w3-mobile">
     <p>{% include ext_link.html text="Dr Marie Farrell" link="https://orcid.org/0000-0001-7708-3877" %} University of Manchester, UK</p>
-  </div>  
-
-
-  
-
-
-
+  </div>

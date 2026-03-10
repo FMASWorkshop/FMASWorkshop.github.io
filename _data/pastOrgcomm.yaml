@@ -1,0 +1,10 @@
+- firstName: "Dr Mario"
+  secondName: "Gleirscher"
+  orcid: "https://orcid.org/0000-0002-9445-6863"
+  institute: "University of Bremen, Germany" 
+
+- firstName: "Dr Ray"
+  secondName: "Limarga"
+  website: "https://scholar.google.com/citations?hl=en&user=1vBTDV4AAAAJ&view_op=list_works&sortby=pubdate"
+  orcid: "https://orcid.org/0009-0002-1142-7651"
+  institute: "University of Manchester, UK"

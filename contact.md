@@ -9,7 +9,7 @@ We love hearing feedback about FMAS, especially if it's nice. If you've got comm
 
 General comments of questions can always be sent to our email address: <a href="mailto:FMASWorkshop@tutanota.com">FMASWorkshop@tutanota.com</a> 
 
-Questions that are specific to one edition of the workshop can be sent to the organisers mentioned on the workshop page.
+Questions that are specific to one edition of the workshop can be sent to the organisers mentioned on the workshop's page.
 
 ## Social Media
 
@@ -19,35 +19,8 @@ You can find us on:
 
 * <span class="fa-brands fa-bluesky"></span>  BlueSky: [https://bsky.app/profile/fmasworkshop.bsky.social](https://bsky.app/profile/fmasworkshop.bsky.social)
 * <span class="fa-brands fa-mastodon"></span> Mastadon: [https://mastodon.acm.org/@FMASWorkshop](https://mastodon.acm.org/@FMASWorkshop)
-* <span class="fa-brands fa-square-twitter"></span> Twitter: [https://twitter.com/FMASWorkshop](https://twitter.com/FMASWorkshop) 
+* <span class="fa-brands fa-linkedin"></span> LinkedIn: [https://www.linkedin.com/groups/10019224/][https://www.linkedin.com/groups/10019224/]
 
-When posting about a workshop, we will use a tag '#FMAS' + yyyy so you'll be able to find posts about FMAS 2024 (for example) using the tag #FMAS2024. If you're posting about the workshop, which would be great, please use the tag and tag our account too so we can find and re-post.
+When posting about an edition of the workshop, we will use a tag '#FMAS' + yyyy so you'll be able to find posts about FMAS 2024 (for example) using the tag #FMAS2024. If you're posting about the workshop, which would be great, please use the tag and tag our account too so we can find and re-post.
 
-
-
-## FMAS Organising Committee
-
-{% for member in site.data.orgcomm  %}  
-  <div class="w3-container w3-cell  w3-half w3-mobile">
-    <p> <a href="{{ member.orcid }}" rel="external">{{member.firstName}} {{member.secondName}} <span class="fas fa-external-link-alt"></span></a> {{ member.institute }}
-    </p>
-  </div>
-{% endfor  %}
-
-## FMAS Steering Committee
-
-  <div class="w3-container w3-cell  w3-half w3-mobile">
-    <p>{% include ext_link.html text="Dr Matt Luckcuck" link="https://orcid.org/0000-0002-6444-9312" %} University of Nottingham, UK
-    </p>
-  </div>
-  <div class="w3-container w3-cell  w3-half w3-mobile">
-    <p>{% include ext_link.html text="Dr Marie Farrell" link="https://orcid.org/0000-0001-7708-3877" %} University of Manchester, UK</p>
-  </div>  
-
-
-
-
-
-
-
-
+We have stopped posting on our Twitter account (<span class="fa-brands fa-square-twitter"></span> [https://twitter.com/FMASWorkshop](https://twitter.com/FMASWorkshop)) because Twitter has become unpleasant as place to talk, and unusable as a service/website. The account remains but is unmonitored. 
