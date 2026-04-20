@@ -64,12 +64,13 @@ papers:
 
 ### DATES ###
 # Use DDTH MONTH YEAR format.
-# Add <s>DDTH MONTH YEAR</s> after the date has passed to strike out the date. date
+# Add <s>DDTH MONTH YEAR</s> after the date has passed to strike out the date.
 dates:
-  submission: "TBC"
-  notification: "TBC"
-  final_version: "TBC"
-  workshop: "17th November 2026"
+  abstract: "14th of August 2026 ([Anywhere on Earth](https://www.timeanddate.com/time/zones/aoe))"
+  submission: "17th of August 2026 ([Anywhere on Earth](https://www.timeanddate.com/time/zones/aoe))"
+  notification: "6th of October 2026"
+  final_version: "17th of October 2026 ([Anywhere on Earth](https://www.timeanddate.com/time/zones/aoe))"
+  workshop: "17th and 18th of November 2026"
 
 ### PROGRAMME COMMITTEE ###
 # Many will be the same. Recommend keeping them all, and commenting out those who have not yet confirmed.
