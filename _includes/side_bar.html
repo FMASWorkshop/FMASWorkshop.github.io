@@ -9,11 +9,15 @@
     {% endif %}
     Dates:
     <ul>
+        {% if site.data.fmas2026.dates.abstract %}
+        <li>
+            Abstract Submission: {{ site.data.fmas2026.dates.abstract | markdownify | remove: '<p>' | remove: '</p>' }} </li>
+        {% endif %}
         <li>
             {% if site.data.fmas2026.dates.is_submission_extended == true %}
                 Extended
             {% endif %}    
-            Submission: {{ site.data.fmas2026.dates.submission | markdownify | remove: '<p>' | remove: '</p>' }} </li>
+            Paper Submission: {{ site.data.fmas2026.dates.submission | markdownify | remove: '<p>' | remove: '</p>' }} </li>
         <li>Notification: {{site.data.fmas2026.dates.notification | markdownify | remove: '<p>' | remove: '</p>'  }}</li>
         <li>Final Version due: {{site.data.fmas2026.dates.final_version | markdownify | remove: '<p>' | remove: '</p>' }} </li>
         <li>Workshop:  {{site.data.fmas2026.dates.workshop | markdownify | remove: '<p>' | remove: '</p>' }}</li>
