@@ -71,6 +71,7 @@ dates:
   notification: "6th of October 2026"
   final_version: "17th of October 2026 ([Anywhere on Earth](https://www.timeanddate.com/time/zones/aoe))"
   workshop: "17th and 18th of November 2026"
+  is_submission_extended: false
 
 ### PROGRAMME COMMITTEE ###
 # Many will be the same. Recommend keeping them all, and commenting out those who have not yet confirmed.
