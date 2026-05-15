@@ -23,8 +23,12 @@
         <li>Workshop:  {{site.data.fmas2026.dates.workshop | markdownify | remove: '<p>' | remove: '</p>' }}</li>
     </ul>
     <div class="actions">
-        <!--<a class="actionBtn" href={{site.data.fmas2026.submit}}>SUBMIT</a>-->
-        <!--<a class="actionBtn" href={{site.data.fmas2026.register}}>REGISTER</a>-->
+        {% if site.data.fmas2026.show_easychair_link == true %}
+        <a class="actionBtn" href={{site.data.fmas2026.easychair}}>SUBMIT</a>
+        {% endif %}
+        {% if site.data.fmas2026.show_register_link == true %}
+        <a class="actionBtn" href={{site.data.fmas2026.register}}>REGISTER</a>
+        {% endif %}
     </div>
 
     Jump to:
