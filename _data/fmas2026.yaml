@@ -6,7 +6,7 @@ discussion: #
 show_register_link: false
 register : #
 
-show_easychair_link: false
+show_easychair_link: true
 easychair : https://easychair.org/my/conference?conf=fmas2026
 
 ### SCHEDULE ###
