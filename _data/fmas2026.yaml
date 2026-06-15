@@ -75,7 +75,7 @@ dates:
 
 ### PROGRAMME COMMITTEE ###
 # Many will be the same. Recommend keeping them all, and commenting out those who have not yet confirmed.
-show_pc : false
+show_pc : true
 pc :
  - first_name: Akhila
    last_name: Bairy
@@ -92,34 +92,34 @@ pc :
    affiliation: University of York (UK)
    link: https://www.cs.york.ac.uk/people/?username=alvarohm
 
- - first_name: Anastasia
-   last_name: Mavridou
-   affiliation: KBR Wyle/NASA Ames Research Center (USA)
-   link: http://amavridou.com/
+ #- first_name: Anastasia
+ #  last_name: Mavridou
+ #  affiliation: KBR Wyle/NASA Ames Research Center (USA)
+ #  link: http://amavridou.com/
 
  - first_name: Angelo
    last_name: Ferrando
    affiliation:   University of Modena and Reggio Emilia (Italy)
    link: https://angeloferrando.github.io/website/
 
- - first_name: Claudio
-   last_name: Menghi
-   affiliation:   University of Bergamo (Italy)
-   link: https://claudiomenghi.github.io/index.html
+ #- first_name: Claudio
+ #  last_name: Menghi
+ #  affiliation:   University of Bergamo (Italy)
+ #  link: https://claudiomenghi.github.io/index.html
 
- #- first_name: Dominique
- #  last_name: Méry
- #  affiliation: Université de Lorraine (France)
- #  link: https://members.loria.fr/Mery/
+ - first_name: Dominique
+   last_name: Méry
+   affiliation: Université de Lorraine (France)
+   link: https://members.loria.fr/Mery/
 
- - first_name: Hao
-   last_name: Wu
-   affiliation:   Maynooth University (Ireland)
-   link: http://www.cs.nuim.ie/~haowu/
+ #- first_name: Hao
+ #  last_name: Wu
+ #  affiliation:   Maynooth University (Ireland)
+ #  link: http://www.cs.nuim.ie/~haowu/
 
  - first_name: Jérémie
    last_name: Guiochet
-   affiliation: University of Toulouse (France)
+   affiliation: LAAS-CNRS (France)
    link: http://homepages.laas.fr/guiochet/
 
  - first_name: Maike
@@ -152,10 +152,10 @@ pc :
 #   affiliation: University of Oldenburg (Germany)
 #   link: https://uol.de/en/csd/persons-contacts/christopher-bischopink-msc/
 
- - first_name: Mallory S.
-   last_name: Graydon
-   affiliation: NASA Langley Research Center (USA)
-   link: https://shemesh.larc.nasa.gov/people/msg/
+ #- first_name: Mallory S.
+ #  last_name: Graydon
+ #  affiliation: NASA Langley Research Center (USA)
+ #  link: https://shemesh.larc.nasa.gov/people/msg/
     
  - first_name: Siddhartha
    last_name: Bhattacharyya
@@ -182,15 +182,15 @@ pc :
    affiliation: University of Manchester (UK)
    link: https://personalpages.manchester.ac.uk/staff/michael.fisher/
 
- - first_name: Fatma
-   last_name: Faruq
-   affiliation: University of Manchester (UK)
-   link: https://fatmaf.github.io/
-
- #- first_name: Louise A.
- #  last_name: Dennis
+ #- first_name: Fatma
+ #  last_name: Faruq
  #  affiliation: University of Manchester (UK)
- #  link: http://www.cs.man.ac.uk/~dennisl/
+ #  link: https://fatmaf.github.io/
+
+ - first_name: Louise
+   last_name: Dennis
+   affiliation: University of Manchester (UK)
+   link: http://www.cs.man.ac.uk/~dennisl/
 
  #- first_name: Mario
  #  last_name: Gleirscher
@@ -222,20 +222,20 @@ pc :
    affiliation:  University of Newcastle (UK)
    link: https://mengweixu.netlify.app/
 
- - first_name: Ichiro
-   last_name: Hasuo
-   affiliation:  National Institute of Informatics (Japan)
-   link: https://group-mmm.org/%7Eichiro/
+ #- first_name: Ichiro
+ #  last_name: Hasuo
+ #  affiliation:  National Institute of Informatics (Japan)
+ #  link: https://group-mmm.org/%7Eichiro/
 
- - first_name: Natasha
-   last_name: Neogi
-   affiliation: NASA Langley Research Center (USA)
-   link: https://www.linkedin.com/in/natasha-neogi-a15337110
+ #- first_name: Natasha
+ #  last_name: Neogi
+ #  affiliation: NASA Langley Research Center (USA)
+ #  link: https://www.linkedin.com/in/natasha-neogi-a15337110
 
- - first_name: Baptiste
-   last_name: Pelletier
-   affiliation: ONERA - The French Aerospace Lab (France)
-   link:   https://www.linkedin.com/in/baptiste-pelletier-357b87166/
+ #- first_name: Baptiste
+ #  last_name: Pelletier
+ #  affiliation: ONERA - The French Aerospace Lab (France)
+ #  link:   https://www.linkedin.com/in/baptiste-pelletier-357b87166/
 
  - first_name: Andrea
    last_name: Pferscher
@@ -244,22 +244,21 @@ pc :
 
  - first_name: James
    last_name: Stovold
-   affiliation: Lancaster University Leipzig (Germany)
+   affiliation: Lancaster University (UK)
    link: https://www.research.lancs.ac.uk/portal/en/people/james-stovold(dfe17609-ed4c-4578-95e5-4c41b5238bc9).html
    
  - first_name: Sven
    last_name: Linker
-   affiliation: Kernkonzept (Germany)
+   affiliation: Kernkonzept GmbH (Germany)
 
  - first_name: Elena
    last_name: Troubitsyna
    affiliation: KTH Royal Institute of Technology (Sweden)
    link: https://www.kth.se/profile/elenatro
 
- #- first_name: Gricel
- #  last_name: Vázquez
- #  affiliation: University of York (UK)
- #  link: https://www.cs.york.ac.uk/people/?group=his&username=gricel
+ - first_name: Gricel
+   last_name: Vázquez
+   link: https://gricel-lee.github.io/
 
  - first_name: Matt
    last_name: Luckcuck
@@ -291,9 +290,9 @@ pc :
 #   affiliation: University of Malta (Malta)
 #   link: http://staff.um.edu.mt/christian.colombo
    
- - first_name: Thomas
-   last_name: Flinkow
-   affiliation: Maynooth University (Ireland)
+ #- first_name: Thomas
+ #  last_name: Flinkow
+ #  affiliation: Maynooth University (Ireland)
 
  - first_name: Livia
    last_name: Lestingi
@@ -310,10 +309,10 @@ pc :
    affiliation: German Aerospace Center (DLR) e.V. (Germany)
    link: https://scholar.google.com/citations?user=RbhxsW0AAAAJ&hl=de
  
- - first_name: Asmae
-   last_name: Heydari Tabar
-   affiliation: Karlsruhe Institute of Technology (Germany)
-   link: https://www.linkedin.com/in/asmaheydaritabar/?originalSubdomain=de
+ #- first_name: Asmae
+ #  last_name: Heydari Tabar
+ #  affiliation: Karlsruhe Institute of Technology (Germany)
+ #  link: https://www.linkedin.com/in/asmaheydaritabar/?originalSubdomain=de
     
  #- first_name: Juliane
  #  last_name: Päßler
@@ -330,14 +329,44 @@ pc :
    affiliation: Robert Bosch GmbH Corporate Research (Germany)
    link: https://scholar.google.com/citations?user=m8ij9yMAAAAJ&hl=de
 
- - first_name: Sanaz
-   last_name: Sheikhi
-   affiliation: Stony Brook University (USA)
-   link: https://scholar.google.com/citations?user=zCDOQSQAAAAJ
+ #- first_name: Sanaz
+ #  last_name: Sheikhi
+ #  affiliation: Stony Brook University (USA)
+ #  link: https://scholar.google.com/citations?user=zCDOQSQAAAAJ
 
  - first_name: Stefano
    last_name: Tonetta
    affiliation: Fondazione Bruno Kessler (FBK) (Italy)
    link: https://fm.fbk.eu/author/stefano-tonetta.html
 
+ - first_name: Duong Dinh
+   last_name: Tran
+   affiliation: Japan Advanced Institute of Science and Technology (JAIST) (Japan)
+   link: https://fm.fbk.eu/author/stefano-tonetta.html
 
+ - first_name: Mark
+   last_name: Lawford
+   affiliation: McMaster University (Canada)
+   link: https://www.cas.mcmaster.ca/~lawford/
+
+ - first_name: Zhenya
+   last_name: Zhang
+   affiliation: Kyushu University (Japan)
+   link: https://choshina.github.io/
+
+ - first_name: Steffen
+   last_name: Knoop
+   affiliation: Bosch (Germany)
+   link: https://www.bosch.com/research/about-bosch-research/our-research-experts/steffen-knoop/
+
+ - first_name: Eduard Paul
+   last_name: Enoiu
+   affiliation: Mälardalen University (Sweden)
+   link: https://www.mdu.se/en/malardalen-university/staff?id=eduard.paul.enoiu
+
+ - first_name: Federico
+   last_name: Formica
+   affiliation: McMaster University (Canada)
+   link: https://scholar.google.com/citations?user=BzxbSq0AAAAJ&hl=en
+
+   

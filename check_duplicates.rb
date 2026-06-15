@@ -1,6 +1,6 @@
 require 'yaml'
 
-fmasfile = './_data/fmas2025.yaml'
+fmasfile = './_data/fmas2026.yaml'
 data = YAML.load_file(fmasfile)
 
 pc_list = data['pc']
