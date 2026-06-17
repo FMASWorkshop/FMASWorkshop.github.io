@@ -40,13 +40,13 @@ schedule:
       name: "Lunch Break & Poster Session"
 
 ### TALKS ###
-show_talks: false
+show_talks: true
 invited_talks:
-  - name: "TITLE. NAME"
-    bio: "BIOGRAPHY"
-    link: "PERSONAL WEB PAGE"
-    title: "TITLE"
-    abstract: "ABSTRACT"
+#  - name: "TITLE. NAME"
+#    bio: "BIOGRAPHY"
+#    link: "PERSONAL WEB PAGE"
+#    title: "TITLE"
+#    abstract: "ABSTRACT"
 
 
 ### PAPERS ###
@@ -368,5 +368,10 @@ pc :
    last_name: Formica
    affiliation: McMaster University (Canada)
    link: https://scholar.google.com/citations?user=BzxbSq0AAAAJ&hl=en
+
+ - first_name: Gustavo
+   last_name: Carvalho
+   affiliation: Universidade Federal de Pernambuco (Brazil)
+   link: https://ghpc.github.io/
 
    
