@@ -118,3 +118,33 @@ button {
 .show {
     display: block;
 }
+
+.text-image {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.text-image p {
+    flex: 1;
+}
+.text-image img {
+    flex: 1;
+    width: 300px;
+    max-width: 40%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Mobile layout */
+@media (max-width: 900px) {
+  .text-image {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .text-image img {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+  }
+}
