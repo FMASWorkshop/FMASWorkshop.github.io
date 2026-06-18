@@ -77,10 +77,10 @@ dates:
 # Many will be the same. Recommend keeping them all, and commenting out those who have not yet confirmed.
 show_pc : true
 pc :
- - first_name: Akhila
-   last_name: Bairy
-   affiliation: Karlsruhe Institute of Technology (Germany)
-   link: https://mase.kastel.kit.edu/english/21_148.php
+ #- first_name: Akhila
+ #  last_name: Bairy
+ #  affiliation: Karlsruhe Institute of Technology (Germany)
+ #  link: https://mase.kastel.kit.edu/english/21_148.php
 
  - first_name: Oana
    last_name: Andrei
@@ -122,10 +122,10 @@ pc :
    affiliation: LAAS-CNRS (France)
    link: http://homepages.laas.fr/guiochet/
 
- - first_name: Maike
-   last_name: Schwammberger
-   affiliation: Karlsruhe Institute of Technology (Germany)
-   link:  https://dblp.org/pid/187/5792.html
+ #- first_name: Maike
+ #  last_name: Schwammberger
+ #  affiliation: Karlsruhe Institute of Technology (Germany)
+ #  link:  https://dblp.org/pid/187/5792.html
 
  - first_name: Rafael C.
    last_name: Cardoso
@@ -260,10 +260,10 @@ pc :
    last_name: Vázquez
    link: https://gricel-lee.github.io/
 
- - first_name: Matt
-   last_name: Luckcuck
-   affiliation: University of Nottingham (UK)
-   link: https://orcid.org/0000-0002-6444-9312
+ #- first_name: Matt
+   #last_name: Luckcuck
+   #affiliation: University of Nottingham (UK)
+   #link: https://orcid.org/0000-0002-6444-9312
 
  - first_name: Marie
    last_name: Farrell
@@ -324,10 +324,10 @@ pc :
 #   affiliation: University of Stirling (UK)
 #   link: https://www.stir.ac.uk/people/1967891
 
- - first_name: Christian
-   last_name: Heinzemann
-   affiliation: Robert Bosch GmbH Corporate Research (Germany)
-   link: https://scholar.google.com/citations?user=m8ij9yMAAAAJ&hl=de
+ #- first_name: Christian
+   #last_name: Heinzemann
+   #affiliation: Robert Bosch GmbH Corporate Research (Germany)
+   #link: https://scholar.google.com/citations?user=m8ij9yMAAAAJ&hl=de
 
  #- first_name: Sanaz
  #  last_name: Sheikhi
