@@ -244,8 +244,8 @@ pc :
 
  - first_name: James
    last_name: Stovold
-   affiliation: Lancaster University (UK)
-   link: https://www.research.lancs.ac.uk/portal/en/people/james-stovold(dfe17609-ed4c-4578-95e5-4c41b5238bc9).html
+   affiliation: University of York (UK)
+   link: https://www.cs.york.ac.uk/people/?group=ai&username=jstovold
    
  - first_name: Sven
    last_name: Linker
@@ -258,6 +258,7 @@ pc :
 
  - first_name: Gricel
    last_name: Vázquez
+   affiliation: University of York (UK)
    link: https://gricel-lee.github.io/
 
  #- first_name: Matt
