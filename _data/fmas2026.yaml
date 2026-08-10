@@ -42,11 +42,12 @@ schedule:
 ### TALKS ###
 show_talks: true
 invited_talks:
-#  - name: "TITLE. NAME"
+ # - name: "Prof. Nils Jansen"
 #    bio: "BIOGRAPHY"
-#    link: "PERSONAL WEB PAGE"
 #    title: "TITLE"
-#    abstract: "ABSTRACT"
+    #link: "PERSONAL WEB PAGE"
+    #abstract: 'We have confirmed <a href="http://nilsjansen.org" rel="external">Prof. Nils Jansen<span class="fas fa-external-link-alt"></span></a> from the Ruhr-University Bochum in Germany, where he is the chair of Artificial Intelligence and Formal Methods. He is also an Associate Professor with the Institute for Computing and Information Sciences at Radboud University Nijmegen, in The Netherlands. Check back soon for more information on his invited talk at FMAS 2026.'
+
 
 
 ### PAPERS ###
@@ -375,4 +376,8 @@ pc :
    affiliation: Universidade Federal de Pernambuco (Brazil)
    link: https://ghpc.github.io/
 
-   
+ - first_name: Khen
+   last_name: Elimelech
+   affiliation: King's College London (UK)
+   link: https://www.kcl.ac.uk/people/khen-elimelech
+ 
