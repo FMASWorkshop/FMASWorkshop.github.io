@@ -67,10 +67,10 @@ papers:
 # Use DDTH MONTH YEAR format.
 # Add <s>DDTH MONTH YEAR</s> after the date has passed to strike out the date.
 dates:
-  abstract: "14th of August 2026 ([Anywhere on Earth](https://www.timeanddate.com/time/zones/aoe))"
-  submission: "<s>17th of August 2026</s> 20th of August ([Anywhere on Earth](https://www.timeanddate.com/time/zones/aoe))"
+  abstract: "14th of August 2026"
+  submission: "<s>17th</s> 20th of August 2026"
   notification: "6th of October 2026"
-  final_version: "17th of October 2026 ([Anywhere on Earth](https://www.timeanddate.com/time/zones/aoe))"
+  final_version: "17th of October 2026"
   workshop: "17th and 18th of November 2026"
   is_submission_extended: true
 
@@ -381,3 +381,12 @@ pc :
    affiliation: King's College London (UK)
    link: https://www.kcl.ac.uk/people/khen-elimelech
  
+ - first_name: Dominik
+   last_name: Grundt
+   affiliation: OFFIS e.V. (Germany)
+   link: https://www.researchgate.net/profile/Dominik_Grundt
+
+ - first_name: Ben
+   last_name: Wooding
+   affiliation: University of Newcastle (UK)
+   link: https://woodingben.com/
