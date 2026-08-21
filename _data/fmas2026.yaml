@@ -183,10 +183,10 @@ pc :
    affiliation: University of Manchester (UK)
    link: https://personalpages.manchester.ac.uk/staff/michael.fisher/
 
- #- first_name: Fatma
- #  last_name: Faruq
- #  affiliation: University of Manchester (UK)
- #  link: https://fatmaf.github.io/
+ - first_name: Fatma
+   last_name: Faruq
+   affiliation: Arm (UK)
+   link: https://fatmaf.github.io/
 
  - first_name: Louise
    last_name: Dennis
