@@ -7,7 +7,7 @@
     {% else %}
         <div class="thisYearBtn"><a href="/FMAS2026">FMAS 2026:</a></div>
     {% endif %}
-    <table>
+    <table class="low_padding">
         <tr>
             <td>Abstract Submission:</td>
             <td>{{ site.data.fmas2026.dates.abstract | markdownify | remove: '<p>' | remove: '</p>' }}</td>
@@ -38,17 +38,19 @@
         Submission dates are <a href="https://www.timeanddate.com/time/zones/aoe">Anywhere on Earth (AOE) <span class="fas fa-external-link-alt"></span></a> time.
     </p>
     
-
+    <h6>Registration:</h6>
     <div class="actions">
         {% if site.data.fmas2026.show_easychair_link == true %}
         <a class="actionBtn" href={{site.data.fmas2026.easychair}}>SUBMIT</a>
         {% endif %}
         {% if site.data.fmas2026.show_register_link == true %}
-        <a class="actionBtn" href={{site.data.fmas2026.register}}>REGISTER</a>
+        <a class="actionBtn" href={{site.data.fmas2026.register}}>ICFEM + FMAS</a>
+        <a class="actionBtn" href={{site.data.fmas2026.fmas_only_register}}>FMAS ONLY</a>
         {% endif %}
     </div>
+    <a href="https://icfem2026.github.io/">Details for our host ICFEM are here <span class="fas fa-external-link-alt"></span></a>
 
-    Jump to:
+    <h6>Jump to:</h6>
         <ul>
             <li><a href="https://fmasworkshop.github.io/FMAS2026/#schedule">Schedule</a></li>
             <li><a href="https://fmasworkshop.github.io/FMAS2026/#accepted-papers">Accepted Papers</a></li>

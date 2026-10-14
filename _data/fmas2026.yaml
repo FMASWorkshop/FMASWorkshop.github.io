@@ -3,11 +3,12 @@
 
 discussion: #
 
-show_register_link: false
-register : #
+show_register_link: true
+register : https://store.southampton.ac.uk/conferences-and-events/conference-events/conference-events/icfem2026
+fmas_only_register: https://store.southampton.ac.uk/conferences-and-events/conference-events/conference-events/fmas2026
 
-show_easychair_link: true
-easychair : https://easychair.org/my/conference?conf=fmas2026
+show_easychair_link: false
+easychair : 
 
 ### SCHEDULE ###
 
@@ -42,34 +43,162 @@ schedule:
 ### TALKS ###
 show_talks: true
 invited_talks:
- # - name: "Prof. Nils Jansen"
-#    bio: "BIOGRAPHY"
-#    title: "TITLE"
-    #link: "PERSONAL WEB PAGE"
-    #abstract: 'We have confirmed <a href="http://nilsjansen.org" rel="external">Prof. Nils Jansen<span class="fas fa-external-link-alt"></span></a> from the Ruhr-University Bochum in Germany, where he is the chair of Artificial Intelligence and Formal Methods. He is also an Associate Professor with the Institute for Computing and Information Sciences at Radboud University Nijmegen, in The Netherlands. Check back soon for more information on his invited talk at FMAS 2026.'
+  - name: "Prof. Nils Jansen"
+    bio: "<a href='http://nilsjansen.org/' rel='external'>Prof. Nils Jansen <span class='fas fa-external-link-alt'></span></a> is from the Ruhr-University Bochum in Germany, where he is the chair of Artificial Intelligence and Formal Methods. He is also an Professor of Safe and Dependable AI at Radboud University Nijmegen, in The Netherlands. "
+    title: "Reading Between The Lines of Code"
+    link: "http://nilsjansen.org/"
+    image: "Nils.webp"
+    abstract: |
+      Formal verification is hard. It is even harder when you do not know what property you should be verifying.
 
+      People are notoriously bad at stating precisely what they want, and natural language is inherently ambiguous. As a result, the software, hardware and systems we rely on frequently come without usable specifications for formal verification. Even when specifications do exist, they are often  insufficiently detailed for automated verification tools to prove the properties we care about. This gap is becoming increasingly important as AI-generated code enters the software and hardware ecosystem: we may be able to generate implementations faster than ever, but understanding what those implementations are supposed to do remains a core challenge.
+
+      In this talk, I will discuss our group’s attempts to close this gap through specification mining: automatically inferring the properties that are implicit in code, designs, and their behaviour. Drawing on classical program synthesis techniques as well as large language models, we are exploring methods for efficiently mining specifications for both hardware and software. Our aim is to reduce the manual burden of formal verification and, ultimately, to enable the verification of systems without requiring users to write formal specifications by hand.
+    
+  - name: "Dr. Elizabeth Polgreen"
+    bio: |
+      We have also confirmed Dr. Elizabeth Polgreen from the School of Informatics at the University of Edinburgh. She is interested in (formal and machine learning-based) synthesis techniques and the use of synthesis to increase the scalability of verification. She holds a research fellowship from the Royal Academy of Engineering. 
+    
+      Check back soon for more information on her invited talk at FMAS 2026.
+    image: "Elizabeth_Polgreen.webp"
+    #title: ""
+    #link: "http://nilsjansen.org/"
+    #abstract: 
 
 
 ### PAPERS ###
-show_papers: false
+show_papers: true
 papers:
-  - title: "TITLE"
-    titleLink: "EPTCS LINK"
-    bibtex: "https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?###.# (number at end of title link)"
-    authors: "AUTHOR"
-    type: "short/regular/any string"
-    id: 1 # THE paper id is not the ID from EPTCS, unless you make it match yourself. That could be helpful 
-    abstract: "ABSTRACT"
+  - title: "SkiNet-Sim: Simulating Petri Nets with Data for the Verification and Validation of Controllers for Autonomous Systems"
+    #titleLink: ""
+    authors: "Baptiste Pelletier and Karen Godary"
+    type: "Regular Paper"
+    id: "3"
+    abstract: "A large amount of high-level Petri net formalisms has been investigated and deployed in academic settings over the past decades, but these deployments fail to reach practical and industrial applications, despite the strong guarantees they can bring to stakeholders. In particular, the lack of direct benefits from end-users reduces the appeal of Petri nets, both due to the overly simple classical Petri net formalism, and the overly specialized high-level formalisms, on top of state-space explosion issues.  In this work, we investigate how a middle-ground could be reached, by separating the implementation specific aspects of software or hardware behaviors, from the classical Petri net semantics. The goal is to benefit from the sought-after aspects of Petri nets, namely their simple firing semantic and model-checking capabilities, while still being able to augment their behavior to best reflect the modelled system. We present a formal model of Interpreted Petri nets with data-aware transitions and tokens. We illustrate this formalism by modelling the executive layer robotic systems, and provide a lightweight tool to augment classical Petri nets for general purpose applications, as well as data-aware state-space exploration for model-checking. Their specialization in the context of autonomous robotics is showcased, with a complete industrial inspection mission use-case, to compare model simulation and model-checking results between the classical and the new data-aware Petri net semantic."
+    #bibtex: ""
+
+  - title: "From Constraints to Causality: Petri net Encodings for Explaining Binary Neural Network Inference"
+    #titleLink: ""
+    authors: "Alex Chan, Mohamed Tarraf, Alex Yakovlev and Rishad Shafik"
+    type: "Research Preview"
+    id: "4"
+    abstract: "Binary Neural Networks (BNNs) are an attractive Deep Neural Network class for resource-constrained hardware and on-device components in autonomous systems. However, their discrete, non-linear behaviour makes them difficult to analyse and trust in safety-relevant settings. Existing approaches based on SAT and Satisfiability Modulo Theories can verify a BNN's input-output properties, but often treat the BNN as a monolithic constraint system, answering only whether a property holds without revealing the causal structure of how the computation reaches its result. In this paper, we present an early work by providing a complementary, discrete-event view. We give a compositional translation from the inference semantics of a fixed, trained BNN to a 1-safe Petri net (PN), where weights are compile-time constants and each computation step is an explicit transition, so that a firing sequence is a causal trace of the BNN's decision. On a worked example, we establish faithfulness via exhaustive input-output equivalence against a reference implementation, and show how the encoding explains a decision by contrasting firing sequences to localise where a single-feature change alters the prediction. Finally, we outline two directions this opens: a correctness-of-translation theorem proved by induction over the compositional encoding, and a causal-trace analysis localising where two trained BNNs diverge in their decisions, a structural question that constraint-based verifiers cannot express."
+    #bibtex: ""
+
+  - title: "Symbolic Abstraction Refinement"
+    #titleLink: ""
+    authors: "Daniel Bryce, David Musliner, Robert Goldman, Jeremy Gottlieb and John Skovbekk"
+    type: "Regular Paper"
+    id: "6"
+    abstract: "Autonomous systems choose actions whose outcomes are uncertain and are subject to time constraints. Probabilistic timed automata (PTAs) model exactly this, and verifying one answers a question about the system's decision-making: the maximum probability of reaching a goal, or the minimum probability of reaching a hazard, that a controller can guarantee. Verification normally works over symbolic states, each pairing a discrete location with a region of clock values, and its difficulty is that the best behaviour generally varies within such a region. The PRISM verifier's most capable PTA method responds by splitting regions until each is uniform, rebuilding the transitions that reach them and propagating the split backward through the state graph of a stochastic game, a cascade of graph reconstruction that partitions regions the property never depends on. We present SYMAR, which instead makes the value function symbolic: each symbolic state carries a function from sub-regions of its clock region to probability bounds, so refinement is the appearance of new sub-regions in that function, and previously generated states are never split nor their incoming transitions reconstructed. Both sources of PTA nondeterminism, the timing and the choice of actions, are captured implicitly by the preimage computation that produces those sub-regions. Heuristic forward search then bounds how much refinement is done at all, expanding an And-Or graph from the initial state along the most promising behaviours so that effort is confined to the property-relevant fragment, guided by bounds and preferred actions from a single unrefined run of the existing method; a partial-refinement backup keeps the otherwise combinatorial sub-region count in check, and every stored interval provably contains the true probability. On the PRISM PTA benchmarks, whose subproblems recur in autonomous systems (distributed agreement under contention, leader election, and self-configuration without central coordination), SYMAR is up to 114× faster, solves an instance on which the existing method exhausts the time limit, and is markedly less sensitive to the deadline constant, resolving one instance in a 37-node search graph, unchanged as the deadline triples, where the existing method needs 86,380 abstract states and 73 refinement rounds."
+    #bibtex: ""
+
+  - title: "ROSMonitoring in Action: Runtime Monitoring and Enforcement for ROS 2 Actions"
+    #titleLink: ""
+    authors: "Giacomo Paltrinieri and Angelo Ferrando"
+    type: "Regular Paper"
+    id: "12"
+    abstract: "Robotic applications often rely on long-running operations, such as navigation, manipulation, and inspection, which in ROS~2 are commonly implemented as actions. Unlike topics and services, actions involve a structured lifecycle comprising goal submission and acceptance, feedback, status updates, result retrieval, and cancellation. Existing versions of ROSMonitoring support topics and services, but do not reconstruct this lifecycle or expose action-level events to a runtime-verification oracle. In this paper, we extend ROSMonitoring with runtime monitoring and enforcement for ROS~2 actions. Actions are declared directly in the monitoring configuration and automatically instrumented through the underlying ROS~2 communication endpoints. The generated monitor reconstructs action-level events, correlates them through goal identifiers, maintains the state of active goals, and translates violations into protocol-aware enforcement operations, including goal rejection, cancellation, message suppression, and synthetic responses. We evaluate the implementation through controlled stress tests that vary the number of action invocations, workload size, and client--server topology. The results show approximately linear growth in monitoring cost with repeated action invocations under a fixed workload, while larger action workloads and increased concurrency introduce additional overhead. These results demonstrate the scalability of the proposed approach under regular workloads while highlighting the main performance limitations of the current synchronous implementation."
+    #bibtex: ""
+
+  - title: "BehaVerify: A Formal Verification Tool for Behavior Trees"
+    #titleLink: ""
+    authors: "Serena Serbinowska, Ben Wooding, Diego Manzanas Lopez, Luke Nam, Anne M. Tumlin, Nicholas Potteiger, Hongchao Zhang and Taylor T Johnson"
+    type: "Regular Paper"
+    id: "13"
+    abstract: "This paper presents BehaVerify, a verification toolbox for behavior trees (BTs) and Neuro-Symbolic BTs. BTs are a graphical language for planning and sequencing behaviors --- similar to extended state machines --- and are increasingly used in safety-critical domains. BehaVerify enable users to specify a BT using a Domain Specific Language (DSL) with formal syntax and semantics. This language further includes Linear Temporal Logic and Computation Tree Logic specifications. BehaVerify uses an efficient encoding into nuXmv, called fastforwarding, to quickly verify if a specification holds over the BT. Additionally, BehaVerify can generate implementations of the BT in Python and Haskell. Through Python, BehaVerify integrated with PyTrees and Robot Operating System (ROS) and has been deployed to several autonomous robotic systems, including for verifying runtime monitors. While prior works have developed the underlying theory, this manuscript focuses on the toolbox usage, functionality and implementation."
+    #bibtex: ""
+
+  - title: "Formal Analysis of a Fault-Tolerant Extension of the ROSACE Flight Controller"
+    #titleLink: ""
+    authors: "Marco Bozzano, Alessandro Cimatti, Moussa Fall and Stefano Tonetta"
+    type: "Experience Report"
+    id: "14"
+    abstract: "Autonomous avionics controllers must satisfy stringent real-time functional and performance requirements even in the presence of run-time faults. In this paper, we analyze ROSACE, an open-source control engineering benchmark for flight control systems, focusing on its run-time resilience against faults such as sensor noise and sensor failures. We extend the benchmark with an FDIR (Fault Detection, Identification and Recovery) component based on Triple Modular Redundancy.  Our approach builds upon COMPASTA, a tool for Model-Based Design developed on top of the TASTE tool by ESA. COMPASTA enables the modeling and injection of faults into a system's design. Moreover, it implements a simulation-based verification and validation workflow, automating the generation and execution of a set of test cases, based on a user-defined notion of coverage.  Using COMPASTA, we construct a set of formal models, with faults and with FDIR, and we formally analyze their impact on the system properties. The analysis is based on the coupling of the formal models with the Simulink models used for the simulations."
+    #bibtex: ""
+
+  - title: "No Need to Stop the Fleet: Localized Anomaly Isolation via Dead Zones in AGV Fleets"
+    #titleLink: ""
+    authors: "Natalia Ogorelysheva, Falk Howar and Jian-Jia Chen"
+    type: "Regular Paper"
+    id: "19"
+    abstract: "Automated Guided Vehicle (AGV) fleets in production and logistics environments rely on a system-wide emergency stop to handle local anomalies such as malfunctions, hazards, or contaminated areas. While safe, this approach halts the entire fleet even when only a small area is affected, causing unnecessary downtime. This paper proposes dead zones - a formally defined localized isolation approach that serves as an additional fail-operational mechanism for situations where a full system-wide halt is not strictly needed. Rather than shutting down the entire fleet, a dead zone isolates the anomalous area, allowing unaffected robots to continue operating normally. We introduce two operational strategies: basic dead zone handling, in which affected robots enter a dead zone and stop, and dead zone handling with escaping, in which robots that are sufficiently far from a dead zone reroute around it. For escaping on counterclockwise trajectories we prove collision-freedom with a bounded arrival delay for all escaping robots, provided a minimum pairwise separation is kept between robots. Experimental evaluation confirms the theoretical guarantees and characterizes the throughput tradeoffs between all three approaches: full emergency stop, basic dead zone handling, and dead zone handling with escaping."
+    #bibtex: ""
+
+  - title: "Plenty to FRET About: From Hazard Analysis to Formal Requirements for Robot-Assisted Dressing"
+    #titleLink: ""
+    authors: "Gunjari Chakraborty, Yasmin Rafiq, Hazel Taylor and Marie Farrell"
+    type: "Regular Paper"
+    id: "20"
+    abstract: "Understanding requirements for systems involving humans and robots is essential for providing robust evidence that such systems behave correctly. Requirements formalisation approaches such as the Formal Requirements Elicitation Tool (FRET) can support the transition from unstructured natural language to formal representations suitable for verification. In this paper, we formalise 146 hazard-derived natural-language requirements for a Robot-Assisted Dressing (RAD) case study, previously classified using a taxonomy of Human-Robot Teamwork (HRT) requirements. Through an iterative process involving domain-expert clarification, these were represented by 117 unique FRETish requirements. Formalisation exposed ambiguities, temporal and probabilistic assumptions, and cases where source requirements needed to be decomposed or could be consolidated because they expressed the same formal behaviour. Temporal analysis showed that 70.1% of the unique FRETish requirements use either immediate-response or ordering constraints (immediately or before), while formalisation also exposed relationships between requirements across HRT taxonomy categories. We further analyse the formal semantics and realisability of the resulting requirements. The results show that HRT classification and formalisation provide complementary views: the taxonomy captures the teamwork concern represented by a requirement, while FRETish makes the required behaviour explicit. We report practical lessons and limitations of applying FRET to HRT requirements and identify directions for further work."
+    #bibtex: ""
+
+  - title: "Runtime Verification under Split Past and Future"
+    #titleLink: ""
+    authors: "Dogan Ulus"
+    type: "Research Preview"
+    id: "21"
+    abstract: "Runtime assurance for autonomous systems increasingly requires reasoning not only about observed executions but also about anticipated future behaviors. Traditional runtime verification, however, primarily evaluates the execution observed so far and does not directly account for predicted continuations. We propose a formal framework for runtime assurance that combines monitoring of the observed execution with analysis of multiple predicted continuations. To support this integration, we introduce Split Linear Temporal Logic (SplitLTL), a linear-time temporal logic that assigns complementary roles to past and future temporal specifications within a single specification. The past component uses the observed history to determine the assurance requirements applicable at the current point of execution, while the future component evaluates predicted continuations against those requirements. The framework therefore filters predicted continuations according to the requirements induced by the observed history, identifying admissible continuations that can support subsequent decision making. We formally define the syntax and semantics of SplitLTL and present an online monitoring architecture for evaluating observed executions together with predicted continuations."
+    #bibtex: ""
+
+  - title: "RyBench: Runtime Verification Benchmarking Framework over Publish/Subscribe Networks"
+    #titleLink: ""
+    authors: "Mehmet Hilmi Dündar and Doğan Ulus"
+    type: "Regular Paper"
+    id: "22"
+    abstract: "Autonomous systems built as distributed, node-based systems communicate via publish/subscribe middleware. Runtime Verification (RV) tools are used to monitor those systems against formal specifications, receiving monitored events through the pub/sub channel. An RV tool’s practical value depends on its monitoring throughput capacity and verdict latency, besides its correctness, so a systematic benchmarking setup is needed to evaluate how efficiently these tools run. This paper presents RyBench, a pub/sub-based benchmarking framework that acts as a synthetic event publisher in place of a monitored system, providing a common benchmarking setup. RyBench separates benchmark generation, serialization, and transport into distinct components, enabling the combination of different event-generation strategies, data formats, and transport layers. We also evaluate the framework’s throughput capacity across these configurations using Open Simulation Interface (OSI) schemas and Timescales properties, and illustrate the end-to-end benchmarking flow through an application to the Reelay monitoring tool."
+    #bibtex: ""
+
+  - title: "Let's Talk This Out: Towards Explanation-based Distributed Goal Satisfaction"
+    #titleLink: ""
+    authors: "Anton Reinecke and Sibylle Schupp"
+    type: "Research Preview"
+    id: "24"
+    abstract: "Digital systems are embedded in a modular environment of different components with individual goals and settings, which are often installed without central oversight. In this research preview paper we present a framework for communication between components to facilitate compositional problem solving based on explanation patterns and A/G-contracts, without the need for an oracle. Our approach uses SMT model checking and quantifier elimination to compute counterfactual explanation messages. We demonstrate the effectiveness in a chain topology example, and discuss future challenges when expanding the protocol to more complex topologies."
+    #bibtex: ""
+
+  - title: "From Attack Tree to Model Checker: Binding CAPEC Patterns to Verify Robotic System Security"
+    #titleLink: ""
+    authors: "Juel Hussain, Marie Farrell, Louise Dennis and Clare Dixon"
+    type: "Research Preview"
+    id: "27"
+    abstract: "Security-minded verification of autonomous and robotic systems presupposes an attacker, yet the path from a threat catalogue to a checkable attacker model is still traversed by hand. This research preview presents the theory and construction of a pipeline that mechanises it. Each leaf of an attack tree is mapped to a CAPEC attack pattern and written in first-order logic as a rule: the attacker’s pre- requisites imply the attack’s effect. Casting the pattern as such a rule is what makes it operational - its variables can be bound to a specific system’s parts, and its prerequisites can then be tested against that system under a chosen configuration of security controls. Binding is our means of verifying whether a system is vulnerable to a given attack: from a bound pattern we derive an attacker model, turn its effect into a temporal-logic property, and check that property against the system with and without a countermeasure, reporting the control that defeats the attack. We describe the signature, schemas, profiles for approach, and explore how CAPEC can support reasoning about robotics security."
+    #bibtex: ""
 
 
 
-### DATES ###
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### DATES ###  
+
+
+
+
+
 # Use DDTH MONTH YEAR format.
 # Add <s>DDTH MONTH YEAR</s> after the date has passed to strike out the date.
 dates:
-  abstract: "14th of August 2026"
-  submission: "<s>17th</s> 20th of August 2026"
-  notification: "6th of October 2026"
+  abstract: "<s>14th of August 2026</s> "
+  submission: "<s>20th of August 2026</s> "
+  notification: "<s>6th of October 2026</s>"
   final_version: "17th of October 2026"
   workshop: "17th and 18th of November 2026"
   is_submission_extended: true
