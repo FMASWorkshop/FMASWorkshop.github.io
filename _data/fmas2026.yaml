@@ -44,25 +44,25 @@ schedule:
 show_talks: true
 invited_talks:
   - name: "Prof. Nils Jansen"
-    bio: "<a href='http://nilsjansen.org/' rel='external'>Prof. Nils Jansen <span class='fas fa-external-link-alt'></span></a> is from the Ruhr-University Bochum in Germany, where he is the chair of Artificial Intelligence and Formal Methods. He is also an Professor of Safe and Dependable AI at Radboud University Nijmegen, in The Netherlands. "
-    title: "Reading Between The Lines of Code"
+    bio: "<a href='http://nilsjansen.org/' rel='external'>Prof. Nils Jansen <span class='fas fa-external-link-alt'></span></a> is from the Ruhr-University Bochum in Germany, where he is the chair of Artificial Intelligence and Formal Methods. He is also an Professor of Safe and Dependable AI at Radboud University Nijmegen, in The Netherlands. Check back soon for more information on his invited talk at FMAS 2026."
     link: "http://nilsjansen.org/"
     image: "Nils.webp"
+    
+  - name: "Dr. Elizabeth Polgreen"
+    bio: |
+      <a href='https://polgreen.github.io' rel='external'>Elizabeth Polgreen <span class='fas fa-external-link-alt'></span></a> is a Reader in the School of Informatics at the University of Edinburgh, and a Royal Academy of Engineering research fellow. Her research focuses on formal and machine learning-based program synthesis techniques and their application to scalable software and hardware verification. She completed her PhD at the University of Oxford and was a postdoctoral researcher at the University of California, Berkeley. 
+    
+      Check back soon for more information on her invited talk at FMAS 2026.
+    image: "Elizabeth_Polgreen.webp"
+    title: "Reading Between The Lines of Code"
     abstract: |
       Formal verification is hard. It is even harder when you do not know what property you should be verifying.
 
       People are notoriously bad at stating precisely what they want, and natural language is inherently ambiguous. As a result, the software, hardware and systems we rely on frequently come without usable specifications for formal verification. Even when specifications do exist, they are often  insufficiently detailed for automated verification tools to prove the properties we care about. This gap is becoming increasingly important as AI-generated code enters the software and hardware ecosystem: we may be able to generate implementations faster than ever, but understanding what those implementations are supposed to do remains a core challenge.
 
       In this talk, I will discuss our group’s attempts to close this gap through specification mining: automatically inferring the properties that are implicit in code, designs, and their behaviour. Drawing on classical program synthesis techniques as well as large language models, we are exploring methods for efficiently mining specifications for both hardware and software. Our aim is to reduce the manual burden of formal verification and, ultimately, to enable the verification of systems without requiring users to write formal specifications by hand.
-    
-  - name: "Dr. Elizabeth Polgreen"
-    bio: |
-      We have also confirmed Dr. Elizabeth Polgreen from the School of Informatics at the University of Edinburgh. She is interested in (formal and machine learning-based) synthesis techniques and the use of synthesis to increase the scalability of verification. She holds a research fellowship from the Royal Academy of Engineering. 
-    
-      Check back soon for more information on her invited talk at FMAS 2026.
-    image: "Elizabeth_Polgreen.webp"
     #title: ""
-    #link: "http://nilsjansen.org/"
+    #link: "https://polgreen.github.io/bio.html"
     #abstract: 
 
 
