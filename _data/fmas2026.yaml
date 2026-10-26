@@ -47,13 +47,20 @@ invited_talks:
     bio: "<a href='http://nilsjansen.org/' rel='external'>Prof. Nils Jansen <span class='fas fa-external-link-alt'></span></a> is from the Ruhr-University Bochum in Germany, where he is the chair of Artificial Intelligence and Formal Methods. He is also an Professor of Safe and Dependable AI at Radboud University Nijmegen, in The Netherlands. Check back soon for more information on his invited talk at FMAS 2026."
     link: "http://nilsjansen.org/"
     image: "Nils.webp"
+    title : "Formal Methods for Robust Autonomy: Uncertainty Is Inevitable"
+    abstract : |
+      Autonomous systems such as delivery drones, self-driving cars and service robots make safety-critical decisions in environments they only partially observe. Their sensors are noisy, their models are estimated from limited data, and the conditions at deployment rarely match those at design time. Formal methods can provide rigorous guarantees for such decisions, but only if a model can explicitly capture uncertainty. Partially observable Markov decision processes (POMDPs) handle hidden states yet assume precisely known probabilities. Policies that are optimal under this assumption may fail as soon as the environment deviates from the model.
+
+      In this talk, we discuss two models that close this gap. Robust POMDPs replace exact probabilities by sets of possible probabilities, while multi-environment POMDPs consider a finite set of candidate environments. We first formalize the semantics of these models and show how different semantic interpretations influence optimal policies and their guarantees. We then present methods that compute finite-memory policies that are provably robust against all admissible environments, and we discuss how to evaluate such policies reliably. We conclude with open challenges in bringing these models to real-world autonomous systems.
     
+
   - name: "Dr. Elizabeth Polgreen"
     bio: |
       <a href='https://polgreen.github.io' rel='external'>Elizabeth Polgreen <span class='fas fa-external-link-alt'></span></a> is a Reader in the School of Informatics at the University of Edinburgh, and a Royal Academy of Engineering research fellow. Her research focuses on formal and machine learning-based program synthesis techniques and their application to scalable software and hardware verification. She completed her PhD at the University of Oxford and was a postdoctoral researcher at the University of California, Berkeley. 
     
       Check back soon for more information on her invited talk at FMAS 2026.
     image: "Elizabeth_Polgreen.webp"
+    link: "https://polgreen.github.io"
     title: "Reading Between The Lines of Code"
     abstract: |
       Formal verification is hard. It is even harder when you do not know what property you should be verifying.
@@ -199,7 +206,7 @@ dates:
   abstract: "<s>14th of August 2026</s> "
   submission: "<s>20th of August 2026</s> "
   notification: "<s>6th of October 2026</s>"
-  final_version: "17th of October 2026"
+  final_version: "<s>17th of October 2026</s>"
   workshop: "17th and 18th of November 2026"
   is_submission_extended: true
 
