@@ -12,33 +12,95 @@ easychair :
 
 ### SCHEDULE ###
 
-show_schedule: false
+show_schedule: true
 schedule:
-  - day: "Day One: DAY DATEth MONTH"
-    date: "DD-MM-YY"
-    location: "LOCATION"
+  - day: "Day One: Tuesday 17th November"
+    date: "17-11-26"
+    #location: "LOCATION"
     info: ""
     events:
-    - time: "HH:MM - HH:MM"
-      intro: true
-      name:  "Registration"
-
-    - time: "HH:MM - HH:MM"
-      intro: true
-      name: "Lunch"
-
-    - time: "HH:MM - HH:MM"
+    - time: "09:00 - 10:30"
       theme: true
-      name: "Session 0: SESSION TITLE"
-      chair: "CHAIR NAME"
+      name: "Session 1: Neurosymbolic AI"
+      #chair: "Maike Schwammberger"
       papers: [ 
-        {time: HH:MM - HH:MM, name: "Opening"},
-        {time: HH:MM - HH:MM, paper_id: "6"}
+        {time: 09:00 - 09:15, name: "Opening"},
+        {time: 09:15 - 10:15, name: "Keynote: Formal Methods for Robust Autonomy: Uncertainty Is Inevitable."},
+        {time: 10:15 - 10:30, paper_id: "4"},
       ]
 
-    - time: "HH:MM - HH:MM"
+    - time: "10:30 - 11:00"
       intro: true
-      name: "Lunch Break & Poster Session"
+      name:  "Break"
+
+    - time: "11:00 - 12:30"
+      theme: true
+      name: "Session 2: Algorithms and Controller Validation and Verification"
+      #chair: "Maike Schwammberger"
+      papers: [ 
+        {time: 11:00 - 11:20, paper_id: "3", note: "(Online)"},
+        {time: 11:20 - 11:40, paper_id: "14"},
+        {time: 11:40 - 11:55, paper_id: "21"},
+        {time: 11:55 - 12:15, paper_id: "6", note: "(Online)"},
+        {time: 12:15 - 12:30, name: "Session Discussion"},
+      ]
+
+    - time: "12:30 - 14:00"
+      intro: true
+      name:  "Lunch"
+
+    - time: "14:00 - 16:00"
+      theme: true
+      name: "Session 3: Tools and Benchmarks"
+      #chair: "Maike Schwammberger"
+      papers: [ 
+        {time: 14:00 - 14:45, name: "Keynote: Reading Between The Lines of Code"},
+        {time: 14:45 - 15:05, paper_id: "22"},
+        {time: 15:05 - 15:25, paper_id: "13", note: "(Online)"},
+        {time: 15:25 - 15:45, paper_id: "20"},
+        {time: 15:45 - 16:00, name: "Session Discussion"},
+      ]
+
+    - time: "16:30 - 16:30"
+      intro: true
+      name:  "Break"
+
+    - time: "16:30 - 18:00"
+      theme: true
+      name: "Session 4: From Explanations to Discussions"
+      #chair: "Maike Schwammberger"
+      papers: [ 
+        {time: 16:30 - 16:45, paper_id: "24"},
+        {time: 16:45 - 18:00, name: "Discussion Session"},
+      ]
+  - day: "Day Two: Wednesday 18th November"
+    date: "18-11-26"
+    #location: "LOCATION"
+    info: ""
+    events:
+    - time: "09:00 - 10:30"
+      theme: true
+      name: "Session 1: Knowledge, Belief and Monitoring"
+      #chair: "Maike Schwammberger"
+      papers: [ 
+        {time: 09:00 - 10:00, name: "Joint Keynote with ICFEM: Lying with Truths: From Multi-Agent Belief Manipulation to Grounded Continuation"},
+        {time: 10:00 - 10:30, paper_id: "12"},
+      ]
+    - time: "10:30 - 11:00"
+      intro: true
+      name:  "Break"
+
+    - time: "10:30 - 13:00"
+      theme: true
+      name: "Session 2: Application Domains"
+      #chair: "Maike Schwammberger"
+      papers: [ 
+        {time: 10:30 - 11:15, paper_id: "27"},
+        {time: 11:15 - 11:40, paper_id: "19"},
+        {time: 11:40 - 12:10, name: "ICFEM Paper: Designing Shields for Safe Reinforcement Learning and Application to Autonomous Driving"},
+        {time: 12:10 - 12:40, name: "FM For all"},
+        {time: 12:40 - 13:00, name: "FMAS Closing"},
+      ]
 
 ### TALKS ###
 show_talks: true
