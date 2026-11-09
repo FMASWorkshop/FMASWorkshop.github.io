@@ -39,9 +39,9 @@ schedule:
       #chair: "Maike Schwammberger"
       papers: [ 
         {time: 11:00 - 11:20, paper_id: "3", note: "(Online)"},
-        {time: 11:20 - 11:40, paper_id: "14"},
+        {time: 11:20 - 11:40, paper_id: "20"},
         {time: 11:40 - 11:55, paper_id: "21"},
-        {time: 11:55 - 12:15, paper_id: "6", note: "(Online)"},
+        {time: 11:55 - 12:15, paper_id: "14", note: "(Online)"},
         {time: 12:15 - 12:30, name: "Session Discussion"},
       ]
 
@@ -57,7 +57,7 @@ schedule:
         {time: 14:00 - 14:45, name: "Keynote: Reading Between The Lines of Code"},
         {time: 14:45 - 15:05, paper_id: "22"},
         {time: 15:05 - 15:25, paper_id: "13", note: "(Online)"},
-        {time: 15:25 - 15:45, paper_id: "20"},
+        {time: 15:25 - 15:45, paper_id: "6", note: "(Online)"},
         {time: 15:45 - 16:00, name: "Session Discussion"},
       ]
 
