@@ -116,9 +116,9 @@ invited_talks:
       In this talk, we discuss two models that close this gap. Robust POMDPs replace exact probabilities by sets of possible probabilities, while multi-environment POMDPs consider a finite set of candidate environments. We first formalize the semantics of these models and show how different semantic interpretations influence optimal policies and their guarantees. We then present methods that compute finite-memory policies that are provably robust against all admissible environments, and we discuss how to evaluate such policies reliably. We conclude with open challenges in bringing these models to real-world autonomous systems.
     
 
-  - name: "Dr. Elizabeth Polgreen"
+  - name: "Dr Elizabeth Polgreen"
     bio: |
-      <a href='https://polgreen.github.io' rel='external'>Elizabeth Polgreen <span class='fas fa-external-link-alt'></span></a> is a Reader in the School of Informatics at the University of Edinburgh, and a Royal Academy of Engineering research fellow. Her research focuses on formal and machine learning-based program synthesis techniques and their application to scalable software and hardware verification. She completed her PhD at the University of Oxford and was a postdoctoral researcher at the University of California, Berkeley. 
+      <a href='https://polgreen.github.io' rel='external'>Dr Elizabeth Polgreen <span class='fas fa-external-link-alt'></span></a> is a Reader in the School of Informatics at the University of Edinburgh, and a Royal Academy of Engineering research fellow. Her research focuses on formal and machine learning-based program synthesis techniques and their application to scalable software and hardware verification. She completed her PhD at the University of Oxford and was a postdoctoral researcher at the University of California, Berkeley. 
     
       Check back soon for more information on her invited talk at FMAS 2026.
     image: "Elizabeth_Polgreen.webp"
