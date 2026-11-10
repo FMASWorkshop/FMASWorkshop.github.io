@@ -40,7 +40,7 @@ schedule:
       papers: [ 
         {time: 11:00 - 11:20, paper_id: "3", note: "(Online)"},
         {time: 11:20 - 11:40, paper_id: "20"},
-        {time: 11:40 - 11:55, paper_id: "21"},
+        {time: 11:40 - 11:55, paper_id: "21", note: "(Online)"},
         {time: 11:55 - 12:15, paper_id: "14", note: "(Online)"},
         {time: 12:15 - 12:30, name: "Session Discussion"},
       ]
