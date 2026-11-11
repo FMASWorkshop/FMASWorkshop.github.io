@@ -355,6 +355,10 @@ pc :
  #  last_name: Graydon
  #  affiliation: NASA Langley Research Center (USA)
  #  link: https://shemesh.larc.nasa.gov/people/msg/
+
+ - first_name : Deyun
+   last_name: Lyu
+   affiliation: National Institute of Informatics (Japan)    
     
  - first_name: Siddhartha
    last_name: Bhattacharyya
@@ -499,10 +503,10 @@ pc :
    affiliation: Politecnico di Milano (Italy)
    link: https://leslivia.github.io/index.html
 
- - first_name: Priyank
-   last_name: Desai
-   affiliation: Amazon.com (USA)
-   link: https://www.linkedin.com/in/priyankhdesai/ 
+ #- first_name: Priyank
+ # last_name: Desai
+ # affiliation: Amazon.com (USA)
+ #  link: https://www.linkedin.com/in/priyankhdesai/ 
 
  - first_name: Astrid
    last_name: Rakow
