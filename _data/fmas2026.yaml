@@ -22,7 +22,7 @@ schedule:
     - time: "09:00 - 10:30"
       theme: true
       name: "Session 1: Neurosymbolic AI"
-      #chair: "Maike Schwammberger"
+      chair: "Matt Luckcuck"
       papers: [ 
         {time: 09:00 - 09:15, name: "Opening"},
         {time: 09:15 - 10:15, name: "Keynote: Formal Methods for Robust Autonomy: Uncertainty Is Inevitable."},
@@ -36,7 +36,7 @@ schedule:
     - time: "11:00 - 12:30"
       theme: true
       name: "Session 2: Algorithms and Controller Validation and Verification"
-      #chair: "Maike Schwammberger"
+      chair: "Alex Chan"
       papers: [ 
         {time: 11:00 - 11:20, paper_id: "3", note: "(Online)"},
         {time: 11:20 - 11:40, paper_id: "20"},
@@ -52,7 +52,7 @@ schedule:
     - time: "14:00 - 16:00"
       theme: true
       name: "Session 3: Tools and Benchmarks"
-      #chair: "Maike Schwammberger"
+      chair: "Yasmin Rafiq"
       papers: [ 
         {time: 14:00 - 14:45, name: "Keynote: Reading Between The Lines of Code"},
         {time: 14:45 - 15:05, paper_id: "22"},
@@ -68,7 +68,7 @@ schedule:
     - time: "16:30 - 18:00"
       theme: true
       name: "Session 4: From Explanations to Discussions"
-      #chair: "Maike Schwammberger"
+      chair: "Akhila Bairy"
       papers: [ 
         {time: 16:30 - 16:45, paper_id: "24"},
         {time: 16:45 - 18:00, name: "Discussion Session"},
@@ -81,7 +81,7 @@ schedule:
     - time: "09:00 - 10:30"
       theme: true
       name: "Session 1: Knowledge, Belief and Monitoring"
-      #chair: "Maike Schwammberger"
+      chair: "Michael Butler"
       papers: [ 
         {time: 09:00 - 10:00, name: "Joint Keynote with ICFEM: Lying with Truths: From Multi-Agent Belief Manipulation to Grounded Continuation"},
         {time: 10:00 - 10:30, paper_id: "12"},
@@ -93,7 +93,7 @@ schedule:
     - time: "10:30 - 13:00"
       theme: true
       name: "Session 2: Application Domains"
-      #chair: "Maike Schwammberger"
+      chair: "Matt Luckcuck"
       papers: [ 
         {time: 10:30 - 11:15, paper_id: "27"},
         {time: 11:15 - 11:40, paper_id: "19"},
