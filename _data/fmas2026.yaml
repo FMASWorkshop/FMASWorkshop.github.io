@@ -25,7 +25,7 @@ schedule:
       chair: "Matt Luckcuck"
       papers: [ 
         {time: 09:00 - 09:15, name: "Opening"},
-        {time: 09:15 - 10:15, name: "Keynote: Formal Methods for Robust Autonomy: Uncertainty Is Inevitable."},
+        {time: 09:15 - 10:15, name: "Invited Talk: Formal Methods for Robust Autonomy: Uncertainty Is Inevitable.- Prof. Nils Jansen from the Ruhr-University Bochum and Radboud University Nijmegen."},
         {time: 10:15 - 10:30, paper_id: "4"},
       ]
 
@@ -54,7 +54,7 @@ schedule:
       name: "Session 3: Tools and Benchmarks"
       chair: "Yasmin Rafiq"
       papers: [ 
-        {time: 14:00 - 14:45, name: "Keynote: Reading Between The Lines of Code"},
+        {time: 14:00 - 14:45, name: "Invited Talk: Reading Between The Lines of Code - Dr Elizabeth Polgreen from University of Edinburgh."},
         {time: 14:45 - 15:05, paper_id: "22"},
         {time: 15:05 - 15:25, paper_id: "13", note: "(Online)"},
         {time: 15:25 - 15:45, paper_id: "6", note: "(Online)"},
@@ -95,7 +95,7 @@ schedule:
       name: "Session 2: Application Domains"
       chair: "Matt Luckcuck"
       papers: [ 
-        {time: 10:30 - 11:15, paper_id: "27"},
+        {time: 11:00 - 11:15, paper_id: "27"},
         {time: 11:15 - 11:40, paper_id: "19"},
         {time: 11:40 - 12:10, name: "ICFEM Paper: Designing Shields for Safe Reinforcement Learning and Application to Autonomous Driving"},
         {time: 12:10 - 12:40, name: "FM For all"},
@@ -116,9 +116,9 @@ invited_talks:
       In this talk, we discuss two models that close this gap. Robust POMDPs replace exact probabilities by sets of possible probabilities, while multi-environment POMDPs consider a finite set of candidate environments. We first formalize the semantics of these models and show how different semantic interpretations influence optimal policies and their guarantees. We then present methods that compute finite-memory policies that are provably robust against all admissible environments, and we discuss how to evaluate such policies reliably. We conclude with open challenges in bringing these models to real-world autonomous systems.
     
 
-  - name: "Dr. Elizabeth Polgreen"
+  - name: "Dr Elizabeth Polgreen"
     bio: |
-      <a href='https://polgreen.github.io' rel='external'>Elizabeth Polgreen <span class='fas fa-external-link-alt'></span></a> is a Reader in the School of Informatics at the University of Edinburgh, and a Royal Academy of Engineering research fellow. Her research focuses on formal and machine learning-based program synthesis techniques and their application to scalable software and hardware verification. She completed her PhD at the University of Oxford and was a postdoctoral researcher at the University of California, Berkeley. 
+      <a href='https://polgreen.github.io' rel='external'>Dr Elizabeth Polgreen <span class='fas fa-external-link-alt'></span></a> is a Reader in the School of Informatics at the University of Edinburgh, and a Royal Academy of Engineering research fellow. Her research focuses on formal and machine learning-based program synthesis techniques and their application to scalable software and hardware verification. She completed her PhD at the University of Oxford and was a postdoctoral researcher at the University of California, Berkeley. 
     
       Check back soon for more information on her invited talk at FMAS 2026.
     image: "Elizabeth_Polgreen.webp"
@@ -355,6 +355,10 @@ pc :
  #  last_name: Graydon
  #  affiliation: NASA Langley Research Center (USA)
  #  link: https://shemesh.larc.nasa.gov/people/msg/
+
+ - first_name : Deyun
+   last_name: Lyu
+   affiliation: National Institute of Informatics (Japan)    
     
  - first_name: Siddhartha
    last_name: Bhattacharyya
@@ -499,10 +503,10 @@ pc :
    affiliation: Politecnico di Milano (Italy)
    link: https://leslivia.github.io/index.html
 
- - first_name: Priyank
-   last_name: Desai
-   affiliation: Amazon.com (USA)
-   link: https://www.linkedin.com/in/priyankhdesai/ 
+ #- first_name: Priyank
+ # last_name: Desai
+ # affiliation: Amazon.com (USA)
+ #  link: https://www.linkedin.com/in/priyankhdesai/ 
 
  - first_name: Astrid
    last_name: Rakow
