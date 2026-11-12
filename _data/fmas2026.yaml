@@ -25,7 +25,7 @@ schedule:
       #chair: "Maike Schwammberger"
       papers: [ 
         {time: 09:00 - 09:15, name: "Opening"},
-        {time: 09:15 - 10:15, name: "Keynote: Formal Methods for Robust Autonomy: Uncertainty Is Inevitable.", speaker: "Prof. Nils Jansen"},
+        {time: 09:15 - 10:15, name: "Invited Talk: Formal Methods for Robust Autonomy: Uncertainty Is Inevitable.- Prof. Nils Jansen from the Ruhr-University Bochum and Radboud University Nijmegen."},
         {time: 10:15 - 10:30, paper_id: "4"},
       ]
 
@@ -54,7 +54,7 @@ schedule:
       name: "Session 3: Tools and Benchmarks"
       #chair: "Maike Schwammberger"
       papers: [ 
-        {time: 14:00 - 14:45, name: "Keynote: Reading Between The Lines of Code", speaker: "Elizabeth Polgreen"},
+        {time: 14:00 - 14:45, name: "Invited Talk: Reading Between The Lines of Code - Dr Elizabeth Polgreen from University of Edinburgh."},
         {time: 14:45 - 15:05, paper_id: "22"},
         {time: 15:05 - 15:25, paper_id: "13", note: "(Online)"},
         {time: 15:25 - 15:45, paper_id: "6", note: "(Online)"},
