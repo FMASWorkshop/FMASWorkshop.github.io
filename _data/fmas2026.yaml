@@ -95,7 +95,7 @@ schedule:
       name: "Session 2: Application Domains"
       #chair: "Maike Schwammberger"
       papers: [ 
-        {time: 10:30 - 11:15, paper_id: "27"},
+        {time: 11:00 - 11:15, paper_id: "27"},
         {time: 11:15 - 11:40, paper_id: "19"},
         {time: 11:40 - 12:10, name: "ICFEM Paper: Designing Shields for Safe Reinforcement Learning and Application to Autonomous Driving"},
         {time: 12:10 - 12:40, name: "FM For all"},
