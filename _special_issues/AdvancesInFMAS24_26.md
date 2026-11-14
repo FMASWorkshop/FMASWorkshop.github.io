@@ -16,7 +16,7 @@ Autonomy, or the ability for a system to make decisions without human interventi
 
 Since 2019, the **International Workshop on Formal Methods for Autonomous Systems (FMAS)** has provided a venue that brings together researchers in this intersectional domain to present and discuss their work.
 
-_This special issue invites_ authors from the 2024, 2025, and 2026 editions of workshop, and new work that has not featured in the workshop, to showcase the advances of formal methods for autonomous systems over the past three years.
+_This special issue invites_ authors from the 2024, 2025, and 2026 editions of the workshop, and new work that has not featured in the workshop, to showcase the advances of formal methods for autonomous systems over the past three years.
 
 *Submission Open:* **27th of November 2026** <br>
 *Final manuscript submission deadline:* **26th of March 2027**
