@@ -83,7 +83,7 @@ schedule:
       name: "Session 1: Knowledge, Belief and Monitoring"
       chair: "Michael Butler"
       papers: [ 
-        {time: 09:00 - 10:00, name: "Joint Keynote with ICFEM: Lying with Truths: From Multi-Agent Belief Manipulation to Grounded Continuation"},
+        {time: 09:00 - 10:00, name: "<b>Joint Keynote with ICFEM</b>: Lying with Truths: From Multi-Agent Belief Manipulation to Grounded Continuation - <i>Prof. Xiaowei Huang</i>"},
         {time: 10:00 - 10:30, paper_id: "12"},
       ]
     - time: "10:30 - 11:00"
