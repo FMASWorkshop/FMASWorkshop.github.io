@@ -21,7 +21,7 @@ _This special issue invites_ authors from the 2024, 2025, and 2026 editions of t
 *Submission Open:* **27th of November 2026** <br>
 *Final manuscript submission deadline:* **26th of March 2027**
 
-*Guest editors:*
+### Guest editors
 
 * Matt Luckcuck, University of Nottingham
 * Maike Schwammberger, Karlsruhe Institute of Technology
@@ -29,10 +29,5 @@ _This special issue invites_ authors from the 2024, 2025, and 2026 editions of t
 
 Please, find more details including directions for submission on the journals [Call for Papers](https://www.sciencedirect.com/journal/science-of-computer-programming/about/call-for-papers) page.
 
-### Guest editors
-
-* Matt Luckcuck, University of Nottingham
-* Maike Schwammberger, Karlsruhe Institute of Technology
-* Mengwei Xu, Universiy of Newcastle
 
 *Keywords:* Formal Verification; Autonomous Systems; Robotic Systems; Runtime Verification; Formal Requirements; Formal Methods.
