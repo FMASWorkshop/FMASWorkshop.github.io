@@ -231,7 +231,7 @@ papers:
 
   - title: "Towards A Catalogue of Formalised Requirement Patterns for Robotic Space Missions"
     titleLink: "https://dx.doi.org/10.4204/EPTCS.436.12"
-    bibtex: "https://dx.doi.org/10.4204/EPTCS.436.12"
+    bibtex: "https://cgi.cse.unsw.edu.au/~eptcs/bibtex.cgi?436.12"
     authors: "Mahdi Etumi, Hazel Taylor and Marie Farrell"
     type: "regular"
     id: 10

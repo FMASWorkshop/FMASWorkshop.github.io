@@ -12,11 +12,14 @@ When a citing paper published in FMAS through the Electronic Proceedings in Theo
 Instead, please use the FMAS proceedings [index on DBLP](https://dblp.dagstuhl.de/db/conf/fmas/index.html). They provide a BibTex export with the full proceedings title.
 Alternatively, use the BibTex buttons below which provide the full proceedings title from EPTCS.
 
+## FMAS 2026
+The seventh edition, co-located with the International Conference on Formal Engineering Methods (ICFEM) 2026, hosted by Southampton University, UK.
+
+{% include papers_list.html papers=site.data.fmas2026.papers %}
 
 ## FMAS 2025
 The seventh edition, co-located with the International Conference on Integrated Formal Methods (iFM) 2025, hosted by the Inria Paris Center, France.
 
-Proceedings upcoming.
 {% include papers_list.html papers=site.data.fmas2025.papers %}
 
 ## FMAS 2024
